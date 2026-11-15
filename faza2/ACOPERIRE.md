@@ -80,4 +80,34 @@ La pasul 3 s-au notat și site-urile care au dat erori de conexiune, separat de 
 
 ## Verificarea a 30 de rânduri alese la întâmplare
 
-(în lucru)
+**Metoda:**
+- Am ales aleatoriu 30 de rânduri din cele 120, cu seed 20261115: R4, R6, R11, R13, R20, R21, R23, R24, R25, R31, R39, R46, R58, R61, R64, R67, R70, R78, R81, R85, R88, R90, R92, R95, R99, R100, R103, R107, R108, R117.
+- A verificat un subagent nou, care nu a lucrat la loturi. Pentru fiecare rând a cerut din nou lista de rezultate (`serp_analysis`, fără reîmprospătare) și a comparat domeniile din pozițiile 1-10. A redeschis instrumentul notat ca funcțional și cel puțin două alte rezultate, cu curl sau Playwright. A verificat prețurile notate și coerența verdictului cu definiția.
+- Raportul complet, cu URL-urile deschise, e în `date/verificare-30-randuri.md`.
+
+**Rezultat:**
+
+| Rezultat | Rânduri |
+|---|---|
+| Corespunde | 27 |
+| Corespunde parțial | 1 (R20 „convertor mp3”) |
+| Nu corespunde | 2 (R23 „calcul consum”, R88 „verificare cnp”) |
+| Neverificabil | 0 |
+
+**Diferențe găsite:**
+- **R23 „calcul consum”.** Rândul spunea „fără date SERP”. La verificare, Ubersuggest a întors o colectare nouă (2026-11-15), cu 4 rezultate organice. Unul e instrument funcțional (alarma.ro, testat), deci verdictul corect e MEDII.
+- **R88 „verificare cnp”.** Rândul spunea 0 rezultate organice și SLABE. La verificare a apărut o colectare nouă cu 4 rezultate organice în primele 5. Două sunt validatoare CNP funcționale, fără cont (cnpgenerator.ro, folositor.ro, testate cu un CNP valid și unul invalid), deci verdictul corect e PUTERNICE.
+- **R20 „convertor mp3”.** ytmp3.rent, notat ca blocat, se deschide acum. Verdictul MEDII rămâne, pentru că se sprijină doar pe cloudconvert.com, confirmat și la verificare. Celelalte convertoare din primele 5 sunt pentru YouTube și nu au fost testate nici la verificare. Dacă unul ar funcționa, verdictul ar deveni PUTERNICE.
+
+**Ce s-a schimbat în CAUTARI.md după verificare:** rândurile R23 și R88 au fost corectate cu datele verificatorului. Ambele poartă mențiunea „rând corectat la verificare”. Textul inițial e păstrat mai sus.
+
+**De ce contează:**
+- Ambele necorespunderi vin din aceeași cauză: Ubersuggest a adus colectări noi pentru căutări care, la lucrul pe loturi, aveau liste goale sau incomplete.
+- Restul rândurilor cu liste incomplete (marcate în CAUTARI.md cu un număr mic de rezultate din pozițiile 1-10) pot avea aceeași problemă. Verdictul SLABE sprijinit pe 0-4 rezultate e cel mai expus.
+
+**Ce a confirmat verificarea la celelalte 28 de rânduri:**
+- data colectării și domeniile din pozițiile 1-10 sunt identice cu cele din fișierele de lot;
+- instrumentele notate ca gratuite și funcționale au dat rezultat la test azi;
+- prețurile notate apar pe pagini: cvmaker.ro 5,99 RON pentru 14 zile, apoi 99,99 RON pe lună; makemycv.com 2,90 €, apoi 27,95 € la 4 săptămâni; lege5.ro 10 lei cu TVA.
+
+**Ce n-a putut fi confirmat:** site-urile care au rămas blocate sau fără răspuns, la fel ca în loturi: aida.info.ro, cnadnr.ro, sdworx, anp.gov.ro, listafirme.ro, mfinante.gov.ro, fliphtml5.com, distanta.com și raiffeisen.
