@@ -16,6 +16,11 @@ Verificat la 2026-11-15 de sesiunea principală.
   - Exemple: „model cerere demisie simpla” 1.900, „model cerere concediu” 1.300, „model cerere radiere auto primarie” 720.
 - **Folosire:** volumele din faza 2 vin din `match_keywords` pe expresiile de bază, cu potrivire exactă a textului. Pentru căutările rămase fără volum se folosește `keyword_overview`, câte una, în limita rapoartelor zilnice.
 
+### Ce s-a aflat în timpul lucrului (2026-11-15)
+- **Limita zilnică.** `match_keywords` nu a consumat din cele 150 de rapoarte pe zi: contorul a rămas la 5 după ~280 de apeluri făcute de subagenți (răspunsurile sunt salvate în `faza2/date/` și în scratchpad). `keyword_overview` consumă câte un raport: 138 de apeluri au dus contorul la 147/150.
+- **Ultima lună cu date.** Ultima lună din istoricul `keyword_overview` diferă de la o căutare la alta. La majoritatea celor 138 interogate e 2026-10. La unele e mai veche (2025-11, 2026-01, 2026-04), iar la una e 2026-11. Proba inițială („calculator salariu net”) avea date până în 2026-01.
+- **Ce întoarce `match_keywords`.** Pe o expresie întoarce între 0 și ~170 de variante, nu 300. Pentru unele expresii nu dă volum nici pentru expresia însăși (de exemplu „verificare rovinieta”, „cv europass”). Pentru două dintre ele, `keyword_overview` a dat volum: 135.000 și 40.500.
+
 ## 2. Google Ads Keyword Planner prin Adspirer (conector MCP): verificare încrucișată
 
 - **Stare:** cont Google Ads conectat (3764143097), unealta `research_keywords`.
