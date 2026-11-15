@@ -39,7 +39,10 @@ Data: 2026-11-15. Uneltele și probele sunt descrise în UNELTE.md.
 - **Liste cu goluri.** Multe colectări au goluri în pozițiile 1-10. Numărul de rezultate organice pe care s-a sprijinit verdictul e trecut la fiecare rând. Două cazuri limită:
   - „calcul consum”: `serp_analysis` nu a întors nimic, deci nu are verdict.
   - „verificare cnp”: nu are niciun rezultat organic în pozițiile 1-10.
-- **Pozițiile peste 10 la loturile 01-05.** Unii subagenți au notat și aplicații de pe pozițiile 12-54, când lista avea goluri. Începând cu lotul 06 s-au folosit strict pozițiile 1-10. Verdictele din loturile 01-05 au fost date tot pe rezultatele din primele 10 poziții; rezultatele de după poziția 10 apar doar informativ în fișierele de lot.
+- **Pozițiile peste 10 la loturile 01, 02, 03 și 05.** Când lista avea goluri, aceste loturi au trecut în tabele și rezultate de pe pozițiile 11-54: 62 de rânduri în total, mai ales aplicații Google Play netestate, documente și articole. Lotul 04 și loturile 06-10 s-au limitat strict la pozițiile 1-10.
+  - Am verificat dacă vreun verdict depinde de aceste rânduri. Doar trei au instrumente funcționale: finance.imobiliare.ro (poz. 12, „calculator credit”), jobinfo.ro (poz. 13, „calculator salariu minim 2025”) și calculator-salarii.ro (poz. 12, „calculator salariu”). Toate trei sunt la căutări cu verdict PUTERNICE, care se sprijină pe primele 5 poziții.
+  - Niciun verdict SLABE sau MEDII nu depinde de un rezultat de după poziția 10.
+  - Numărul de rezultate trecut în CAUTARI.md („pe N rezultate din poz. 1-10”) numără doar pozițiile 1-10.
 - **Testarea instrumentelor.**
   - Nu s-au introdus date personale reale (numere de înmatriculare, CNP-uri).
   - Verificatoarele de rovinietă au fost testate doar cu numărul-exemplu afișat de site-uri sau deloc.
