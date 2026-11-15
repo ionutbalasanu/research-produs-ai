@@ -34,7 +34,7 @@
 - Ce face azi ca s-o rezolve și cât îl costă, în bani sau timp: caută singur prin meniuri ca să creeze un șablon de notificare, procesează sancțiunile manual când sunt multe și separă de mână cererile compuse ale proprietarilor. Costul în timp: nu am găsit în surse.
 - Soluții existente găsite, cu preț: PayHOA, de la 49 USD/lună (facturat 588 USD/an), plus asistentul AI „Gable AI”: gratuit 3 luni, apoi +24,50 USD/lună (payhoa.com/pricing). CINC Systems, de la 250 USD per utilizator pe lună (Capterra). HOALife, Communitrak, BuildingLink și HOAHub fac reclamă la module de urmărire a sancțiunilor; prețurile lor nu le-am verificat.
 - Surse deschise:
-  - https://www.capterra.com/p/143799/CINC-Systems/reviews/, 9 septembrie 2025 (Associate Director of Transitions), „The violations module, adding Board members with additional addresses”
+  - https://www.capterra.com/p/143799/CINC-Systems/reviews/?page=2, 9 septembrie 2025 (Associate Director of Transitions), „The violations module, adding Board members with additional addresses”
   - https://www.capterra.com/p/143799/CINC-Systems/reviews/?page=2, 8 septembrie 2025 (Vice President), „Struggle doing large batches of violations .”
   - https://www.capterra.com/p/146693/PayHOA/reviews/, 18 iunie 2026 (Budget Committee Lead), „creating a template for Violation, had to navigate through the Software to figure out”
   - https://www.capterra.com/p/146693/PayHOA/reviews/, 28 iulie 2026 (Member at Large), „if a homeowner has 2requests the voting workflow is messed up”
@@ -51,7 +51,7 @@
   - https://fundeasy.com/blog/why-grant-reporting-is-eating-your-staff-alive, 6 iulie 2026 (blog de vendor), „She spent roughly 45 hours per quarter, across multiple staff members, producing reports”
   - https://www.capterra.com/p/233384/Instrumentl/reviews/, 19 iunie 2026, „For small shops,. the price can be a bit daunting.”
   - https://www.capterra.com/p/233384/Instrumentl/reviews/?page=2, 14 mai 2026 (Grant Strategist), „Too complicated for the price and the prospect research was not specific enough”
-  - https://www.capterra.com/p/233384/Instrumentl/reviews/?page=3, 7 ianuarie 2026, „It is a little costly for a small business owner.”
+  - https://www.capterra.com/p/233384/Instrumentl/reviews/?page=2, 7 ianuarie 2026, „It is a little costly for a small business owner.”
   - https://www.capterra.com/p/233384/Instrumentl/reviews/, 11 iunie 2026, „narrow the time it takes for management, research, submission, and reporting by more than half”
 - Doar fragment: blog.candid.org, „approximately 100 grant reports to our funders” (403); askamanager.org, voluntar grant writer la un ONG fără personal plătit (aprilie 2025, în afara perioadei, nedeschis). Pagina philanthropy.com a fost deschisă (citat: „Grant writing is an extremely tedious, very time-consuming, very gut-wrenching activity”), dar e din 13 mai 2025, înainte de 15 mai 2025, deci nu se numără.
 
