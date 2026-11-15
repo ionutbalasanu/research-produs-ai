@@ -1,0 +1,113 @@
+# Domeniu: 22 fermieri și producători agricoli mici
+
+## Problema 1: Crescătorii mici nu au acces ușor la veterinar și încearcă singuri să afle de ce s-a îmbolnăvit un animal
+- Cine o are: crescători mici și gospodării cu păsări, capre, oi sau vite, mai ales din zone rurale. O sursă de presă citează un medic veterinar care spune că producătorii mici au cele mai mari probleme de acces (doar fragment, nenumărat).
+- Cât de des apare: WAFB (4 nov. 2026) scrie că zonele oficiale cu deficit de veterinari acoperă 46 din 50 de state SUA și că un singur veterinar răspunde de 40.000 de vite într-o zonă de două comitate din New Mexico. HPPR (27 apr. 2026): doar 3% dintre absolvenții de medicină veterinară au mers anul trecut spre animalele de fermă. Nu am găsit în surse cât de des se îmbolnăvesc animalele la un crescător mic.
+- Ce face azi ca s-o rezolve și cât îl costă, în bani sau timp: întreabă pe forumuri și încearcă tratamente unul după altul. Pe permies, un crescător izolează găina, o ține în casă, încearcă băi calde și un test coproparazitologic făcut acasă; altul spune că nu a avut nici timp, nici bani pentru teste. Pe homesteadingtoday, o crescătoare a dat la iezi ivermectină și fenbendazol, apoi, fără rezultat, Cydectin. WAFB: oamenii conduc o oră sau mai mult până la ajutor, iar în Illinois au murit vite pentru că serviciile veterinare nu au ajuns la timp. Nu am găsit în surse un cost în bani pe caz.
+- Soluții existente găsite, cu preț: doar în fragmente de căutare, fără preț: Betty (aplicație de diagnostic pentru vaci de lapte, Noua Zeelandă), Gau Swastha (diagnostic din fotografie pentru bovine, India), Mnyama Check (Tanzania). Nu am găsit o aplicație dedicată păsărilor sau caprelor și niciun preț.
+- Surse deschise:
+  - https://permies.com/t/390213/triage-treat-sick-chicken , aprox. oct. 2026 (pagina arată „posted 1 month ago”, ora serverului 15 nov. 2026), „Troubleshooting a cause of illness is going to be very new for me”; în același fir, alt autor: „I didn't have time or money to do much for tests”
+  - https://www.homesteadingtoday.com/threads/parasites.634273/ , 31 mai 2026, „I think it's lost its standing. The worms are developing resistance.”; în același fir, alt autor: „We are fortunate in that we have two large animal vets”
+  - https://www.hppr.org/hppr-news/2026-04-27/kansas-ag-leaders-weigh-solutions-for-veterinarian-shortages-that-affect-rural-communities , 27 apr. 2026, „Just 3% of graduating veterinarians nationally went into food animal services last year”
+  - https://www.wafb.com/2026/11/04/critical-shortage-vets-could-threaten-americas-food-supply/ , 4 nov. 2026, „cattle have died simply because veterinary services were not available in time”
+- Doar fragment:
+  - the-chicken-chick.com (comentarii la „veterinary care for backyard chickens”): proprietarii spun că găsesc greu un veterinar care tratează găini; dată nevizibilă.
+  - Rezultate de căutare care atribuie USDA cifra de peste 500 de comitate cu deficit de veterinari pentru animale mari; pagina nu a fost deschisă.
+  - Betty, Gau Swastha, Mnyama Check (computerworld.com, tribuneindia.com, mwm.ai): doar fragment, fără preț.
+
+## Problema 2: Evidențele despre animale și gospodărie ajung în caiete, foi de calcul și aplicații care se lasă greu folosite sau pierd date
+- Cine o are: gospodării și ferme mici cu animale (păsări, iepuri, capre, oi, vite) și grădini.
+- Cât de des apare: zilnic sau săptămânal, la fiecare eveniment care trebuie notat (fătare, tratament, ouă, montă, recoltă). Un dezvoltator spune că a citit circa 4.000 de recenzii critice la aplicațiile de animale (afirmația lui, neverificată) și că aceleași trei plângeri apăreau peste tot: înregistrări pierdute după actualizări, varianta „gratuită” limitată la 25 de animale abia după ce ai introdus totul, abonament separat pentru fiecare specie.
+- Ce face azi ca s-o rezolve și cât îl costă, în bani sau timp: caiete, foi de calcul și liste. Un crescător a ținut ani de zile evidențele în foi de calcul și caiete și nu mai găsea nimic în ele. După dezvoltatorul HerdKeep, unii fermieri s-au întors la caietul de hârtie. Pe Capterra, utilizatorii Farmbrite pomenesc curba de învățare, introducerea de date „tedious” și faptul că durează până introduci totul. Nu am găsit în surse cifre de timp sau de bani.
+- Soluții existente găsite, cu preț: Farmbrite, de la 29 $/lună (Capterra); Graith (Android, offline), plată unică de 29,99 $ până pe 18 nov. 2026, apoi 39,99 $; HerdKeep, acces timpuriu gratuit, în dezvoltare; FarmKeep, gratuit cu achiziții în aplicație (App Store, prețul abonamentului nu apare pe pagina citită); Dattle, cu abonament pentru unele funcții (fără preț pe pagina citită). Herdwatch: doar fragment (vezi mai jos).
+- Surse deschise:
+  - https://permies.com/t/378905/HerdKeep-livestock-record-app-loses , aprox. aug. 2026 (pagina arată „posted 3 months ago”, ora serverului 15 nov. 2026; autorul e dezvoltatorul unei aplicații concurente), „Several farmers literally wrote that they went back to paper diaries.”
+  - https://permies.com/t/378852/built-offline-homestead-app-place , iul.–aug. 2026 (autorul pomenește în post testul închis din iulie 2026 și lansarea din august 2026; autorul e dezvoltatorul Graith), „for years the record-keeping lived in spreadsheets and a stack of notebooks”; în același post: „What failed was me finding anything in mine.”
+  - https://www.capterra.com/p/136765/Farmbrite/reviews/ , 9 mar. 2026 (Dale H, fermier pe cont propriu; lista de pe pagină arată 3 mar. 2026), „It dose take a while to get everything pluged in.”; pe aceeași pagină, 18 sep. 2025 (Rachel H): „a more significant learning curve or tedious input processes”
+- Doar fragment:
+  - Recenziile Herdwatch pe Trustpilot (reînnoiri automate nedorite, abonament anual, abonament separat pentru a doua turmă): Trustpilot e blocat, nenumărat.
+  - https://www.fbn.com/community/thread/48ba16508b25f0a4 : deschis, dar firul e de acum circa 5 ani, deci în afara intervalului; nenumărat.
+  - Șabloane vândute ca soluție (Etsy „Goat Sheep Management Spreadsheet”, Payhip, mamaonthehomestead.com „Homestead Management Planner”): doar fragment, fără preț verificat.
+
+## Problema 3: Comenzile de vânzare directă vin pe canale diferite (piață, mesaje, SMS, e-mail) și trebuie împăcate de mână
+- Cine o are: ferme mici care vând direct: la piață, prin comenzi angro către restaurante, prin mesaje (Instagram, Facebook Messenger, SMS) și cu plata prin Venmo sau Cash App.
+- Cât de des apare: săptămânal, mai ales în săptămânile aglomerate (Local Line). Homegrown dă ca exemplu 15 comenzi pe săptămână plătite pe 3–4 căi, adică peste 30 de date de pus cap la cap; e un exemplu de vânzător, nu o măsurătoare.
+- Ce face azi ca s-o rezolve și cât îl costă, în bani sau timp: un POS (de exemplu Square) la piață, e-mailuri sau SMS-uri pentru comenzile angro, facturi făcute de mână și o foaie de calcul în care se împacă totul la final (Local Line). Vânzătorii prin mesaje caută comanda prin fire de discuție și potrivesc manual mesajele cu plățile din Venmo (Homegrown). Costul în timp e descris doar calitativ, de exemplu „hours of searching, reconciling” (Homegrown); nu am găsit în surse o cifră măsurată.
+- Soluții existente găsite, cu preț: Local Line, 109 $/lună lunar sau 87 $/lună cu plată anuală, iar planurile superioare 199 $ și 399 $/lună (pagina de prețuri, deschisă); Homegrown, 10 $/lună (deschis); GrazeCart (pagina Capterra deschisă, dar recenziile sunt din 2021–2022 și prețul nu apare); Barn2Door (doar fragment; o comparație veche UC Extension din 2020 dădea 59–99 $/lună); aplicația VendStats și șabloane Excel sau Google Sheets pe Etsy și Payhip pentru vânzătorii din piață (doar fragment).
+- Surse deschise:
+  - https://www.localline.co/blog/manage-farmers-market-sales-and-wholesale-orders , 20 ian. 2026 (conținut de la vânzătorul unui software), „When inventory is tracked in multiple systems, nothing updates automatically.”
+  - https://findhomegrown.com/blog/record-keeping-food-business-dms , 1 apr. 2026 (conținut de la vânzătorul unui software, pentru vânzători de alimente în general, nu doar ferme), „This is not record keeping — it is a scavenger hunt.”
+- Doar fragment:
+  - backyardchickens.com, fir despre urmărirea clienților de ouă: un vânzător cu circa 20 de clienți spune că foaia de calcul cere modificări manuale constante. Dată nevizibilă, iar site-ul e blocat.
+  - Atenție: ambele surse deschise vin de la vânzători de software, deci au interes să descrie problema. Nu am găsit pe forumurile accesibile o postare a unui fermier din ultimele 18 luni despre această problemă.
+
+## Surse blocate
+- reddit.com: HTTP 200, dar pagina e goală (textul conține doar „Reddit”).
+- trustpilot.com: HTTP 403 (blocare anti-bot).
+- g2.com: HTTP 403.
+- upwork.com: HTTP 403 (Cloudflare).
+- producthunt.com: HTTP 403 („Just a moment”).
+- fiverr.com: HTTP 403 („It needs a human touch”).
+- backyardchickens.com: HTTP 403 (Cloudflare).
+- thefarmingforum.co.uk: pagină de verificare anti-bot („Validating browser…”).
+- agriland.ie: HTTP 403 („Just a moment”).
+- tractorbynet.com: HTTP 403.
+- bzi.ro: HTTP 429 (articolul despre fermierii din Iași care spun că plătesc pentru adeverințe APIA și pentru înscrierea în AGI Online nu a putut fi citit).
+- play.google.com: pagina Herdwatch a dat 404, iar recenziile nu sunt în HTML.
+- Obs.: pe paginile App Store deschise (FarmKeep, Herdwatch, Farmbrite, HerdHelp) apar doar câteva recenzii „cele mai utile”, toate pozitive. Recenziile de 1–3 stele nu se văd.
+
+## Căutări făcute
+- WebSearch: „small farm record keeping software frustrating forum 2025”
+- WebSearch: „thefarmingforum.co.uk farm software paperwork 2025”
+- WebSearch: „"is there an app" farm records small farm 2025 forum”
+- WebSearch: „farmers market vendor inventory tracking sales spreadsheet "small farm" forum 2025”
+- WebSearch: „forum agricultura.ro APIA cerere unica dosar greu fermier mic 2025”
+- WebSearch: „CSA farm software complaints Local Line Barn2Door GrazeCart review 2025”
+- WebSearch: „Herdwatch app review lost data subscription farmers 2025”
+- WebSearch: „play.google.com livestock record app cattle goat herd management”
+- WebSearch: „apps.apple.com farmkeep OR cattlemax OR "herd tracker" livestock app”
+- WebSearch: „permies.com crop planning spreadsheet market garden software 2025”
+- WebSearch: „homesteadingtoday.com forum selling eggs meat orders facebook messages keep track customers”
+- WebSearch: „Tend farm app OR Seedtime review "crop plan" problems market grower forum”
+- WebSearch: „site:homesteadingtoday.com record keeping app OR spreadsheet goats OR chickens 2025”
+- WebSearch: „site:permies.com farm app OR software records 2026”
+- WebSearch: „site:backyardchickens.com egg customers orders tracking app 2025”
+- WebSearch: „forum.softpedia.com APIA subventie fermier hartuire documente 2025”
+- WebSearch: „consultant plan de afaceri AFIR tânăr fermier cost procent consultanță 2025 forum”
+- WebSearch: „fiverr farm business plan grant writing USDA small farm gig”
+- WebSearch: „AGI Online APIA aplicatie probleme fermieri nemultumiti 2025”
+- WebSearch: „tractorbynet OR fbn community farm bookkeeping quickbooks spreadsheet frustrated 2025”
+- WebSearch: „capterra Local Line reviews farm cons”
+- WebSearch: „"AGI Online" fermieri plătesc consultanți completare cerere APIA lei”
+- WebSearch: „agrointel fermieri AGI Online greutati completare cerere unica 2026”
+- WebSearch: „softpedia forum APIA cerere unica AGI online parcele desenat”
+- WebSearch: „homesteadingtoday.com threads pricing farmers market how much to charge 2025”
+- WebSearch: „"wordpress.org/support" farm CSA plugin OR "farm stand" plugin review not working 2025”
+- WebSearch (extended): „farmer selling beef shares cut sheets deposits hanging weight invoices spreadsheet nightmare forum”
+- WebSearch: „cattletoday.com threads freezer beef customers 2025 OR 2026 selling direct paperwork”
+- WebSearch (extended): „"there has to be a better way" small farm orders OR records OR invoicing farmer 2025”
+- WebSearch: „beesource.com forum hive inspection record keeping app 2025”
+- WebSearch: „thegoatspot.net goat records app OR spreadsheet kidding records 2025”
+- WebSearch: „backyardchickens.com threads 2026 selling eggs customers keeping track who paid”
+- WebSearch: „permies.com 2025 market garden "crop plan" spreadsheet overwhelmed succession planting”
+- WebSearch: „fbn.com community thread record keeping app spreadsheet recommendations”
+- WebSearch: „fbn.com community thread ChatGPT AI farm use”
+- WebSearch: „indiehackers.com farmers direct to consumer orders software talked to farmers”
+- WebSearch: „tarif consultanță proiect AFIR fermă mică 50.000 euro consultant cost lei”
+- WebSearch: „farmers paperwork survey hours per week admin 2025 farmers journal OR farmers weekly”
+- WebSearch: „small plant nursery inventory tracking counting by hand software too expensive forum”
+- WebSearch: „capterra nursery inventory software reviews small grower cons 2025”
+- WebSearch: „large animal veterinarian shortage farmers can't find vet 2026”
+- WebSearch: „no vet will see chickens backyard flock sick nowhere to take forum 2026”
+- WebSearch: „AI app livestock goat chicken symptom checker diagnose sick animal farmers price”
+- WebSearch: „fermieri AGI Online "semnătură electronică" dificultăți vârstnici cerere APIA 2026 nemulțumiri”
+- Algolia HN API (hn.algolia.com): „farmer software”, „farm records”, „small farm”, filtrate după 15 mai 2025; nimic relevant.
+- Navigare directă pe permies.com: subforumurile farm-income, tech, chickens, goats.
+- Navigare directă pe homesteadingtoday.com: subforumurile market-gardens, goats, cattle, home-gardens-market-gardens-and-commercial-crops, livestock, sheep.
+- Pagini Capterra deschise: Farmbrite (recenzii și prețuri), GrazeCart, Tend, fieldmargin.
+- Pagini App Store deschise: Herdwatch, FarmKeep, HerdHelp, Farmbrite.
+- Piste abandonate, cu o singură sursă sau cu surse prea vechi:
+  - inventarul plantelor în pepiniere mici: un singur fir, https://permies.com/t/369367/Nursery-owners-track-plant-inventory (aprox. mar. 2026, „spending hours physically counting plants every week”); articolul Digger găsit e din 2015.
+  - prețurile la standul de la drum: firul de pe homesteadingtoday e din 2020.
+  - povara hârtiilor APIA / AGI Online: articolul bzi.ro e blocat; Farmers Journal (Irlanda) e din aprilie 2024.
+  - costul consultanței AFIR: nu am găsit cifre.
