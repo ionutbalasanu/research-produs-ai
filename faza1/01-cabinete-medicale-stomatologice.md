@@ -8,7 +8,7 @@
 - Surse deschise:
   - https://www.dentaleconomics.com/sponsored/article/55402516/ai-helps-extend-front-office-teams , 2026-09-09 (articol sponsorizat, cu interviuri cu office manageri din California), „It's hard to work on something and answer calls at the same time,”
   - https://dentaleconomics.com/practice/article/55385634/the-economics-of-missed-calls-quantifying-revenue-loss-in-dental-practices , 2026-08-15 (autor: dezvoltator la DentDesk, furnizor de soluții), „Many owners try solving the issue by hiring additional staff or using basic answering services.”
-  - https://www.capterra.com/p/141842/Weave/reviews/?page=3 , 2026-09-29 (recenzie, kinetoterapeut), „Our staff spends less time playing phone tag”
+  - https://www.capterra.com/p/141842/Weave/reviews/?page=1 , 2026-09-29 (recenzie, kinetoterapeut), „Our staff spends less time playing phone tag”
   - https://www.capterra.com/p/141842/Weave/reviews/?page=3 , 2025-11-25 (recenzie, Hospital Administrator, același produs, alt autor), „people get a missed call text if our team is on another call”
 - Doar fragment: dentalbase.ai (aprilie 2026, „front-desk capacity and peak-hour overlap”), stealthagents.com (cost angajat suplimentar 42.000–58.000 USD), simbo.ai (rata de 35% apeluri pierdute), justcall.io, voicestack.com, callsphere.ai. Toate sunt bloguri de furnizori și au fost văzute doar în rezultatele căutării.
 
