@@ -37,5 +37,8 @@ Verificat la 2026-11-15 de sesiunea principală.
 
 - Nu există acces direct la pagina de rezultate Google: `google.com/search` nu se folosește prin curl, ar însemna ocolirea protecțiilor anti-bot.
 - **Sursa listei de rezultate:** `serp_analysis` din Ubersuggest dă primele URL-uri din ultima colectare, cu data colectării. Reîmprospătarea costă 2 credite din 250 pe lună și nu se folosește fără acordul utilizatorului.
+  - **Probe:** „calculator salariu net” are colectarea din 2026-11-15, dar lista e incompletă: lipsesc poziția 3 (AI Overview) și pozițiile 6-14. „model cerere demisie” are colectarea din 2026-09-03 și o listă completă, pozițiile 1-35, cu tipuri: organic, imagini, People also ask.
+  - **Cost:** fără reîmprospătare nu consumă rapoarte. Contorul a rămas la 2/150 după două apeluri.
+- **Alternativă testată:** DuckDuckGo HTML (`html.duckduckgo.com`) a răspuns cu HTTP 202 (verificare anti-bot). Nu poate fi folosită.
 - **Citirea paginilor:** fiecare pagină din listă se deschide și se citește cu curl simplu.
 - **Ce se notează:** data colectării SERP pentru fiecare căutare.
