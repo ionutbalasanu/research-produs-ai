@@ -23,6 +23,8 @@ Nu se aplică (candidata e „INTRĂ"). Totuși, întrebarea care a contat cel m
 Concluzie: RSVP + listă = gratuit peste tot (verificat la The Knot, Joy; Zola gratuit la bază). Banii se plătesc pentru SMS: 9-229 $ o dată sau 14 $/lună (verificat în sursă). Produsul restrâns ipotetic se suprapune cu Text My Wedding, care are deja RSVP integrat (verificat în sursă: „The built-in RSVP feature lets you collect and track responses").
 
 ## 2. Nemulțumiri
+
+> Notă de la verificarea independentă (pasul 4, 2026-11-16): fluxul RSS App Store a răspuns gol la toate reîncercările, deci citatele din recenziile App Store din această fișă nu au putut fi reconfirmate independent. Nu înseamnă că sunt greșite. Vezi faza3/VERIFICARE.md.
 Toate sunt noi față de faza 1 (alte recenzii decât cele 8 citate acolo). Canal: același (App Store US), autori diferiți. Toate din ultimele 12 luni.
 
 | Sursă (link) | Data | Față de | Citat ≤15 cuvinte | Actualitate | Marcaj | Piață |
@@ -88,7 +90,7 @@ Ubersuggest, locație SUA 2840, limba en, accesat 2026-11-16 (contor reports la 
 Citire (dedus): cererea de căutare e pe „site de RSVP" (mare, dar intenție spre gratuit: „free" apare des, CPC 6-17 $), nu pe „SMS pentru invitați" (20-30/lună). Exact partea plătită are căutări aproape zero; cumpărătorii o descoperă în interiorul Zola/Joy (dedus).
 
 Canale:
-- **Google Ads**: la CPC 6-13 $ (31-65 lei), bugetul de 5.000 lei cumpără ~77-160 clicuri (5.000 / 65 = 77; 5.000 / 31 = 161). Calcul, fără rată de conversie presupusă.
+- **Google Ads**: la CPC 6,40-13,38 $ (31-65 lei) [corectat la verificarea independentă, pasul 4], bugetul de 5.000 lei cumpără ~77-160 clicuri (5.000 / 65 = 77; 5.000 / 31 = 161). Calcul, fără rată de conversie presupusă.
 - **App Store** (opțional, dacă se face aplicație): taxa de dezvoltator „annual fee is 99 USD" (https://developer.apple.com/support/enrollment/, 2026-11-16, verificat în sursă). Comisionul la achiziții in-app: necunoscut (pagina de reguli nu a fost citită azi). Produsul e un site, deci App Store nu e necesar.
 - **The Knot Marketplace** (concurenții Text My Wedding, Text My Guests apar listați acolo ca furnizori, doar fragment din rezultate de căutare): pagina a dat eroare de conexiune; regulile și prețul listării: necunoscut.
 - **Forumuri** (Reddit r/weddingplanning, WeddingWire, Weddingbee): blocate; regulile de autopromovare nu au putut fi citite.
@@ -103,7 +105,7 @@ Model: **plată unică per nuntă**, deci e nevoie de cumpărători **NOI în fi
 | 19 $ (Text My Wedding, intrare) | 92,01 | 2.000 / 92,01 = 21,7 → **22** |
 | 34 $ (TextMyGuests Standard) | 164,66 | 12,1 → **13** |
 | 59,99 $ (Zola Premium SMS) | 290,52 | 6,9 → **7** |
-| 79,99 $ (Zola Premium SMS, nivel 2) | 387,37 | 5,2 → **6** |
+| 79,99 $ (Zola Premium SMS, nivel 2) | 387,38 [corectat la verificarea independentă, pasul 4] | 5,2 → **6** |
 
 Variantă abonament (WeddingTXT 14 $/lună): 412,98 / 14 = 29,5 → **30 clienți ACTIVI plătitori**, dar la nuntă abonamentul e scurt (câteva luni), deci și aici churn-ul e garantat (dedus). Nu e echivalent cu plata unică.
 
@@ -150,6 +152,8 @@ Că un cuplu american va cumpăra de la un furnizor nou, fără recenzii, un ins
 - Nu am încercat: g2.com, trustpilot.com, producthunt.com, upwork.com (irelevante pentru acest produs de consum).
 
 ## 9. Lista surselor decisive pentru verificarea independentă
+
+> Notă de la verificarea independentă (pasul 4, 2026-11-16): fluxul RSS App Store a răspuns gol la toate reîncercările, deci citatele din recenziile App Store din această fișă nu au putut fi reconfirmate independent. Nu înseamnă că sunt greșite. Vezi faza3/VERIFICARE.md.
 1. https://apps.apple.com/us/app/id852691916, 2026-11-16, preț: „Premium SMS" / „$59.99" / „$79.99" (achiziții in-app Zola).
 2. https://withjoy.com/help/en/articles/8346349-sending-email-and-reminder-messages, 2026-11-16, preț (ce e gratuit): „Email is free."
 3. https://withjoy.com/help/en/articles/14480210-send-text-messages-to-your-guests-with-messaging-plus, 2026-11-16, preț: „Messaging Plus is a one-time purchase that unlocks all SMS features in Joy"

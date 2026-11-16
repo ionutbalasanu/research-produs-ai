@@ -44,7 +44,7 @@ Doar surse noi față de faza 1 (M-Shape Beauty, 631249 și 646203 nu sunt repet
 
 | Sursă (link) | Data | Față de | Citat ≤15 cuvinte | Actualitate | Marcaj | Piață |
 |---|---|---|---|---|---|---|
-| https://apps.shopify.com/chargeflow/reviews?ratings%5B%5D=1&ratings%5B%5D=2&ratings%5B%5D=3&sort_by=newest (Subtlejoys, UK) | 2026-10-22 | Chargeflow (taxe Prevent) | „the final figure is entirely at the discretion of the service provider” | ultimele 12 luni | verificat în sursă | Shopify UK |
+| https://apps.shopify.com/chargeflow/reviews?ratings%5B%5D=1&ratings%5B%5D=2&ratings%5B%5D=3&sort_by=newest (Subtlejoys, UK) | 2026-10-22 (editat) [corectat la verificarea independentă, pasul 4] | Chargeflow (taxe Prevent) | „the final figure is entirely at the discretion of the service provider” | ultimele 12 luni | verificat în sursă | Shopify UK |
 | același link (xLumina, Austria) | 2026-10-15 | Chargeflow | „they charged me for disputes I won by myself” | ultimele 12 luni | verificat în sursă | Shopify, Austria (altă țară, aceeași platformă) |
 | același link (Code Breaker Labs, Australia) | 2026-09-18 | Chargeflow (calitatea dovezilor) | „all the cases i won have been cases where they filled minimum evidence” | ultimele 12 luni | verificat în sursă | Shopify, Australia, engleză |
 | același link (Earthtones, Canada) | 2026-09-18 | Chargeflow | „Of all the chargebacks that have been disputed by Chargeflow I’ve won 0.” | ultimele 12 luni | verificat în sursă | Shopify, Canada, engleză |

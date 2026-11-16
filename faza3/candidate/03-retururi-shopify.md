@@ -9,7 +9,7 @@ Răspuns scurt: Shopify are acum, inclus în admin, un portal de retur „self-s
 | Clientul trimite cererea din pagina comenzii; magazinul aprobă sau refuză; la aprobare poate adăuga produse de schimb și trimite etichete | https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/self-serve-returns | 2026-11-16 | verificat în sursă |
 | Formularul poate cere „return reasons and product condition"; pagina nu menționează poze | același link | 2026-11-16 | verificat în sursă |
 | Reguli: fereastră 14/30/90 zile sau personalizată, taxă de transport la retur, taxă de restocare, produse „final sale" | https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/return-rules | 2026-11-16 | verificat în sursă |
-| „Return fees aren't deducted from refunds automatically" (taxele se scad manual la rambursare) | același link (redare WebFetch) | 2026-11-16 | verificat în sursă |
+| „Return fees aren't automatically deducted from refunds." [corectat la verificarea independentă, pasul 4] (taxele se scad manual la rambursare) | același link (redare WebFetch) | 2026-11-16 | verificat în sursă |
 | „You review and decide on every request." | https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/self-serve-returns/setup | 2026-11-16 | verificat în sursă |
 | „Exchanges can't be requested in self-serve returns" | același link | 2026-11-16 | verificat în sursă |
 | „Legacy customer accounts don't display return or cancellation options." Clientul trebuie să folosească noua versiune a conturilor de client | același link | 2026-11-16 | verificat în sursă |

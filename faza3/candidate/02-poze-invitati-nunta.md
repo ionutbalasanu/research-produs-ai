@@ -19,6 +19,8 @@ Nu se aplică: candidata a intrat direct (INTRĂ în SELECTIE.md). Totuși, cea 
 Context de saturație (căutare iTunes, `term=wedding photo sharing qr`, country=us, 2026-11-16, https://itunes.apple.com/search?term=wedding+photo+sharing+qr&entity=software&country=us&limit=15): pe lângă POV (4,92, 15.677 evaluări) și Photo Swap (4,60, 193), apar aplicații noi cu 0-20 evaluări: PixelParty, PartySnap, GuestDrop.app, Piccy, SynqEvent, Capture, Albumer, plus Scene (116). **verificat în sursă**. Pe Hacker News, cel puțin 3 produse independente identice lansate în ultimele 12 luni: About Last Night (2026-01-26), Shared Moments (2026-04-01), shareourpics.com (2026-07-13). **verificat în sursă** (linkuri în secțiunea 9).
 
 ## 2. Nemulțumiri
+
+> Notă de la verificarea independentă (pasul 4, 2026-11-16): fluxul RSS App Store a răspuns gol la toate reîncercările, deci citatele din recenziile App Store din această fișă nu au putut fi reconfirmate independent. Nu înseamnă că sunt greșite. Vezi faza3/VERIFICARE.md.
 Doar nemulțumiri NOI față de faza 1 (cele din faza1/23-organizatori-evenimente.md, Problema 3, nu sunt repetate). Toate din fluxul RSS oficial App Store, US, citit pe 2026-11-16.
 
 | Sursă (link) | Data | Față de | Citat ≤15 cuvinte | Actualitate | Marcaj | Piață |
@@ -129,6 +131,8 @@ Suport prin e-mail, concentrat în weekenduri (sâmbăta nunților, ora SUA, adi
 - Fluxul RSS App Store a răspuns intermitent gol; a fost reîncercat până la răspuns complet. Wedbox și Waldo nu au recenzii din ultimele 12 luni în paginile încărcate.
 
 ## 9. Lista surselor decisive pentru verificarea independentă
+
+> Notă de la verificarea independentă (pasul 4, 2026-11-16): fluxul RSS App Store a răspuns gol la toate reîncercările, deci citatele din recenziile App Store din această fișă nu au putut fi reconfirmate independent. Nu înseamnă că sunt greșite. Vezi faza3/VERIFICARE.md.
 1. https://www.guestcam.co/pricing, 2026-11-16, preț + produs identic: „Standard is $49 and Premium is $97. No recurring fees."
 2. https://www.guestcam.co, 2026-11-16, produs identic: „No app download, no sign-up."
 3. https://guestpix.com/wedding-pricing/, 2026-11-16, preț + produs identic: „NO APP NEEDED + NO GUEST REGISTRATION"; „From US$49"
