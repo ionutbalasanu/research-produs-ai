@@ -49,7 +49,7 @@ Criteriile (din sarcină): (1) text adoptat și publicat, cu dată citită în s
 
 | Aplicație | Dezvoltator | Lansată | Recenzii | Preț |
 |---|---|---|---|---|
-| gpsr-clp-hazard-labels | voidroot GmbH | 10.07.2026 | 1 | plan gratuit, plan plătit (prețul **necitit**) |
+| gpsr-clp-hazard-labels | voidroot GmbH | 10.07.2026 | 1 | gratuit până la 5 produse; 9,99 $/lună sau 99 $/an |
 | clp-hazard-info-display (CLPLens) | momiji-shop | 10.07.2026 | 0 | plan gratuit |
 | gpsr-compliance-2 (GPSR & CLP Product Safety) | Shark Tech systems | 25.08.2026 | 0 | 9,99 $/lună |
 
