@@ -1,0 +1,336 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="EN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://cdn.shopify.com" />  <link rel="preload" as="font" crossorigin="anonymous" type="font/woff2" href="https://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2" /><link rel="preload" as="font" crossorigin="anonymous" type="font/woff2" href="https://cdn.shopify.com/static/fonts/ShopifySans--bold.woff2" />  <link rel="icon" type="image/png" href="https://cdn.shopify.com/static/shopify-favicon.png" />
+  <title>Self-serve returns now support cancellations - Shopify Changelog</title>
+  <meta name="description" content="Buyers can now request order cancellations through self-serve, in addition to requesting returns. You can set cancellation rules alongside your ret..." />
+
+    <link rel="canonical" href="https://changelog.shopify.com/posts/self-serve-returns-now-support-cancellations">
+
+
+  <script nonce="7LvUQt++cgdDojHvCdzDAw==">document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js')</script>
+      <link rel="stylesheet" href="https://changelog.shopify.com/cdn/shopifycloud/documentation_changelog/assets/application-517de086aa93476600a162720f3f54c69a011f603ff73694b3c8dc5948fc3ca3.css" />
+      <div id="gtm-data" data-gtm-data="{&quot;ga_measurement_id&quot;:&quot;G-7R3PBKV706&quot;,&quot;compliance_zone&quot;:&quot;none&quot;,&quot;service&quot;:&quot;Shopify/documentation-changelog&quot;}"></div>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Bnz-jQZf-RT36s-Ib4mW5n_bD91YqIvUqsUDTMn7vUWyrqFKSVlzWkoNRwoIK_M8ZvZ-hyVGbz5VSbSegPw2NQ" />
+</head>
+
+<body class="page--posts-show shopify-sans-supported-lang">
+  
+  <div id="GlobalIconSymbols"><svg xmlns="http://www.w3.org/2000/svg"><symbol id="modules-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"/></svg></symbol><symbol id="modules-social-facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M15.6 30V19.4h5V15h-5v-3.1c0-1 .6-1.9 1.3-1.9h3.8V5.6h-3.8c-3.1 0-5.6 2.8-5.6 6.3V15H7.5v4.4h3.8v10.1C4.8 27.9 0 22 0 15 0 6.7 6.7 0 15 0s15 6.7 15 15c0 8.1-6.4 14.7-14.4 15z"/></svg></symbol><symbol id="modules-social-twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zm-3.7-5.5c-.8.3-1.6.6-2.5.7.9-.5 1.5-1.4 1.8-2.4-.8.5-1.7.8-2.7 1-.8-.8-1.9-1.4-3.1-1.4-2.4 0-4.2 1.9-4.2 4.3 0 .3 0 .7.1 1-3.5-.2-6.7-1.9-8.8-4.5-.3.7-.6 1.4-.6 2.2 0 1.5.7 2.8 1.9 3.5-.7 0-1.4-.2-1.9-.5 0 2.1 1.5 3.8 3.4 4.2-.3.1-.7.1-1.1.1-.3 0-.6 0-.8-.1.5 1.7 2.1 2.8 4 2.9-1.5 1.1-3.3 1.9-5.3 1.9-.3 0-.7 0-1-.1 1.9 1.2 4.1 1.9 6.5 1.9 7.8 0 12.1-6.5 12.1-12.1v-.6c.9-.4 1.6-1.2 2.2-2z"/></svg></symbol><symbol id="modules-social-youtube"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zm-5.6 0c0-6.9 0-6.9-9.4-6.9s-9.4 0-9.4 6.9 0 6.9 9.4 6.9 9.4 0 9.4-6.9zm-11.9-3.7l6.3 3.8-6.3 3.8v-7.6z"/></svg></symbol><symbol id="modules-social-instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><defs/><path fill-rule="evenodd" d="M9 0c5 0 9 4 9 9s-4 9-9 9-9-4-9-9 4-9 9-9zM6.7 3.5h4.7c1.8 0 3.2 1.4 3.2 3.1v4.7c0 1.7-1.4 3.1-3.2 3.1H6.7c-1.8 0-3.2-1.4-3.2-3.1V6.7c0-1.8 1.4-3.2 3.2-3.2zM9 6.2c1.6 0 2.9 1.3 2.9 2.9S10.6 12 9 12s-3-1.3-3-2.9 1.3-2.9 3-2.9zm0 1.2c.9 0 1.7.8 1.7 1.7 0 .9-.8 1.7-1.7 1.7-.9 0-1.7-.8-1.7-1.7 0-.9.7-1.7 1.7-1.7zm2.8-1.7c.3 0 .6.2.6.6 0 .3-.2.6-.6.6-.3 0-.6-.2-.6-.6 0-.4.3-.6.6-.6zm-4.6-1h3.7c1.4 0 2.5 1.1 2.5 2.5v3.7c0 1.4-1.1 2.5-2.5 2.5H7.2c-1.4 0-2.5-1.1-2.5-2.5V7.2c-.1-1.4 1.1-2.5 2.5-2.5z" clip-rule="evenodd"/></svg>
+</symbol><symbol id="modules-social-linkedin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zM11.3 7.8c0-1.2-1-2.2-2.5-2.2s-2.5.9-2.5 2.2c0 1.2 1 2.2 2.5 2.2s2.5-1 2.5-2.2zm-.7 4.1H6.9v10.6h3.8V11.9zm13.8 5c0-3.4-1.7-5.6-4.4-5.6-1.5 0-2.6.9-3.1 2.3l-.1-1.6H13c0 .4.1 2.5.1 2.5v8.1h3.8V17c0-1.5.7-2.5 1.8-2.5s1.9.6 1.9 2.5v5.6h3.8v-5.7z"/></svg></symbol><symbol id="modules-social-pinterest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M15 30c-1.5 0-2.9-.2-4.3-.6.6-.9 1.2-2 1.5-3.2.2-.7 1-4.1 1-4.1.5 1 2 1.9 3.7 1.9 4.8 0 8.1-4.4 8.1-10.3 0-4.4-3.8-8.6-9.5-8.6-7.1-.1-10.6 5-10.6 9.3 0 2.6 1 4.9 3.1 5.7.3.1.7 0 .8-.4.1-.2.2-.9.3-1.2.1-.4 0-.5-.2-.8-.6-.7-1-1.6-1-3 0-3.8 2.8-7.2 7.4-7.2 4 0 6.2 2.5 6.2 5.8 0 4.3-1.9 8-4.8 8-1.6 0-2.7-1.3-2.4-2.9.5-1.9 1.3-4 1.3-5.3 0-1.2-.7-2.3-2-2.3-1.6 0-2.9 1.7-2.9 3.9 0 1.4.5 2.4.5 2.4S9.5 24 9.3 25.3c-.3 1.1-.4 2.4-.3 3.5-5.3-2.4-9-7.7-9-13.8C0 6.7 6.7 0 15 0s15 6.7 15 15-6.7 15-15 15z"/></svg></symbol><symbol id="logos-shopify-black"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608 173.7"><path fill="#95BF47" d="M130.7 32.9c-.1-.9-.9-1.3-1.5-1.4-.6-.1-12.6-.2-12.6-.2s-10.1-9.8-11.1-10.8-2.9-.7-3.7-.5c0 0-1.9.6-5.1 1.6-.5-1.7-1.3-3.8-2.4-5.9-3.6-6.9-8.8-10.5-15.2-10.5-.4 0-.9 0-1.3.1-.2-.2-.4-.4-.6-.7-2.8-3-6.3-4.4-10.5-4.3-8.2.2-16.3 6.1-23 16.7-4.7 7.4-8.2 16.7-9.2 23.9-9.4 2.9-16 4.9-16.1 5-4.7 1.5-4.9 1.6-5.5 6.1C12.4 55.3 0 151.4 0 151.4l104.1 18 45.1-11.2S130.8 33.7 130.7 32.9zm-39.2-9.7c-2.4.7-5.1 1.6-8.1 2.5-.1-4.1-.6-9.9-2.5-14.9 6.3 1.2 9.3 8.2 10.6 12.4zM78 27.4c-5.5 1.7-11.4 3.5-17.4 5.4 1.7-6.4 4.9-12.8 8.8-17 1.5-1.6 3.5-3.3 5.9-4.3 2.3 4.7 2.7 11.4 2.7 15.9zM66.8 5.8c1.9 0 3.5.4 4.9 1.3-2.2 1.1-4.4 2.8-6.4 5-5.2 5.6-9.2 14.2-10.8 22.6-5 1.5-9.8 3-14.3 4.4 3-13.2 14-32.9 26.6-33.3z"/><path fill="#5E8E3E" d="M129.2 31.5c-.6-.1-12.6-.2-12.6-.2s-10.1-9.8-11.1-10.8c-.4-.4-.9-.6-1.4-.6v149.5l45.1-11.2S130.8 33.8 130.7 32.9c-.2-.9-.9-1.3-1.5-1.4z"/><path fill="#FFF" d="M79.1 54.7l-5.2 19.6s-5.8-2.7-12.8-2.2c-10.2.6-10.3 7-10.2 8.7.6 8.8 23.6 10.7 24.9 31.2 1 16.2-8.6 27.2-22.4 28.1-16.6 1-25.7-8.7-25.7-8.7l3.5-14.9s9.2 6.9 16.5 6.5c4.8-.3 6.5-4.2 6.3-7-.7-11.4-19.5-10.8-20.7-29.5-1-15.8 9.4-31.8 32.3-33.3 9-.8 13.5 1.5 13.5 1.5z"/><path d="M210.3 96.5c-5.2-2.8-7.9-5.2-7.9-8.5 0-4.2 3.7-6.9 9.6-6.9 6.8 0 12.8 2.8 12.8 2.8l4.8-14.6s-4.4-3.4-17.3-3.4c-18 0-30.5 10.3-30.5 24.8 0 8.2 5.8 14.5 13.6 19 6.3 3.6 8.5 6.1 8.5 9.9 0 3.9-3.1 7-9 7-8.7 0-16.9-4.5-16.9-4.5l-5.1 14.6s7.6 5.1 20.3 5.1c18.5 0 31.8-9.1 31.8-25.5.1-8.9-6.6-15.2-14.7-19.8zm73.8-30.8c-9.1 0-16.3 4.3-21.8 10.9l-.3-.1 7.9-41.4h-20.6l-20 105.3h20.6l6.9-36c2.7-13.6 9.7-22 16.3-22 4.6 0 6.4 3.1 6.4 7.6 0 2.8-.3 6.3-.9 9.1l-7.8 41.2h20.6l8.1-42.6c.9-4.5 1.5-9.9 1.5-13.4 0-11.5-6.2-18.6-16.9-18.6zm63.5 0c-24.8 0-41.2 22.4-41.2 47.4 0 16 9.9 28.8 28.4 28.8 24.3 0 40.8-21.8 40.8-47.4-.1-14.7-8.8-28.8-28-28.8zm-10.2 60.4c-7 0-10-6-10-13.4 0-11.8 6.1-31.1 17.3-31.1 7.3 0 9.7 6.3 9.7 12.4 0 12.7-6.1 32.1-17 32.1zm90.8-60.4c-13.9 0-21.8 12.2-21.8 12.2h-.3l1.2-11.1h-18.2c-.9 7.5-2.5 18.8-4.2 27.3l-14.3 75.4h20.6l5.7-30.5h.4s4.2 2.7 12.1 2.7c24.2 0 40-24.8 40-49.9.1-13.7-6.1-26.1-21.2-26.1zm-19.7 60.7c-5.4 0-8.5-3-8.5-3l3.4-19.3c2.4-12.8 9.1-21.4 16.3-21.4 6.3 0 8.2 5.8 8.2 11.4 0 13.3-7.9 32.3-19.4 32.3zm70.4-90.2c-6.6 0-11.8 5.2-11.8 12 0 6.1 3.9 10.3 9.7 10.3h.3c6.4 0 12-4.3 12.1-12 0-6-4-10.3-10.3-10.3zm-28.8 104.2h20.6l14-73h-20.8zm87-73.2h-14.3l.7-3.4c1.2-7 5.4-13.3 12.2-13.3 3.7 0 6.6 1 6.6 1l4-16.1s-3.6-1.8-11.2-1.8c-7.3 0-14.6 2.1-20.2 6.9-7 6-10.3 14.6-12 23.3l-.6 3.4h-9.6l-3 15.5h9.6l-10.9 57.7H509l10.9-57.7h14.2l3-15.5zm49.6.2s-12.9 32.5-18.7 50.2h-.3c-.4-5.7-5.1-50.2-5.1-50.2H541l12.4 67.1c.3 1.5.1 2.4-.4 3.4-2.4 4.6-6.4 9.1-11.2 12.4-3.9 2.8-8.2 4.6-11.7 5.8l5.7 17.5c4.2-.9 12.8-4.3 20.2-11.2 9.4-8.8 18.1-22.4 27-40.9l25.2-54.1h-21.5z"/></svg></symbol><symbol id="modules-caret-down"><svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" viewBox="0 0 10.289 6.563"><path d="M5.212 6.563L0 1.423 1.404 0l3.788 3.735L8.865.01l1.424 1.404"/></svg></symbol><symbol id="modules-mobile-hamburger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M19 11H1a1 1 0 110-2h18a1 1 0 110 2zm0-7H1a1 1 0 110-2h18a1 1 0 110 2zm0 14H1a1 1 0 110-2h18a1 1 0 110 2z"/></svg></symbol><symbol id="modules-cancel"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M11.414 10l6.293-6.293a1 1 0 00-1.414-1.414L10 8.586 3.707 2.293a1 1 0 00-1.414 1.414L8.586 10l-6.293 6.293a1 1 0 001.414 1.414L10 11.414l6.293 6.293a.996.996 0 001.414 0 1 1 0 000-1.414L11.414 10z"/></svg></symbol></svg></div>    
+<div class="signup-form-wrapper signup--hidden " data-define="{form_0: new SignupForm(this)}">
+  <form class="marketing-form signup-form stateful-form" novalidate="novalidate" autocomplete="off" data-namespace="form_0" data-hidden-fields-namespace="hiddenFields_0" data-bind-event-submit="form_0.handleSubmit(this, event)" action="https://accounts.shopify.com/store-create" accept-charset="UTF-8" method="post">
+
+
+  <div data-define="{ email0:
+  new StatefulField(
+    &#39;email&#39;,
+    form_0,
+    this,
+    {
+      required: true,
+      validate: true,
+      live: false,
+      showHint: true,
+      showError: true
+    },
+    {},
+    &#39;form_0&#39;
+  )}
+" class="stateful-field email "><div data-context="email0"><label data-bind-class="{&#39;js-has-error&#39;: state.error,&#39;js-is-filled&#39;: state.filled || state.value.length &gt; 0,&#39;js-has-hint&#39;: !state.error &amp;&amp; state.hint}" class="marketing-input-wrapper"><span class="marketing-label marketing-label--in-field marketing-label--floating">Email address</span><input placeholder="Email address" aria-describedby="MessageId_fd97" name="signup[email]" type="email" autocomplete="email" data-bind="state.value" data-bind-event-blur="ShopifyMarketing.context.form_0.handleFieldBlur(ShopifyMarketing.context.email0)" data-bind-event-keyup="ShopifyMarketing.context.form_0.handleFieldKeyup(event, ShopifyMarketing.context.email0)" class="marketing-input marketing-input--floating" id="0_signup_email" /></label><span class="marketing-form__messages" id="MessageId_fd97"><span class="suggest hide" data-bind-unsafe-html="displayHint()" data-bind-show="!state.error &amp;&amp; state.hint"></span><span class="error hide" data-bind="displayError()" data-bind-show="state.error == true"></span></span></div></div>
+
+  <div data-define="{hiddenFields_0: new HiddenFields({
+      source: &quot;&quot;,
+      source_url: &quot;&quot;,
+      source_url_referer: &quot;&quot;,
+      signup_code: &quot;&quot;,
+      signup_page: &quot;&quot;,
+      signup_page_referer: &quot;&quot;,
+      signup_types: [],
+      theme: &quot;&quot;,
+      selected_app: &quot;&quot;,
+      selected_plan: &quot;&quot;,
+      domain_to_connect: &quot;&quot;,
+    }, this)}">
+    <div data-context="hiddenFields_0">
+      <input type="hidden" name="ref" value="">
+      <input type="hidden" name="language" value="en">
+      <input type="hidden" name="locale" value="en">
+      <input type="hidden" name="_y" data-bind="fields.y">
+      <input type="hidden" name="ssid" data-bind="fields.ssid">
+      <input type="hidden" name="source" data-bind="fields.source">
+      <input type="hidden" name="source_url" data-bind="fields.source_url">
+      <input type="hidden" name="source_url_referer" data-bind="fields.source_url_referer">
+      <input type="hidden" name="signup_code" data-bind="fields.signup_code">
+      <input type="hidden" name="signup_page" data-bind="fields.signup_page">
+      <input type="hidden" name="signup_page_referer" data-bind="fields.signup_page_referer">
+      <input type="hidden" name="promotional_program_code" value="">
+      <input type="hidden" name="domain_to_connect" data-bind="fields.domain_to_connect">
+
+
+      <input type="hidden" name="signup_types[]" data-bind-disabled="fields.signup_types" data-bind="fields.signup_type">
+      <input type="hidden" name="extra[selected_theme]" data-bind="fields.theme">
+      <input type="hidden" name="extra[selected_app]" data-bind="fields.selected_app">
+      <input type="hidden" name="extra[selected_plan]" data-bind="fields.selected_plan">
+    </div>
+  </div>
+
+  <div class=" cta_wrapper">
+    <button class="marketing-button marketing-form__button " name="button" data-bind-disabled="form_0.pending == true" type="submit">Create your store</button>
+  </div>
+</form>
+
+
+</div>
+    <div id="Announcements"></div>    <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBN956T"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  
+  
+<header id="SiteNavContainer" class="site-nav-container is-sticky">
+  <div class="marketing-nav-wrapper">
+    
+<a class="in-page-link skip-to-main visuallyhidden focusable" data-ga-event="Main Nav" data-ga-action="Skip to content" data-trekkie-event="Main Nav" data-trekkie-action="Skip to content" data-trekkie-id="Main Nav Skip to content" href="#Main">Skip to Content</a>
+
+<nav
+  class="marketing-nav--skin-light marketing-nav marketing-nav--primary"
+  id="ShopifyMainNav"
+  itemscope="itemscope"
+  itemtype="https://schema.org/SiteNavigationElement">
+  
+      <div class="marketing-nav__logo ">
+        <a href="/" class="marketing-nav__logo__shopify" data-ga-event="Main Nav" data-ga-action="Logo" data-trekkie-event="Main Nav" data-trekkie-action="Logo" data-trekkie-id="Main Nav Logo">
+
+          <svg class="icon" aria-labelledby="icon-logos-shopify-black-8-title" role="img"><title id="icon-logos-shopify-black-8-title">Shopify</title> <use xlink:href="#logos-shopify-black" /> </svg>
+</a>      </div>
+
+      <ul class="marketing-nav__items display--expanded-nav">
+        <li><div class="popover-wrapper js-popover-dropdown popover-wrapper--dropdown" data-position="bottom" data-align="left"><button type="button" class="popover__trigger marketing-nav__item marketing-nav__item--primary" url="https://help.shopify.com/" itemprop="name">Help Topics<svg class="icon marketing-nav__arrow" aria-hidden="true" focusable="false"> <use xlink:href="#modules-caret-down" /> </svg></button><div class="popover"><div class="popover__content"><ul class="popover__list"><li><a href="https://help.shopify.com/manual/intro-to-shopify" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Intro to Shopify</a></li><li><a href="https://help.shopify.com/manual/your-account" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Your account</a></li><li><a href="https://help.shopify.com/manual/migrating-to-shopify" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Migrating to Shopify</a></li><li><a href="https://help.shopify.com/manual/community" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Shopify community</a></li><li><a href="https://help.shopify.com/manual/sell-online" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Selling online</a></li><li><a href="https://help.shopify.com/manual/sell-in-person" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Selling in person</a></li><li><a href="https://help.shopify.com/manual/products" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Products</a></li><li><a href="https://help.shopify.com/manual/locations" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Locations</a></li><li><a href="https://help.shopify.com/manual/using-themes" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Themes for your online store</a></li><li><a href="https://help.shopify.com/manual/payments" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Payments</a></li><li><a href="https://help.shopify.com/manual/domains" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Domains</a></li><li><a href="https://help.shopify.com/manual/shipping" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Shipping</a></li><li><a href="https://help.shopify.com/manual/orders" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Orders</a></li><li><a href="https://help.shopify.com/manual/taxes" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Taxes</a></li><li><a href="https://help.shopify.com/manual/customers" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Customers</a></li><li><a href="https://help.shopify.com/manual/reports-and-analytics" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Analytics</a></li><li><a href="https://help.shopify.com/manual/productivity-tools" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Productivity tools</a></li><li><a href="https://help.shopify.com/manual/apps" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Apps</a></li><li><a href="https://help.shopify.com/manual/dropshipping" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Dropshipping</a></li><li><a href="https://help.shopify.com/manual/services-marketplace" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Services Marketplace</a></li><li><a href="https://help.shopify.com/manual/promoting-marketing" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Marketing and discounts</a></li></ul></div></div></div></li><li><div class="popover-wrapper js-popover-dropdown popover-wrapper--dropdown" data-position="bottom" data-align="left"><button type="button" class="popover__trigger marketing-nav__item marketing-nav__item--primary" url="https://help.shopify.com/questions" itemprop="name">Support<svg class="icon marketing-nav__arrow" aria-hidden="true" focusable="false"> <use xlink:href="#modules-caret-down" /> </svg></button><div class="popover"><div class="popover__content"><ul class="popover__list"><li><a href="https://help.shopify.com/questions" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Contact Support</a></li><li><a href="https://www.youtube.com/channel/UCSG_dVp-hi_hWP-Z7DlpRgQ" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Video tutorials</a></li><li><a href="https://community.shopify.com/" class="marketing-nav__item marketing-nav__item--child" itemprop="name">Shopify community</a></li></ul></div></div></div></li><li><a href="/" class="marketing-nav__item marketing-nav__item--primary" itemprop="name">Changelog</a></li>
+      </ul>
+
+      
+
+        <ul class="marketing-nav__items marketing-nav__user display--expanded-nav">
+          <li><a href="https://www.shopify.com" class="marketing-nav__item marketing-nav__item--user external-nav-link" itemprop="name" target="_blank">Shopify.com</a></li><li><a href="https://www.shopify.com/login" class="marketing-nav__item marketing-nav__item--user" itemprop="name">Log in</a></li><li><a href="https://www.shopify.com/signup" class="marketing-nav__button marketing-button marketing-button--small start-free-trial__button" itemprop="name">Get started</a></li>
+        </ul>
+
+        <button name="button" type="button" class="marketing-nav__hamburger hide--expanded-nav js-drawer-open-right" aria-haspopup="dialog" aria-expanded="false" data-ga-event="Main Nav" data-ga-action="Hamburger">
+            <svg class="icon" aria-labelledby="icon-modules-mobile-hamburger-11-title" role="img"><title id="icon-modules-mobile-hamburger-11-title">Open Main Navigation</title> <use xlink:href="#modules-mobile-hamburger" /> </svg>
+</button>
+</nav>
+
+  </div>
+
+    
+<div id="NavDrawer"
+  class="drawer drawer--right"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="DrawerTitle">
+  <div class="drawer__inner">
+    <div class="drawer__top">
+      <div class="marketing-nav__logo">
+        <a href="/" class="marketing-nav__logo__shopify">
+
+          <svg class="icon" aria-labelledby="icon-logos-shopify-black-12-title" role="img"><title id="icon-logos-shopify-black-12-title">Home</title> <use xlink:href="#logos-shopify-black" /> </svg>
+</a>      </div>
+
+      <button name="button" type="button" class="drawer__close-button js-drawer-close" data-ga-event="Main Nav" data-ga-action="close navigation">
+        <svg class="icon" aria-labelledby="icon-modules-cancel-13-title" role="img"><title id="icon-modules-cancel-13-title">Close Main Navigation</title> <use xlink:href="#modules-cancel" /> </svg>
+</button>    </div>
+
+    <nav id="DrawerTitle" aria-label="Main Navigation">
+        <ul class="drawer__items drawer__items--primary" id="DrawerNavPrimaryAccordion">
+          <li class="accordion-item"><button name="button" type="button" class="drawer__item drawer__item--primary accordion-link">Help Topics<svg class="icon marketing-nav__arrow" aria-hidden="true" focusable="false"> <use xlink:href="#modules-caret-down" /> </svg></button><div class="drawer__items-wrapper accordion-content"><ul class="drawer__items drawer__items--nested"><li><a href="https://help.shopify.com/manual/intro-to-shopify" class="drawer__item">Intro to Shopify</a></li><li><a href="https://help.shopify.com/manual/your-account" class="drawer__item">Your account</a></li><li><a href="https://help.shopify.com/manual/migrating-to-shopify" class="drawer__item">Migrating to Shopify</a></li><li><a href="https://help.shopify.com/manual/community" class="drawer__item">Shopify community</a></li><li><a href="https://help.shopify.com/manual/sell-online" class="drawer__item">Selling online</a></li><li><a href="https://help.shopify.com/manual/sell-in-person" class="drawer__item">Selling in person</a></li><li><a href="https://help.shopify.com/manual/products" class="drawer__item">Products</a></li><li><a href="https://help.shopify.com/manual/locations" class="drawer__item">Locations</a></li><li><a href="https://help.shopify.com/manual/using-themes" class="drawer__item">Themes for your online store</a></li><li><a href="https://help.shopify.com/manual/payments" class="drawer__item">Payments</a></li><li><a href="https://help.shopify.com/manual/domains" class="drawer__item">Domains</a></li><li><a href="https://help.shopify.com/manual/shipping" class="drawer__item">Shipping</a></li><li><a href="https://help.shopify.com/manual/orders" class="drawer__item">Orders</a></li><li><a href="https://help.shopify.com/manual/taxes" class="drawer__item">Taxes</a></li><li><a href="https://help.shopify.com/manual/customers" class="drawer__item">Customers</a></li><li><a href="https://help.shopify.com/manual/reports-and-analytics" class="drawer__item">Analytics</a></li><li><a href="https://help.shopify.com/manual/productivity-tools" class="drawer__item">Productivity tools</a></li><li><a href="https://help.shopify.com/manual/apps" class="drawer__item">Apps</a></li><li><a href="https://help.shopify.com/manual/dropshipping" class="drawer__item">Dropshipping</a></li><li><a href="https://help.shopify.com/manual/services-marketplace" class="drawer__item">Services Marketplace</a></li><li><a href="https://help.shopify.com/manual/promoting-marketing" class="drawer__item">Marketing and discounts</a></li></ul></div></li><li class="accordion-item"><button name="button" type="button" class="drawer__item drawer__item--primary accordion-link">Support<svg class="icon marketing-nav__arrow" aria-hidden="true" focusable="false"> <use xlink:href="#modules-caret-down" /> </svg></button><div class="drawer__items-wrapper accordion-content"><ul class="drawer__items drawer__items--nested"><li><a href="https://help.shopify.com/questions" class="drawer__item">Contact Support</a></li><li><a href="https://www.youtube.com/channel/UCSG_dVp-hi_hWP-Z7DlpRgQ" class="drawer__item">Video tutorials</a></li><li><a href="https://community.shopify.com/" class="drawer__item">Shopify community</a></li></ul></div></li><li><a href="/" class="drawer__item drawer__item--primary">Changelog</a></li>
+        </ul>
+
+        <ul class="drawer__items drawer__items--user" id="DrawerNavSecondaryAccordion">
+          <li><a href="https://www.shopify.com" class="drawer__item external-nav-link" target="_blank">Shopify.com</a></li><li><a href="https://www.shopify.com/login" class="drawer__item">Log in</a></li><li><a href="https://www.shopify.com/signup" class="drawer__item">Get started</a></li>
+        </ul>
+
+        <ul class="drawer__items drawer__items--corporate">
+          <li><a href="https://www.shopify.com/about" class="drawer__item">About</a></li><li><a href="https://www.shopify.com/careers" class="drawer__item">Careers</a></li><li><a href="https://www.shopify.com/press" class="drawer__item">Press and Media</a></li><li><a href="https://www.shopify.com/plus" class="drawer__item external-nav-link" target="_blank">Enterprise</a></li><li><a href="https://www.shopify.com/sitemap" class="drawer__item">Sitemap</a></li>
+        </ul>
+    </nav>
+  </div>
+</div>
+
+</header>
+
+
+
+<div hidden="hidden"><span id="NewWindow">Opens in a new window</span><span id="ExternalSite">Opens an external site</span><span id="NewWindowExternalSite">Opens an external site in a new window</span></div>
+
+<div id="PageContainer">
+  <main role="main" id="Main">
+    
+
+<section class="section section--tight section--image background-cyan-0 page-header">
+  <div class="grid">
+    <div class="grid__item grid__item--mobile-up-two-thirds">
+      <div class="section-heading section-heading--mobile-up-align-left gutter-bottom--reset">
+        <p class="section-heading__kicker heading--5 color-gray-80">Changelog</p>
+        <h1 class="section-heading__heading heading--1 color-green-80">What’s new in Shopify</h1>
+</div></div></div></section>
+
+<section class="section section--tight">
+  <div class="grid">
+    <div class="grid__item gutter-bottom">
+      <a class="back-link link link--secondary" href="/">Back to Changelog&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right" /> </svg></span></a>
+</div>    <div class="grid__item grid__item--tablet-up-two-thirds grid__item--desktop-up-half grid__item--tablet-up-align-center post">
+      <span class='heading--5 gutter-bottom'>June 18, 2026</span>
+      <h2 class='heading--2 gutter-bottom color-gray-80'>Self-serve returns now support cancellations</h2>
+      <div class='post__content'>
+        <p>Buyers can now request order cancellations through self-serve, in addition to requesting returns. You can set cancellation rules alongside your return rules.</p>
+
+<p>Both return and cancellation rules are configurable per market. A default policy applies storewide, with the option to add market-specific rules that override it for individual markets.</p>
+
+<p>This enables merchants selling in the EU to offer a withdrawal policy—from order placement until 14 days after the last item is delivered—without affecting rules elsewhere. The return window can also be extended to avoid ending on a weekend or holiday.</p>
+
+<p>Learn more about <a href="https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/self-serve-returns/setup">self-serve cancellations</a> and how they support the <a href="https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/return-rules#eu-right-of-withdrawal">EU right to withdraw regulation</a>.</p>
+
+      </div>
+      <div class='post__meta'>
+          <span class="status-tag improvement">Improvement</span>
+          <span class='text-minor'>Customer accounts</span>
+      </div>
+</div></div></section>
+    
+  </main>
+    
+<footer class="footer--main" role="contentinfo"><h2 class="visuallyhidden">More resources</h2>
+  <div class="footer-top">
+  <div class="grid">
+    <div class="grid__item">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list" role="list">
+              <li class="footer-nav__list-item">
+                <a href="https://www.shopify.com/about">About</a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a href="https://www.shopify.com/careers">Careers</a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a href="https://www.shopify.com/press">Press and Media</a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a html_options="target _blank class external-nav-link" href="https://www.shopify.com/plus">Enterprise</a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a href="https://www.shopify.com/sitemap">Sitemap</a>
+              </li>
+          </ul>
+        </nav>
+</div>
+    
+    <div class="grid__item grid__item--tablet-up-1 hide--mobile">
+      <h3 class="footer-subhead heading--5 ">Online store</h3>
+
+      <a class="footer-link" href="https://www.shopify.com/online">Sell online</a>
+      <a class="footer-link" href="https://www.shopify.com/online/ecommerce-solutions">Features</a>
+      <a class="footer-link" href="https://www.shopify.com/examples">Examples</a>
+      <a class="footer-link" href="https://www.shopify.com/website">Website editor</a>
+      <a class="footer-link" href="https://www.shopify.com/tour">Online retail</a>
+</div>
+    <div class="grid__item grid__item--tablet-up-1 hide--mobile footer-column--nameless">
+      <a class="footer-link" href="https://www.shopify.com/tour/ecommerce-website">Ecommerce website</a>
+      <a class="footer-link" href="https://www.shopify.com/domains">Domain names</a>
+      <a class="footer-link" href="https://www.shopify.com/tour/website-design">Themes</a>
+      <a class="footer-link" href="https://www.shopify.com/tour/shopping-cart">Shopping cart</a>
+      <a class="footer-link" href="https://www.shopify.com/tour/ecommerce-hosting">Ecommerce hosting</a>
+</div>
+    <div class="grid__item grid__item--tablet-up-1 hide--mobile footer-column--nameless">
+      <a class="footer-link" href="https://www.shopify.com/mobile">Mobile commerce</a>
+      <a class="footer-link" href="https://www.shopify.com">Ecommerce software</a>
+      <a class="footer-link" href="https://www.shopify.com/online-store">Online store builder</a>
+</div>
+    <div class="grid__item grid__item--tablet-up-1 hide--mobile">
+      <h3 class="footer-subhead heading--5 ">Point of sale</h3>
+
+      <a class="footer-link" href="https://www.shopify.com/pos">Point of sale</a>
+      <a class="footer-link" href="https://www.shopify.com/pos/features">Features</a>
+      <a class="footer-link" href="https://www.shopify.com/pos/hardware">Hardware</a>
+      <a class="footer-link" href="https://www.shopify.com/pos/software">POS software</a>
+</div>
+    <div class="grid__item grid__item--tablet-up-1 hide--mobile">
+      <h3 class="footer-subhead heading--5 ">Support</h3>
+
+      <a class="footer-link" href="/support">24/7 support</a>
+      <a class="footer-link" href="/">Help Center</a>
+      <a class="footer-link" href="https://ecommerce.shopify.com/forums">Forums</a>
+      <a class="footer-link" href="/api">API documentation</a>
+      <a class="footer-link" href="https://www.shopify.com/tools">Free tools</a>
+      <a class="footer-link" href="https://burst.shopify.com">Free stock photos</a>
+      <a class="footer-link" href="https://exchange.shopify.com">Websites for sale</a>
+</div>
+    <div class="grid__item grid__item--tablet-up-1 hide--mobile">
+      <h3 class="footer-subhead heading--5 ">Shopify</h3>
+
+      <a class="footer-link" href="https://www.shopify.com/contact">Contact</a>
+      <a class="footer-link" href="https://www.shopify.com/partners">Partner program</a>
+      <a class="footer-link" href="https://www.shopify.com/affiliates">Affiliate program</a>
+      <a class="footer-link" href="https://developers.shopify.com">App developers</a>
+      <a class="footer-link" href="https://investors.shopify.com">Investors</a>
+      <a class="footer-link" href="https://www.shopify.com/accessibility">Accessibility</a>
+</div>
+</div></div>
+
+  <div class="footer-bottom">
+  <div class="grid grid--vertically-centered">
+    <div class="grid__item grid__item--tablet-up-2 footer-bottom__social text-center--mobile">
+      <ul class="footer-social__list" role="list">
+          <li class="footer-social__list-item">
+            <a class="footer-social__icon " target="_blank" rel="me nofollow noopener" aria-describedby="NewWindowExternalSite" data-ga-event="Social" data-ga-action="Facebook" data-ga-label="Footer" href="https://www.facebook.com/shopify"><svg class="icon" aria-labelledby="icon-modules-social-facebook-2-title" role="img"><title id="icon-modules-social-facebook-2-title">Facebook</title> <use xlink:href="#modules-social-facebook" /> </svg></a>
+          </li>
+          <li class="footer-social__list-item">
+            <a class="footer-social__icon " target="_blank" rel="me nofollow noopener" aria-describedby="NewWindowExternalSite" data-ga-event="Social" data-ga-action="Twitter" data-ga-label="Footer" href="https://twitter.com/shopify"><svg class="icon" aria-labelledby="icon-modules-social-twitter-3-title" role="img"><title id="icon-modules-social-twitter-3-title">Twitter</title> <use xlink:href="#modules-social-twitter" /> </svg></a>
+          </li>
+          <li class="footer-social__list-item">
+            <a class="footer-social__icon " target="_blank" rel="me nofollow noopener" aria-describedby="NewWindowExternalSite" data-ga-event="Social" data-ga-action="Youtube" data-ga-label="Footer" href="https://www.youtube.com/user/shopify"><svg class="icon" aria-labelledby="icon-modules-social-youtube-4-title" role="img"><title id="icon-modules-social-youtube-4-title">YouTube</title> <use xlink:href="#modules-social-youtube" /> </svg></a>
+          </li>
+          <li class="footer-social__list-item">
+            <a class="footer-social__icon " target="_blank" rel="me nofollow noopener" aria-describedby="NewWindowExternalSite" data-ga-event="Social" data-ga-action="Instagram" data-ga-label="Footer" href="https://www.instagram.com/shopify/"><svg class="icon" aria-labelledby="icon-modules-social-instagram-5-title" role="img"><title id="icon-modules-social-instagram-5-title">Instagram</title> <use xlink:href="#modules-social-instagram" /> </svg></a>
+          </li>
+          <li class="footer-social__list-item">
+            <a class="footer-social__icon " target="_blank" rel="me nofollow noopener" aria-describedby="NewWindowExternalSite" data-ga-event="Social" data-ga-action="Linkedin" data-ga-label="Footer" href="https://www.linkedin.com/company/shopify"><svg class="icon" aria-labelledby="icon-modules-social-linkedin-6-title" role="img"><title id="icon-modules-social-linkedin-6-title">LinkedIn</title> <use xlink:href="#modules-social-linkedin" /> </svg></a>
+          </li>
+          <li class="footer-social__list-item">
+            <a class="footer-social__icon " target="_blank" rel="me nofollow noopener" aria-describedby="NewWindowExternalSite" data-ga-event="Social" data-ga-action="Pinterest" data-ga-label="Footer" href="https://www.pinterest.com/shopify/"><svg class="icon" aria-labelledby="icon-modules-social-pinterest-7-title" role="img"><title id="icon-modules-social-pinterest-7-title">Pinterest</title> <use xlink:href="#modules-social-pinterest" /> </svg></a>
+          </li>
+      </ul>
+</div>
+    <div class="grid__item grid__item--tablet-up-4 footer-bottom__links text-center--mobile text-right--tablet-up">
+      
+    <a href="https://www.shopify.com/legal/terms">Terms of Service</a>
+    <a href="https://www.shopify.com/legal/privacy">Privacy Policy</a>
+    <a class="privacy-choices-link" href="https://privacy.shopify.com/en">
+      Your Privacy Choices
+      <img alt="California Consumer Privacy Act (CCPA) Opt-Out Icon" width="30" height="14" src="https://cdn.shopify.com/b/shopify-brochure2-assets/8051dee1dd72e78a9528a16c062cff66.svg" />
+</a>
+</div></div></div>
+</footer>
+
+</div>
+
+    <script src="https://cdn.shopify.com/shopifycloud/documentation_changelog/bundles/baseline/runtime-25f6f39125f57ec9fd01d38179e638a8c306998436dd115ab6256732d2f9499d.js" nonce="7LvUQt++cgdDojHvCdzDAw=="></script>
+<script src="https://cdn.shopify.com/shopifycloud/documentation_changelog/bundles/baseline/main-3b426e6cd2a6f2452f590bf16c46d3b26f981f10ae6e6b7c56f322361fe2fac5.js" nonce="7LvUQt++cgdDojHvCdzDAw=="></script>
+      </body>
+</html>
+
