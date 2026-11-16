@@ -1,0 +1,150 @@
+{
+ "rx": {
+  "B1": "withdraw|widerruf|right of withdrawal|garan|guarantee label|warranty label|legal guarantee",
+  "B2": "llms|\\bgeo\\b|ai visibility|chatgpt|answer engine|\\baeo\\b|ai index|ai seo|generative engine|ai crawler|ai search optim|ai agents?",
+  "B3": "blog|article|seo content",
+  "B4": "page builder|sections?\\b|landing page|store builder|theme section|page design",
+  "B5": "variant|product options?|custom options|size chart|swatch",
+  "B6": "whatsapp|chat order|order (via|on|by|through) (whatsapp|chat)|chat button|instagram (dm|chat|inbox)|\\bdm\\b",
+  "B7": "\\bcod\\b|cash on delivery|fraud|ip block|block (ip|countr|bots?)|blocklist|otp|bot (block|protection|traffic)",
+  "B8": "import|export|bulk|excel|csv|spreadsheet",
+  "B9": "delivery date|estimated delivery|\\beta\\b|pickup|pick-up|delivery slot|local delivery|delivery time"
+ },
+ "res": {
+  "B1": {
+   "den": 189,
+   "n": 7,
+   "miss": [],
+   "d90_median": 49,
+   "d90": [
+    27,
+    79,
+    289,
+    93,
+    48,
+    49,
+    46
+   ]
+  },
+  "B2": {
+   "den": 700,
+   "n": 10,
+   "miss": [],
+   "d90_median": 7.5,
+   "d90": [
+    23,
+    38,
+    12,
+    0,
+    15,
+    24,
+    2,
+    2,
+    3,
+    0
+   ]
+  },
+  "B3": {
+   "den": 267,
+   "n": 4,
+   "miss": [
+    "ai-blog-post-generator-1"
+   ],
+   "d90_median": 7.0,
+   "d90": [
+    11,
+    11,
+    1,
+    3
+   ]
+  },
+  "B4": {
+   "den": 219,
+   "n": 8,
+   "miss": [],
+   "d90_median": 5.0,
+   "d90": [
+    0,
+    6,
+    34,
+    4,
+    4,
+    29,
+    4,
+    16
+   ]
+  },
+  "B5": {
+   "den": 536,
+   "n": 8,
+   "miss": [],
+   "d90_median": 2.0,
+   "d90": [
+    6,
+    7,
+    0,
+    46,
+    2,
+    0,
+    1,
+    2
+   ]
+  },
+  "B6": {
+   "den": 453,
+   "n": 5,
+   "miss": [
+    "instachat"
+   ],
+   "d90_median": 7,
+   "d90": [
+    5,
+    20,
+    9,
+    7,
+    3
+   ]
+  },
+  "B7": {
+   "den": 437,
+   "n": 7,
+   "miss": [],
+   "d90_median": 3,
+   "d90": [
+    3,
+    3,
+    12,
+    0,
+    3,
+    12,
+    7
+   ]
+  },
+  "B8": {
+   "den": 1147,
+   "n": 5,
+   "miss": [],
+   "d90_median": 1,
+   "d90": [
+    1,
+    1,
+    4,
+    0,
+    1
+   ]
+  },
+  "B9": {
+   "den": 241,
+   "n": 5,
+   "miss": [],
+   "d90_median": 0,
+   "d90": [
+    0,
+    7,
+    0,
+    2,
+    0
+   ]
+  }
+ }
+}
