@@ -1,0 +1,12 @@
+Expresii (Python re, IGNORECASE) aplicate pe: slug cu cratimele înlocuite prin spații + name + tags + short_description.
+WP-A \bmcp\b|model context protocol
+WP-B llms[.\- ]?(full[.\- ]?)?txt|ai crawlers?|ai bots?|llm bots?|ai visibility|generative engine|answer engine|\baeo\b|ai search
+WP-C geo.?block|countr(y|ies) (block|restrict|access)|block(ing)? (countr|bots?|ips?)|ip block|ip blocker|bot ?block|bad bots
+WP-D whatsapp|click.to.(chat|call)|floating (contact|button|chat)|contact button|call (now )?button|telegram|zalo
+WP-E media library|unused (media|images)|import (external )?images|media (cleanup|cleaner|import|export)|upload limit|from server|images? (as )?zip
+WP-F cookie|consent
+WP-G elementor
+WP-H gutenberg|block editor|\bblocks?\b
+WP-I admin notices?|heartbeat|php (ini|settings)|memory limit|admin notes|dashboard notes
+WP-J google reviews|trustpilot|reviews widget|review widget|testimonial
+WP-K a/b test|ab test|split test|heatmap|session replay

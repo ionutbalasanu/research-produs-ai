@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>/* mobile-overflow-guard */html{overflow-x:hidden}img[width][height]{height:auto}.skip-link{position:absolute;left:-999px;top:0.5rem;z-index:10001;background:#C9A227;color:#2C2C2C;padding:.5rem 1rem;border-radius:4px;font-weight:600}.skip-link:focus{left:0.5rem}@font-face{font-family:'Inter Fallback';src:local('Arial'),local('Helvetica Neue'),local('Helvetica'),local('Liberation Sans');size-adjust:106.8%;ascent-override:90.71%;descent-override:22.58%;line-gap-override:0%}@font-face{font-family:'Cormorant Fallback';src:local('Times New Roman'),local('Times'),local('Liberation Serif');size-adjust:96%;ascent-override:96.25%;descent-override:29.9%;line-gap-override:0%}@media (max-width:768px){.mobile-menu-toggle{display:flex!important;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:5px}.mobile-menu-toggle span{display:block;width:24px;height:2px;background:#fff;border-radius:2px}.nav-links,.nav-right{display:none!important}.footer-links{grid-template-columns:repeat(2,1fr)!important;gap:2rem}.footer-bottom,.footer-legal{flex-wrap:wrap;row-gap:0.5rem}p code,li code,td code,dd code,h1 code,h2 code,h3 code,h4 code{overflow-wrap:anywhere}img,picture,video,iframe,img[style*="max-width"]{max-width:100%!important;height:auto}.compat-badges,.hero-badges,.trust-badges{flex-wrap:wrap}.ext-badge{max-width:100%;min-width:0;flex-wrap:wrap}[class$="-grid"]>*{min-width:0}[style*="display:flex"],[style*="display: flex"]{flex-wrap:wrap}[style*="repeat(auto-fit"],[style*="repeat(auto-fill"]{grid-template-columns:1fr!important}.cat-bar,.cat-bar-inner{overflow-x:auto}p,li,td,dd,h1,h2,h3,h4{overflow-wrap:break-word}[class$="-card"],[class$="-visual"]{min-width:0;max-width:100%}table{display:block!important;overflow-x:auto!important;max-width:100%}pre{overflow-x:auto!important;max-width:100%}.docs-layout{grid-template-columns:1fr!important}.docs-layout>*{min-width:0}.docs-content{min-width:0;max-width:100%!important;padding-left:1.25rem!important;padding-right:1.25rem!important}.benefits-grid,.category-grid,.steps-grid,.steps-container,.exclusive-grid,.resource-grid,.pillar-grid,.data-path-grid,.push-to-live-wrapper,.pro-grid,.tool-grid{grid-template-columns:1fr!important}.benefits-grid,.steps-grid,.tool-grid,.data-path-grid{display:grid!important}[style*="grid-template-columns:1fr 1fr"],[style*="grid-template-columns: 1fr 1fr"],[style*="grid-template-columns:repeat(2,1fr)"],[style*="grid-template-columns: repeat(2, 1fr)"],[style*="grid-template-columns:repeat(3,1fr)"],[style*="grid-template-columns: repeat(3, 1fr)"],[style*="grid-template-columns:repeat(4,1fr)"],[style*="grid-template-columns: repeat(4, 1fr)"]{grid-template-columns:1fr!important}}@media (min-width:769px) and (max-width:1299px){.logo-text,.nav-links>li>a,.nav-cta{white-space:nowrap}.nav-links{gap:1.25rem!important}.nav-links>li>a{font-size:0.875rem!important}.nav-cta{padding:0.5rem 1rem!important;font-size:0.8125rem!important}.nav-right{gap:0.5rem!important}}@media (min-width:769px) and (max-width:1099px){.logo-text{display:none!important}.nav-links{gap:0.875rem!important}.nav-links>li>a{font-size:0.8125rem!important}.nav-icon{width:32px!important;height:32px!important}}@media (min-width:769px) and (max-width:899px){.nav-icons{display:none!important}}</style>
+    <title>Royal MCP Setup Guide: Connect Claude, ChatGPT, Perplexity</title>
+    <meta name="description" content="Royal MCP setup guide: connect Claude, ChatGPT, or Perplexity to WordPress in 5 minutes with OAuth, plus troubleshooting and 250+ tools for Elementor.">
+
+    <meta property="og:title" content="Royal MCP Setup Guide: Connect Claude, ChatGPT & Perplexity to WordPress">
+    <meta property="og:description" content="Royal MCP setup guide: connect Claude, ChatGPT, or Perplexity to WordPress in 5 minutes with OAuth, plus troubleshooting and 250+ tools for Elementor.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://royalplugins.com/support/royal-mcp/">
+    <meta property="og:image" content="https://royalplugins.com/royal-mcp/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Royal Plugins">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Royal MCP Setup Guide: Connect Claude, ChatGPT & Perplexity to WordPress">
+    <meta name="twitter:description" content="Royal MCP setup guide: connect Claude, ChatGPT, or Perplexity to WordPress in 5 minutes with OAuth, plus troubleshooting and 250+ tools for Elementor.">
+    <meta name="twitter:image" content="https://royalplugins.com/royal-mcp/images/og-image.png">
+    <meta name="twitter:site" content="@royalplugins">
+
+    <link rel="canonical" href="https://royalplugins.com/support/royal-mcp/">
+    <link rel="alternate" type="text/markdown" href="https://royalplugins.com/support/royal-mcp/index.md" title="Markdown version">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": "Royal MCP Documentation",
+        "description": "Complete documentation for Royal MCP. Connect AI platforms to your WordPress site using Model Context Protocol.",
+        "datePublished": "2026-01-01",
+        "dateModified": "2026-11-12",
+        "author": { "@type": "Person", "name": "Jameson", "jobTitle": "Founder & Lead Developer", "url": "https://royalplugins.com/about/" },
+        "publisher": { "@type": "Organization", "name": "Royal Plugins", "url": "https://royalplugins.com" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://royalplugins.com/support/royal-mcp/" },
+        "about": { "@type": "SoftwareApplication", "name": "Royal MCP", "applicationCategory": "WordPress Plugin" }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "I installed Royal MCP but Claude keeps saying &ldquo;couldn&rsquo;t reach the MCP server&rdquo; &mdash; what&rsquo;s wrong?",
+                "acceptedAnswer": { "@type": "Answer", "text": "In most cases the plugin is fine and your host or CDN is intercepting the OAuth discovery URL before WordPress sees it. First check: visit /wp-admin/admin.php?page=royal-mcp and look for an orange admin notice. Royal MCP self-checks the /.well-known/oauth-authorization-server discovery endpoint and will name the specific host or WAF product (SiteGround, Cloudflare Zero Trust, Sucuri, Imunify360, BitNinja, LiteSpeed) blocking it, with a copy-paste fix for that product. If the notice is clear but Claude still fails, run curl -i https://YOURSITE.com/.well-known/oauth-authorization-server  a healthy response is JSON with issuer , authorization_endpoint , token_endpoint , and registration_endpoint fields. See Troubleshooting  Start Here and Diagnose with curl for the full flow." }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need Elementor Pro, WooCommerce Pro, or Divi Pro for the AI tools to work?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. Royal MCP s Elementor tools work with the free Elementor plugin. Its WooCommerce tools work with free WooCommerce. Its Divi tools work with the free Divi Builder plugin or the paid Divi theme. Tools only appear when the underlying plugin is active  install WooCommerce and its wc_* tools auto-register, install Elementor and its elementor_* tools auto-register. No premium tier of any host plugin is required." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I use ChatGPT with WordPress through Royal MCP, or is it Claude-only?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Royal MCP works with any MCP-compliant client. Claude Desktop uses the native Add Connector OAuth flow. ChatGPT connects as an app in Developer Mode using your MCP Server URL. Cursor, Windsurf, Claude Code, and VS Code with GitHub Copilot s MCP support all work. See the AI Platforms section for the full compatibility list and per-client setup patterns." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I let Claude modify my WordPress site and something breaks?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Every Royal MCP tool call is written to the Activity Log with timestamp, tool name, parameters (sensitive values redacted), and response status. WordPress s own revision system captures every post and page edit, so post-level rollback is one click in the editor. Destructive operations move items to Trash first, so restoration is one click from the Trash view. Royal MCP Pro adds a dedicated undo layer on top: one-click undo tokens on destructive tools valid for 72 to 168 hours depending on the operation, plus a Recent Operations dashboard widget that surfaces every pending undo in one place with batch rollback support." }
+            },
+            {
+                "@type": "Question",
+                "name": "I&rsquo;m on shared hosting &mdash; is Royal MCP going to slow down my site?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. Royal MCP only runs when an AI client makes a request to /wp-json/royal-mcp/v1/* . It does not add any frontend code, does not hook into page rendering, and does not run on non-AI page loads. Regular visitors and Core Web Vitals scores are completely unaffected  the plugin only executes when an authenticated tool call arrives." }
+            },
+            {
+                "@type": "Question",
+                "name": "What&rsquo;s the difference between Royal MCP (free) and Royal MCP Pro?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Free ships 250+ tools with unlimited use for as many AI clients as you connect, Drafts only and per-client access levels, 72-hour undo with a Recent Changes screen, WordPress native revisions plus Trash-based recovery, and Activity Logs that persist until you clear them. Pro adds an agency-scale governance layer on top: undo extended to 7 days, a Recent Operations dashboard widget with batch undo, extended audit retention (90 days by default, filterable), per-tool endpoint profiles that scope which tools any client can see, and priority email support. Pro comes with every Royally plan, from $9 a month (Solo, 3 sites) to $790 a year (Agency, 250 sites)." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Royal MCP work on WordPress multisite networks?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes, on a per-site basis. Each site in a multisite network has its own API key, its own Activity Log, and its own settings. AI clients connect to a specific site s MCP endpoint  Royal MCP does not bridge requests between sites in the network." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Royal MCP work with WPML, Polylang, or TranslatePress for multilingual content?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Translated posts appear as separate WordPress posts (each with its own ID and language meta) and are readable or writable via the standard wp_get_posts , wp_create_post , and wp_update_post tools. AI agents can list posts in a specific language by filtering on the language meta key, or translate a post and write the corresponding translation by ID." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I limit which posts, pages, or post types AI can access?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The wp_get_posts and wp_create_post tools accept a post_type parameter and validate it against registered public post types, so private or internal post types are not exposed. Plugin authors can disable specific tools entirely with the royal_mcp_disabled_tools filter, or scope the option-write allowlist with royal_mcp_writable_options . WordPress s standard capability checks also apply to every tool call." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://royalplugins.com" },
+            { "@type": "ListItem", "position": 2, "name": "Support", "item": "https://royalplugins.com/support/" },
+            { "@type": "ListItem", "position": 3, "name": "Royal MCP", "item": "https://royalplugins.com/support/royal-mcp/" }
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+    <style>:root{--gold:#C9A227;--gold-light:#D4AF37;--gold-dark:#B8960F;--gold-subtle:rgba(201,162,39,0.08);--cream:#FAF8F5;--cream-dark:#F5F0E8;--charcoal:#2C2C2C;--charcoal-light:#4A4A4A;--charcoal-muted:#6B6B6B;--white:#FFFFFF;--border-light:rgba(201,162,39,0.15);--success:#22C55E;--info:#3B82F6;--warning:#F59E0B;--danger:#EF4444}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter','Inter Fallback',-apple-system,BlinkMacSystemFont,sans-serif;background-color:var(--cream);color:var(--charcoal);line-height:1.6}nav{position:fixed;top:0;left:0;right:0;padding:1.25rem 5%;display:flex;justify-content:space-between;align-items:center;z-index:1000;background:var(--charcoal);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.1)}.logo{display:flex;align-items:center;gap:0.75rem;text-decoration:none;color:var(--white)}.logo-mark{width:36px;height:36px;background:var(--gold);border-radius:4px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.logo-mark span{color:var(--charcoal);font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-weight:700;font-size:1.125rem}.logo-text{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-weight:600;font-size:1.25rem;letter-spacing:0.05em}.nav-links{display:flex;align-items:center;gap:2.5rem;list-style:none}.nav-links a{text-decoration:none;color:rgba(255,255,255,0.8);font-size:0.9375rem;font-weight:500;transition:color 0.2s ease}.nav-links a:hover,.nav-links a.active{color:var(--gold)}.nav-cta{background:var(--gold);color:var(--charcoal);padding:0.625rem 1.5rem;border-radius:2px;text-decoration:none;font-size:0.9375rem;font-weight:500;letter-spacing:0.05em;transition:all 0.2s ease}.nav-cta:hover{background:var(--gold-dark)}.nav-right{display:flex;align-items:center;gap:0.75rem}.nav-icons{display:flex;align-items:center;gap:0.5rem}.nav-icon{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.85);text-decoration:none;transition:all 0.2s ease}.nav-icon:hover{background:var(--gold);color:var(--charcoal)}.nav-icon svg{width:18px;height:18px}.nav-dropdown{position:relative}.nav-dropdown > a{display:flex;align-items:center;gap:0.375rem}.nav-dropdown > a svg{width:14px;height:14px;transition:transform 0.2s ease}.nav-dropdown:hover > a svg{transform:rotate(180deg)}.dropdown-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);background:var(--white);border:1px solid var(--border-light);border-radius:4px;padding:0.5rem 0;min-width:180px;opacity:0;visibility:hidden;transition:all 0.2s ease;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin-top:0.5rem}.nav-dropdown:hover .dropdown-menu{opacity:1;visibility:visible}.dropdown-menu a{display:block;padding:0.625rem 1.25rem;color:var(--charcoal-light);text-decoration:none;font-size:0.875rem;transition:all 0.15s ease}.dropdown-menu a:hover{background:var(--gold-subtle);color:var(--gold-dark)}.docs-content{max-width:800px;margin:0 auto;padding:6rem 2rem 4rem}.docs-breadcrumb{display:flex;align-items:center;gap:0.5rem;font-size:0.8125rem;color:var(--charcoal-muted);margin-bottom:2rem}.docs-breadcrumb a{color:var(--charcoal-muted);text-decoration:none}.docs-breadcrumb a:hover{color:var(--gold)}.docs-title{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:2.5rem;font-weight:600;margin-bottom:1rem;letter-spacing:-0.02em}.docs-description{font-size:1.125rem;color:var(--charcoal-muted);margin-bottom:2rem;line-height:1.7}.alert-banner{background:linear-gradient(135deg,#D1FAE5 0%,#A7F3D0 100%);border:1px solid #6EE7B7;border-left:4px solid var(--success);padding:1.5rem;border-radius:4px;margin-bottom:3rem}.alert-banner h3{font-size:1rem;font-weight:600;color:#065F46;margin-bottom:0.5rem;display:flex;align-items:center;gap:0.5rem}.alert-banner p{color:#064E3B;font-size:0.9375rem;margin:0}.docs-section{margin-bottom:3rem;scroll-margin-top:100px}.docs-section h2{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:1.75rem;font-weight:600;margin-bottom:1rem;padding-bottom:0.75rem;border-bottom:1px solid var(--border-light)}.docs-section h3{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:1.375rem;font-weight:600;margin:2rem 0 1rem}.docs-section p{margin-bottom:1rem;line-height:1.7}.docs-section ul,.docs-section ol{margin-bottom:1rem;padding-left:1.5rem}.docs-section li{margin-bottom:0.5rem;line-height:1.6}.info-box{padding:1.25rem 1.5rem;border-radius:4px;margin:1.5rem 0;border-left:4px solid}.info-box.tip{background:rgba(34,197,94,0.08);border-color:var(--success)}.info-box.note{background:rgba(59,130,246,0.08);border-color:var(--info)}.info-box.warning{background:rgba(245,158,11,0.08);border-color:var(--warning)}.info-box.danger{background:rgba(239,68,68,0.08);border-color:var(--danger)}.info-box-title{font-weight:600;font-size:0.875rem;margin-bottom:0.5rem}.info-box p{margin:0;font-size:0.9375rem}.steps{counter-reset:step;margin:1.5rem 0}.step{position:relative;padding-left:3rem;padding-bottom:1.5rem;border-left:2px solid var(--border-light);margin-left:1rem}.step:last-child{border-left:none;padding-bottom:0}.step::before{counter-increment:step;content:counter(step);position:absolute;left:-1rem;top:0;width:2rem;height:2rem;background:var(--charcoal);color:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-weight:600;font-size:0.875rem}.step h4{font-size:1rem;font-weight:600;margin-bottom:0.5rem}.step p{font-size:0.9375rem;color:var(--charcoal-muted);margin:0 0 0.75rem 0}.code-block{background:#1a1a2e;border-radius:8px;padding:1.25rem 1.5rem;margin:1rem 0 1.5rem;overflow-x:auto;border:1px solid rgba(201,162,39,0.2)}.code-block pre{margin:0;font-family:'JetBrains Mono','Fira Code',monospace;font-size:0.875rem;line-height:1.6;color:#e2e8f0;white-space:pre}.docs-content .code-block code{background:none;padding:0;color:inherit;font-size:inherit}code{background:rgba(201,162,39,0.12);color:var(--charcoal);padding:0.2em 0.45em;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:0.85em;font-weight:500}code{font-family:'JetBrains Mono',monospace;background:var(--cream-dark);padding:0.125rem 0.375rem;border-radius:3px;font-size:0.875em}.issue-card{background:var(--white);border:1px solid var(--border-light);border-radius:4px;padding:1.5rem;margin-bottom:1.5rem}.issue-card h4{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:1.25rem;font-weight:600;margin-bottom:0.5rem;color:var(--charcoal)}.issue-card .symptom{color:var(--charcoal-muted);font-size:0.9375rem;margin-bottom:1rem;font-style:italic}.issue-card h5{font-size:0.875rem;font-weight:600;margin-bottom:0.5rem;color:var(--charcoal)}.compare-table{width:100%;border-collapse:collapse;margin:1.5rem 0;background:var(--white);border:1px solid var(--border-light);border-radius:4px;overflow:hidden}.compare-table th,.compare-table td{padding:0.875rem 1rem;text-align:left;border-bottom:1px solid var(--border-light);font-size:0.9375rem;vertical-align:top}.compare-table th{background:var(--cream-dark);font-weight:600;font-size:0.8125rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--charcoal)}.compare-table tr:last-child td{border-bottom:none}.docs-footer{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border-light);display:flex;justify-content:space-between;align-items:center}.docs-footer a{color:var(--charcoal);text-decoration:none;font-size:0.875rem;font-weight:500;display:flex;align-items:center;gap:0.5rem;transition:color 0.2s ease}.docs-footer a:hover{color:var(--gold)}.site-footer{padding:5rem 5% 2rem;background:var(--charcoal);color:var(--white)}.footer-content{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:3rem;padding-bottom:4rem;border-bottom:1px solid rgba(255,255,255,0.1)}.footer-brand .logo-text{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-weight:600;font-size:1.375rem;margin-bottom:1rem;display:block;letter-spacing:0.05em}.footer-brand{text-align:center;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,0.06)}.footer-brand p{color:rgba(255,255,255,0.5);font-size:0.9rem;max-width:480px;margin:0 auto;line-height:1.7;font-weight:300}.footer-links{display:grid;grid-template-columns:repeat(5,1fr);gap:2rem}.footer-column .footer-heading{font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:1.125rem;font-weight:600;margin-bottom:1.25rem;color:var(--white)}.footer-column ul{list-style:none}.footer-column ul li{margin-bottom:0.625rem}.footer-column ul a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.875rem;transition:color 0.2s ease}.footer-column ul a:hover{color:var(--gold)}.footer-bottom{max-width:1100px;margin:0 auto;padding-top:2rem;display:flex;justify-content:space-between;align-items:center;font-size:0.8125rem;color:rgba(255,255,255,0.4)}.footer-legal{display:flex;gap:1.5rem}.footer-legal a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.8125rem;transition:color 0.2s ease}.footer-legal a:hover{color:var(--gold)}@media (max-width:768px){.nav-links,.nav-right{display:none}.docs-title{font-size:2rem}.docs-content{padding:5rem 1.5rem 3rem}.footer-content{flex-direction:column;gap:3rem}.footer-links{grid-template-columns:repeat(2,1fr);gap:2rem}.footer-bottom{flex-direction:column;gap:1rem;text-align:center}.mobile-menu-toggle{display:flex}}.mobile-menu-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:5px}.mobile-menu-toggle span{width:24px;height:2px;background:var(--white);transition:all 0.3s ease}.mobile-menu{display:none;position:fixed;top:73px;left:0;right:0;background:var(--white);border-bottom:1px solid var(--border-light);padding:1rem 5%;z-index:999}.mobile-menu.active{display:block}.mobile-menu a{display:block;padding:0.75rem 0;text-decoration:none;color:var(--charcoal);font-size:1rem;border-bottom:1px solid var(--border-light)}.mobile-menu a:last-child{border-bottom:none}.mobile-menu a:hover{color:var(--gold)}@media (max-width:768px){.mobile-menu-toggle{display:flex}}.mega-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);background:var(--white);border:1px solid var(--border-light);border-radius:6px;padding:1.5rem 2rem;width:700px;opacity:0;visibility:hidden;transition:all 0.25s ease;box-shadow:0 12px 40px rgba(0,0,0,0.12);margin-top:0.5rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}.mega-menu-tools{grid-template-columns:repeat(4,1fr);width:820px}.mega-badge.chrome{background:rgba(59,130,246,0.1);color:#2563eb}.nav-dropdown:hover .mega-menu{opacity:1;visibility:visible}.mega-col h5{font-size:0.625rem;font-weight:700;text-transform:uppercase;letter-spacing:0.12em;color:var(--gold-dark);margin-bottom:0.625rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border-light)}.mega-col a{display:flex;align-items:center;gap:0.375rem;padding:0.35rem 0;color:var(--charcoal-light);text-decoration:none;font-size:0.8125rem;transition:color 0.15s ease;white-space:nowrap}.mega-col a:hover{color:var(--gold)}.mega-badge{font-size:0.5625rem;font-weight:700;letter-spacing:0.04em;padding:0.1rem 0.35rem;border-radius:2px;line-height:1}.mega-badge.free{background:rgba(34,197,94,0.1);color:#16a34a}.mega-badge.pro{background:var(--gold-subtle);color:var(--gold-dark)}.mobile-menu-section{padding:0.5rem 0;border-bottom:1px solid var(--border-light)}.mobile-menu-section:last-of-type{border-bottom:none}.mobile-menu-heading{display:flex;justify-content:space-between;align-items:center;padding:0.75rem 0;font-size:0.6875rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold-dark);cursor:pointer;user-select:none}.mobile-menu-heading svg{width:14px;height:14px;transition:transform 0.2s ease;color:var(--charcoal-muted)}.mobile-menu-heading.open svg{transform:rotate(180deg)}.mobile-menu-items{display:none;padding-bottom:0.25rem}.mobile-menu-items.open{display:block}.mobile-menu-items a{padding:0.5rem 0.75rem !important;font-size:0.9375rem !important}@media(max-width:768px){.mega-menu{display:none !important}}
+    .docs-image{display:block;width:auto;max-width:100%;height:auto;border:1px solid var(--border-light);border-radius:4px;margin:1.5rem auto;cursor:pointer;transition:all 0.2s ease}.docs-image:hover{box-shadow:0 10px 30px rgba(0,0,0,0.1)}.docs-image-caption{font-size:0.8125rem;color:var(--charcoal-muted);text-align:center;margin-top:-1rem;margin-bottom:1.5rem}.lightbox{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:9999;justify-content:center;align-items:center;padding:2rem}.lightbox.active{display:flex}.lightbox img{max-width:100%;max-height:90vh;object-fit:contain;border-radius:4px}.lightbox-close{position:absolute;top:1.5rem;right:2rem;width:48px;height:48px;background:rgba(255,255,255,0.1);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.2s ease}.lightbox-close:hover{background:var(--gold)}.lightbox-close svg{width:24px;height:24px;color:white}
+    :root {
+        --gold: #C9A227;
+        --gold-light: #D4AF37;
+        --gold-dark: #B8960F;
+        --gold-subtle: rgba(201, 162, 39, 0.08);
+        --cream: #FAF8F5;
+        --cream-dark: #F5F0E8;
+        --charcoal: #2C2C2C;
+        --charcoal-light: #4A4A4A;
+        --charcoal-muted: #6B6B6B;
+        --white: #FFFFFF;
+        --border-light: rgba(201, 162, 39, 0.15);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+        font-family: 'Inter','Inter Fallback', -apple-system, BlinkMacSystemFont, sans-serif;
+        background: var(--cream);
+        color: var(--charcoal);
+        line-height: 1.6;
+    }
+
+    .mockup-banner {
+        position: sticky; top: 0; z-index: 1001;
+        background: var(--gold); color: var(--charcoal);
+        padding: 0.5rem 1rem;
+        text-align: center; font-size: 0.75rem;
+        font-family: 'JetBrains Mono', monospace;
+        letter-spacing: 0.05em;
+    }
+
+    nav.top-nav {
+        padding: 1.25rem 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--charcoal);
+        color: var(--white);
+    }
+    .top-nav .logo { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--white); }
+    .top-nav .logo-mark {
+        width: 36px; height: 36px; background: var(--gold); border-radius: 4px;
+        display: flex; align-items: center; justify-content: center;
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif; font-weight: 700; color: var(--charcoal);
+    }
+    .top-nav .logo-text {
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif; font-weight: 600; font-size: 1.25rem;
+        letter-spacing: 0.05em;
+    }
+    .top-nav .nav-cta {
+        background: var(--gold); color: var(--charcoal); padding: 0.625rem 1.5rem;
+        border-radius: 2px; text-decoration: none; font-size: 0.9375rem;
+        font-weight: 500; letter-spacing: 0.05em;
+    }
+
+    /* HERO */
+    .hub-hero {
+        padding: 4rem 5% 2.5rem;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .hub-breadcrumb {
+        display: flex; gap: 0.5rem;
+        font-size: 0.8125rem;
+        color: var(--charcoal-muted);
+        margin-bottom: 2rem;
+    }
+    .hub-breadcrumb a { color: var(--charcoal-muted); text-decoration: none; }
+    .hub-breadcrumb a:hover { color: var(--gold); }
+    .hub-hero h1 {
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif;
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-bottom: 1rem;
+        max-width: 780px;
+    }
+    .hub-hero h1 .highlight { color: var(--gold); }
+    .hub-hero .lede {
+        font-size: 1.125rem;
+        color: var(--charcoal-muted);
+        max-width: 680px;
+        margin-bottom: 2rem;
+        line-height: 1.7;
+    }
+    .hub-hero .cta-row {
+        display: flex; gap: 1rem; flex-wrap: wrap;
+    }
+    .hub-cta-primary {
+        background: var(--charcoal); color: var(--white);
+        padding: 0.875rem 1.75rem; border-radius: 2px;
+        text-decoration: none; font-weight: 500;
+        font-size: 0.9375rem; letter-spacing: 0.03em;
+        transition: background 0.15s;
+        display: inline-flex; align-items: center; gap: 0.5rem;
+    }
+    .hub-cta-primary:hover { background: var(--gold-dark); }
+    .hub-cta-secondary {
+        color: var(--charcoal); padding: 0.875rem 0.5rem;
+        text-decoration: none; font-weight: 500;
+        font-size: 0.9375rem;
+        border-bottom: 1px solid var(--charcoal);
+        transition: color 0.15s, border-color 0.15s;
+    }
+    .hub-cta-secondary:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+    /* SECTIONS */
+    .hub-body {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 1.5rem 5% 4rem;
+    }
+    .hub-section {
+        margin-bottom: 4rem;
+        scroll-margin-top: 100px;
+    }
+    .hub-section-title {
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif;
+        font-size: 1.75rem; font-weight: 600;
+        display: flex; align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+    .hub-section-title .emoji { font-size: 1.5rem; line-height: 1; }
+    .hub-section-lede {
+        font-size: 0.9375rem;
+        color: var(--charcoal-muted);
+        margin: 0 0 1.75rem;
+        max-width: 720px;
+    }
+    .hub-subhead {
+        font-size: 0.6875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--gold-dark);
+        font-weight: 600;
+        margin: 1.75rem 0 0.75rem;
+    }
+
+    /* START HERE — big promoted card */
+    .start-here-card {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.75rem 2rem;
+        background: var(--white);
+        border: 1px solid var(--gold);
+        border-left: 4px solid var(--gold);
+        border-radius: 4px;
+        text-decoration: none;
+        color: var(--charcoal);
+        margin-bottom: 1.5rem;
+        transition: all 0.15s ease;
+        position: relative;
+    }
+    .start-here-card:hover {
+        background: var(--gold-subtle);
+        transform: translateY(-1px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+    .start-here-icon {
+        font-size: 2.25rem;
+        line-height: 1;
+        flex-shrink: 0;
+    }
+    .start-here-body { flex: 1; }
+    .start-here-tag {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.6875rem;
+        color: var(--gold-dark);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+    .start-here-title {
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.35rem;
+        line-height: 1.2;
+    }
+    .start-here-desc {
+        font-size: 0.9375rem;
+        color: var(--charcoal-muted);
+        line-height: 1.5;
+        max-width: 640px;
+    }
+    .start-here-arrow {
+        flex-shrink: 0;
+        color: var(--gold);
+    }
+
+    /* EXPAND BUTTON */
+    .expand-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+        background: transparent;
+        color: var(--charcoal);
+        border: 1px solid var(--border-light);
+        padding: 0.625rem 1.25rem;
+        border-radius: 2px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.15s;
+    }
+    .expand-toggle:hover {
+        border-color: var(--gold);
+        color: var(--gold-dark);
+    }
+    .expand-toggle .arrow {
+        transition: transform 0.2s;
+    }
+    .ts-expanded .expand-toggle .arrow {
+        transform: rotate(180deg);
+    }
+    .ts-expanded .expand-toggle .expand-label { display: none; }
+    .expand-toggle .collapse-label { display: none; }
+    .ts-expanded .expand-toggle .collapse-label { display: inline; }
+
+    /* 3-COL GRID with bumped readability */
+    .hub-grid-dense {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .hub-card {
+        display: flex; flex-direction: column;
+        padding: 1.25rem 1.5rem;
+        background: var(--white);
+        border: 1px solid var(--border-light);
+        border-radius: 4px;
+        text-decoration: none; color: var(--charcoal);
+        transition: all 0.15s ease;
+    }
+    .hub-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .hub-card.popular {
+        background: var(--gold-subtle);
+        border-color: rgba(201, 162, 39, 0.35);
+    }
+    .hub-card.popular:hover {
+        background: rgba(201, 162, 39, 0.14);
+        border-color: var(--gold);
+    }
+    .hub-card-tag {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.6875rem;
+        color: var(--gold-dark);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+    .hub-card-title {
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif;
+        font-size: 1.1875rem; font-weight: 600;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+    }
+    .hub-card-desc {
+        font-size: 0.9375rem;
+        color: var(--charcoal-muted);
+        line-height: 1.55;
+        flex: 1;
+    }
+
+    /* Higher-specificity expand rules — must override .hub-card display */
+    .hub-card.expand-hidden { display: none; }
+    .ts-expanded .hub-card.expand-hidden, .feat-expanded .hub-card.expand-hidden { display: flex; }
+
+    /* CONTACT CTA */
+    .hub-contact {
+        background: var(--white);
+        border-left: 3px solid var(--gold);
+        padding: 1.75rem 2.25rem;
+        border-radius: 4px;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .hub-contact h3 {
+        font-family: 'Cormorant Garamond','Cormorant Fallback', serif;
+        font-size: 1.375rem; font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+    .hub-contact p {
+        font-size: 0.875rem; color: var(--charcoal-muted); margin: 0;
+    }
+    .hub-contact-cta {
+        background: var(--charcoal); color: var(--white);
+        padding: 0.75rem 1.5rem; text-decoration: none;
+        border-radius: 2px; font-size: 0.875rem; font-weight: 500;
+    }
+
+    footer.site-footer {
+        background: var(--charcoal);
+        color: rgba(255,255,255,0.5);
+        text-align: center;
+        padding: 3rem 5%;
+        font-size: 0.8125rem;
+    }
+
+    /* RESPONSIVE — 3-col → 2-col → 1-col */
+    @media (max-width: 1024px) {
+        .hub-grid-dense { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+        .hub-grid-dense { grid-template-columns: 1fr; }
+        .hub-hero h1 { font-size: 2rem; }
+        .hub-hero { padding: 3rem 1.5rem 2rem; }
+        .hub-body { padding: 1rem 1.5rem 3rem; }
+        .start-here-card { flex-direction: column; align-items: flex-start; text-align: left; padding: 1.25rem 1.5rem; }
+        .start-here-arrow { align-self: flex-end; }
+    }
+    
+    .hub-videos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem}
+    .hub-video-card{display:block;text-decoration:none;color:inherit;border-radius:6px;overflow:hidden;background:var(--white);border:1px solid var(--border-light);transition:all 0.2s ease}
+    .hub-video-card:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+    .hub-video-thumb{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#1f1f1f 0%,#2c2c2c 100%);overflow:hidden}
+    .hub-video-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+    .hub-video-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:52px;height:52px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all 0.2s ease;box-shadow:0 4px 12px rgba(0,0,0,0.35)}
+    .hub-video-card:hover .hub-video-play{transform:translate(-50%,-50%) scale(1.1);background:var(--gold-light)}
+    .hub-video-play svg{width:20px;height:20px;color:var(--charcoal);margin-left:3px}
+    .hub-video-title{padding:0.875rem 1rem;font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:0.9375rem;font-weight:600;line-height:1.3;color:var(--charcoal)}
+    .hub-video-all-link{display:inline-flex;align-items:center;gap:0.5rem;margin-top:1.25rem;color:var(--charcoal);text-decoration:none;font-size:0.875rem;font-weight:500;border-bottom:1px solid var(--charcoal);padding-bottom:2px}
+    .hub-video-all-link:hover{color:var(--gold-dark);border-color:var(--gold-dark)}
+    @media (max-width:1024px){.hub-videos-grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:640px){.hub-videos-grid{grid-template-columns:1fr}}
+
+    .hub-faq-list{display:flex;flex-direction:column;gap:0.5rem;margin-top:0.5rem}
+    .hub-faq-item{background:var(--white);border:1px solid var(--border-light);border-radius:4px;transition:border-color 0.15s ease}
+    .hub-faq-item[open]{border-color:var(--gold)}
+    .hub-faq-item summary{list-style:none;cursor:pointer;padding:1.125rem 1.375rem;font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:1.25rem;font-weight:600;color:var(--charcoal);line-height:1.35;position:relative;padding-right:2.75rem}
+    .hub-faq-item summary::-webkit-details-marker{display:none}
+    .hub-faq-item summary::after{content:'+';position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);font-size:1.25rem;font-weight:400;color:var(--gold-dark);transition:transform 0.2s ease}
+    .hub-faq-item[open] summary::after{content:'−'}
+    .hub-faq-item summary:hover{color:var(--gold-dark)}
+    .hub-faq-answer{padding:0 1.25rem 1.25rem;font-size:0.9375rem;line-height:1.7;color:var(--charcoal-muted)}
+    .hub-faq-answer p{margin-bottom:0.75rem}
+    .hub-faq-answer p:last-child{margin-bottom:0}
+    .hub-faq-answer code{background:rgba(201,162,39,0.12);color:var(--charcoal);padding:0.15em 0.4em;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:0.85em}
+</style>
+
+    <script src="https://my.royalplugins.com/wp-content/plugins/royal-affiliate-pro/assets/js/rafp-track.js?ver=2.6.22" data-store="my.royalplugins.com" data-param="ref" data-days="60" async></script>
+</head>
+<body>
+    <nav>
+        <a href="#main" class="skip-link">Skip to content</a>
+        <a href="/" class="logo">
+            <div class="logo-mark"><span>R</span></div>
+            <span class="logo-text">Royal Plugins</span>
+        </a>
+        <ul class="nav-links">
+            <li class="nav-dropdown">
+                <a href="/plugins/">
+                    WordPress Plugins
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </a>
+                <div class="mega-menu">
+                    <div class="mega-col">
+                        <h5>Security &amp; Compliance</h5>
+                        <a href="/guardpress/">GuardPress <span class="mega-badge pro">PRO</span></a>
+                        <a href="/royal-ai-firewall/">Royal AI Firewall <span class="mega-badge free">FREE</span></a>
+                        <a href="/royal-access/">Royal Access <span class="mega-badge free">FREE</span></a>
+                    </div>
+                    <div class="mega-col">
+                        <h5>Speed &amp; Backups</h5>
+                        <a href="/forgecache/">ForgeCache <span class="mega-badge pro">PRO</span></a>
+                        <a href="/sitevault/">SiteVault <span class="mega-badge pro">PRO</span></a>
+                        <a href="/sitevault-lite/">SiteVault Lite <span class="mega-badge free">FREE</span></a>
+                    </div>
+                    <div class="mega-col">
+                        <h5>SEO &amp; Growth</h5>
+                        <a href="/seobolt/">SEObolt <span class="mega-badge pro">PRO</span></a>
+                        <a href="/royal-links/">Royal Links <span class="mega-badge free">FREE</span></a>
+                        <a href="/royal-affiliates/">Royal Affiliates <span class="mega-badge pro">PRO</span></a>
+                    </div>
+                    <div class="mega-col">
+                        <h5>Site Essentials</h5>
+                        <a href="/royal-mcp-pro/">Royal MCP Pro <span class="mega-badge pro">PRO</span></a>
+                        <a href="/royal-mcp/">Royal MCP <span class="mega-badge free">FREE</span></a>
+                        <a href="/royal-smtp/">Royal SMTP <span class="mega-badge free">FREE</span></a>
+                        <a href="/formforge/">FormForge <span class="mega-badge pro">PRO</span></a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-dropdown">
+                <a href="/tools/">
+                    Free Tools
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </a>
+                <div class="mega-menu mega-menu-tools">
+                    <div class="mega-col">
+                        <h5>SEO Tools</h5>
+                        <a href="/tools/serp-preview/">SERP Preview</a>
+                        <a href="/tools/schema-validator/">Schema Validator</a>
+                        <a href="/tools/meta-tag-checker/">Meta Tag Checker</a>
+                    </div>
+                    <div class="mega-col">
+                        <h5>Security Tools</h5>
+                        <a href="/tools/ssl-checker/">SSL Checker</a>
+                        <a href="/tools/http-headers-checker/">HTTP Headers</a>
+                        <a href="/tools/wordpress-security-scanner/">Site Scanner</a>
+                        <a href="/tools/wordpress-plugin-security-scanner/">Plugin Scanner</a>
+                    </div>
+                    <div class="mega-col">
+                        <h5>Chrome Extensions</h5>
+                        <a href="/royal-links/chrome/">Royal Links <span class="mega-badge chrome">CHROME</span></a>
+                        <a href="/royal-access/chrome/">Royal Access <span class="mega-badge chrome">CHROME</span></a>
+                    </div>
+                    <div class="mega-col">
+                        <h5>Claude Skills</h5>
+                        <a href="/skills/"><strong>Skills Library</strong></a>
+                        <a href="/skills/divi-claude-skill/">Divi Skill <span class="mega-badge free">FREE</span></a>
+                        <a href="/skills/woocommerce-claude-skill/">WooCommerce Skill <span class="mega-badge free">FREE</span></a>
+                        <a href="/skills/elementor-claude-skill/">Elementor Skill <span class="mega-badge free">FREE</span></a>
+                        <a href="/skills/submit/">Submit yours &rarr;</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="/pricing/">Pricing</a></li>
+            <li class="nav-dropdown">
+                <a href="/resources/">
+                    Resources
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="/blog/">Blog</a>
+                    <a href="/switch/">Switch to Royal</a>
+                    <a href="/plugin-graveyard/">Plugin Graveyard</a>
+                </div>
+            </li>
+            <li><a href="/support/">Support</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="https://wordpress.org/plugins/royal-mcp/" class="nav-cta" target="_blank">CONNECT NOW</a>
+            <div class="nav-icons">
+                <a href="https://my.royalplugins.com/my-account/" class="nav-icon" title="My Account">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </a>
+                <a href="https://my.royalplugins.com/cart/" class="nav-icon" title="Cart">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                </a>
+            </div>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="rp-mobile-menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="rp-mobile-menu">
+        <div class="mobile-menu-section">
+            <div class="mobile-menu-heading" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                WordPress Plugins
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+            <div class="mobile-menu-items">
+                <a href="/guardpress/">GuardPress</a>
+                <a href="/royal-ai-firewall/">Royal AI Firewall</a>
+                <a href="/forgecache/">ForgeCache</a>
+                <a href="/sitevault/">SiteVault</a>
+                <a href="/sitevault-lite/">SiteVault Lite</a>
+                <a href="/seobolt/">SEObolt</a>
+                <a href="/royal-links/">Royal Links</a>
+                <a href="/royal-affiliates/">Royal Affiliates</a>
+                <a href="/formforge/">FormForge</a>
+                <a href="/royal-mcp-pro/">Royal MCP Pro</a>
+                <a href="/royal-mcp/">Royal MCP</a>
+                <a href="/royal-smtp/">Royal SMTP</a>
+                <a href="/royal-access/">Royal Access</a>
+            </div>
+        </div>
+        <div class="mobile-menu-section">
+            <div class="mobile-menu-heading" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                Free Tools
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+            <div class="mobile-menu-items">
+                <a href="/tools/serp-preview/">SERP Preview</a>
+                <a href="/tools/schema-validator/">Schema Validator</a>
+                <a href="/tools/meta-tag-checker/">Meta Tag Checker</a>
+                <a href="/tools/ssl-checker/">SSL Checker</a>
+                <a href="/tools/http-headers-checker/">HTTP Headers</a>
+                <a href="/tools/wordpress-security-scanner/">Site Scanner</a>
+                <a href="/tools/wordpress-plugin-security-scanner/">Plugin Scanner</a>
+                <a href="/royal-links/chrome/">Royal Links (Chrome)</a>
+                <a href="/royal-access/chrome/">Royal Access (Chrome)</a>
+            </div>
+        </div>
+        <div class="mobile-menu-section">
+            <div class="mobile-menu-heading" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                Claude Skills
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+            <div class="mobile-menu-items">
+                <a href="/skills/"><strong>Skills Library</strong></a>
+                <a href="/skills/divi-claude-skill/">Divi Claude Skill</a>
+                <a href="/skills/woocommerce-claude-skill/">WooCommerce Claude Skill</a>
+                <a href="/skills/elementor-claude-skill/">Elementor Claude Skill</a>
+                <a href="/skills/submit/">Submit a Skill</a>
+            </div>
+        </div>
+        <div class="mobile-menu-section">
+            <div class="mobile-menu-heading" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                Resources
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+            <div class="mobile-menu-items">
+                <a href="/resources/"><strong>Resources Hub</strong></a>
+                <a href="/blog/">Blog</a>
+                <a href="/switch/">Switch to Royal</a>
+                <a href="/plugin-graveyard/">Plugin Graveyard</a>
+            </div>
+        </div>
+        <a href="/pricing/">Pricing</a>
+        <a href="/support/">Support</a>
+        <a href="https://my.royalplugins.com/my-account/">My Account</a>
+        <a href="https://my.royalplugins.com/cart/">Cart</a>
+        <script>(function(){var t=document.querySelector('.mobile-menu-toggle'),m=document.getElementById('rp-mobile-menu');if(!t||!m)return;t.addEventListener('click',function(){var was=m.classList.contains('active');setTimeout(function(){if(m.classList.contains('active')===was){m.classList.toggle('active');t.classList.toggle('active');}t.setAttribute('aria-expanded',m.classList.contains('active')?'true':'false');},0);});})();</script>
+    </div>
+
+<header class="hub-hero">
+        <div class="hub-breadcrumb" aria-label="breadcrumb">
+            <a href="/">Home</a> <span>›</span>
+            <a href="/support/">Support</a> <span>›</span>
+            <span>Royal MCP</span></div>
+        <h1>Royal MCP <span class="highlight">Documentation</span></h1>
+        <p class="lede">Bring Claude, ChatGPT, Perplexity, or any MCP-compatible AI client into WordPress in 5 minutes. Setup guides, 250+ tool reference, and fixes for every host + WAF that gets in the way.</p>
+        <div class="cta-row">
+            <a href="/support/royal-mcp/connecting-to-claude/" class="hub-cta-primary">
+                Connect Claude in 5 min
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/support/royal-mcp/connecting-to-chatgpt/" class="hub-cta-primary">
+                Connect ChatGPT in 5 min
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </header>
+
+    <main id="main" class="hub-body">
+
+        <!-- Legacy anchor targets preserved -->
+        <span id="installation" aria-hidden="true"></span>
+        <span id="configuration" aria-hidden="true"></span>
+        <span id="claude-desktop" aria-hidden="true"></span>
+        <span id="oauth-connector" aria-hidden="true"></span>
+        <span id="ai-ide-compat" aria-hidden="true"></span>
+        <span id="ai-platforms" aria-hidden="true"></span>
+        <span id="api-keys" aria-hidden="true"></span>
+        <span id="mcp-tools" aria-hidden="true"></span>
+        <span id="wp-abilities-api" aria-hidden="true"></span>
+        <span id="integration-elementor" aria-hidden="true"></span>
+        <span id="integration-divi" aria-hidden="true"></span>
+        <span id="integration-woocommerce" aria-hidden="true"></span>
+        <span id="integration-acf" aria-hidden="true"></span>
+        <span id="integration-redirection" aria-hidden="true"></span>
+        <span id="integration-guardpress" aria-hidden="true"></span>
+        <span id="integration-sitevault" aria-hidden="true"></span>
+        <span id="integration-forgecache" aria-hidden="true"></span>
+        <span id="integration-raif" aria-hidden="true"></span>
+        <span id="integration-royal-links" aria-hidden="true"></span>
+        <span id="integration-royal-ledger" aria-hidden="true"></span>
+
+        <!-- ═══ TROUBLESHOOTING ═══ -->
+        <section class="hub-section" id="troubleshooting">
+            <h2 class="hub-section-title"><span class="emoji">🛠</span> Troubleshooting</h2>
+            <p class="hub-section-lede">Connector failing, "couldn't reach the MCP server," OAuth stuck, tools missing? Start with the playbook, then the fixes real customers land on most.</p>
+
+            <a href="/support/royal-mcp/troubleshooting-start-here/" class="start-here-card">
+                <span class="start-here-icon">★</span>
+                <div class="start-here-body">
+                    <div class="start-here-tag">Start Here</div>
+                    <div class="start-here-title">The Troubleshooting Playbook</div>
+                    <p class="start-here-desc">30-second edge probe followed by four plugin-layer steps. Tells you in under a minute whether Cloudflare, ModSecurity, or your host is blocking before WordPress ever sees the request.</p>
+                </div>
+                <svg class="start-here-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <div id="ts-grid" class="hub-grid-dense">
+                <!-- Row 1: highest-impression fixes -->
+                <a href="/support/royal-mcp/oauth-fails-on-managed-host/" class="hub-card">
+                    <span class="hub-card-tag">Host</span>
+                    <div class="hub-card-title">OAuth fails on managed hosts</div>
+                    <p class="hub-card-desc">SiteGround, o2switch, LiteSpeed — managed hosts intercept the /.well-known/ URL.</p>
+                </a>
+                <a href="/support/royal-mcp/authorization-header-stripped/" class="hub-card">
+                    <span class="hub-card-tag">Host</span>
+                    <div class="hub-card-title">Authorization header stripped (401)</div>
+                    <p class="hub-card-desc">The server drops the Authorization header, so every request fails with 401. One-line .htaccess or nginx fix.</p>
+                </a>
+                <a href="/support/royal-mcp/siteground-well-known-404/" class="hub-card">
+                    <span class="hub-card-tag">SiteGround</span>
+                    <div class="hub-card-title">SiteGround returns 404 for /.well-known/</div>
+                    <p class="hub-card-desc">Nginx rule blocks OAuth discovery on SG. Fix via SG Site Tools or .htaccess.</p>
+                </a>
+                <a href="/support/royal-mcp/modsecurity-406-bot-fingerprint/" class="hub-card">
+                    <span class="hub-card-tag">WAF</span>
+                    <div class="hub-card-title">ModSecurity 406 — bot fingerprint</div>
+                    <p class="hub-card-desc">ModSecurity's bot fingerprinting rejects legitimate MCP connections with 406.</p>
+                </a>
+
+                <!-- Row 2 -->
+                <a href="/support/royal-mcp/pkce-query-params-stripped-by-host/" class="hub-card">
+                    <span class="hub-card-tag">WAF</span>
+                    <div class="hub-card-title">PKCE params stripped at /authorize</div>
+                    <p class="hub-card-desc">Host WAF strips code_challenge from /authorize. Common on SiteGround.</p>
+                </a>
+                <a href="/support/royal-mcp/apache-python-httpx-429-token-exchange/" class="hub-card">
+                    <span class="hub-card-tag">Apache</span>
+                    <div class="hub-card-title">Apache 429 on token exchange</div>
+                    <p class="hub-card-desc">python-httpx (Claude Desktop) triggers Apache's mod_evasive on token exchange.</p>
+                </a>
+                <a href="/support/royal-mcp/cloudflare-zero-trust-shadows-mcp-discovery/" class="hub-card">
+                    <span class="hub-card-tag">Cloudflare</span>
+                    <div class="hub-card-title">Cloudflare Zero Trust hijacks discovery</div>
+                    <p class="hub-card-desc">Zero Trust access rules shadow the OAuth discovery endpoint. Bypass without disabling protection.</p>
+                </a>
+                <a href="/support/royal-mcp/siteground-cloudflare-content-type-fix/" class="hub-card">
+                    <span class="hub-card-tag">SiteGround</span>
+                    <div class="hub-card-title">Fix /.well-known/ Content-Type with CF Transform Rules</div>
+                    <p class="hub-card-desc">SG + Cloudflare combo serves JSON with the wrong MIME type. Transform Rule fix.</p>
+                </a>
+
+                <!-- Row 3 -->
+                <a href="/support/royal-mcp/imunify360-blocks-mcp/" class="hub-card">
+                    <span class="hub-card-tag">WAF</span>
+                    <div class="hub-card-title">Imunify360 blocks OAuth discovery</div>
+                    <p class="hub-card-desc">Imunify360's default ruleset blocks /.well-known/ probes. Whitelist path.</p>
+                </a>
+                <a href="/support/royal-mcp/unknown-client-id-error/" class="hub-card">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">"Unknown client_id" error</div>
+                    <p class="hub-card-desc">Registration didn't persist. Two-command fix, no re-install needed.</p>
+                </a>
+                <a href="/support/royal-mcp/well-known-served-as-html/" class="hub-card">
+                    <span class="hub-card-tag">Discovery</span>
+                    <div class="hub-card-title">/.well-known/ returns HTML instead of JSON</div>
+                    <p class="hub-card-desc">A membership plugin or theme is intercepting OAuth discovery. Filter fix.</p>
+                </a>
+
+                <!-- Hidden by default: 12 more, revealed on Show all -->
+                <a href="/support/royal-mcp/bitninja-webshield-blocks-mcp/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">WAF</span>
+                    <div class="hub-card-title">BitNinja WebShield blocks discovery</div>
+                    <p class="hub-card-desc">BitNinja aggressively blocks OAuth probes. Whitelist + reload fix.</p>
+                </a>
+                <a href="/support/royal-mcp/sucuri-cloudproxy-blocks-mcp/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">WAF</span>
+                    <div class="hub-card-title">Sucuri / CloudProxy blocks discovery</div>
+                    <p class="hub-card-desc">CloudProxy's edge WAF returns 403 on OAuth discovery. Fix via allowlist.</p>
+                </a>
+                <a href="/support/royal-mcp/perfmatters-disable-rest-api-blocks-mcp/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Plugin</span>
+                    <div class="hub-card-title">Perfmatters "Disable REST API" blocks MCP</div>
+                    <p class="hub-card-desc">Perfmatters' REST API kill switch also kills MCP. Selective un-check fix.</p>
+                </a>
+                <a href="/support/royal-mcp/stackcdn-oauth-interference/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">CDN</span>
+                    <div class="hub-card-title">StackCDN interferes with OAuth</div>
+                    <p class="hub-card-desc">StackCDN caches OAuth discovery responses. Purge + bypass rule.</p>
+                </a>
+                <a href="/support/royal-mcp/oauth-register-nonstandard-4xx/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">ChatGPT: HTTP 466 dynamic client registration</div>
+                    <p class="hub-card-desc">Intermediary WAF returns non-standard 4xx on /register. Diagnostic + fix.</p>
+                </a>
+                <a href="/support/royal-mcp/oauth-register-trailing-slash-301/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">Web server 301s /register to /register/</div>
+                    <p class="hub-card-desc">Some servers auto-add trailing slash, breaking dynamic client registration.</p>
+                </a>
+                <a href="/support/royal-mcp/another-mcp-plugin-answers-oauth-discovery/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">Another plugin is answering OAuth sign-in</div>
+                    <p class="hub-card-desc">Royal MCP signs in at its own address and names any plugin that collides, so usually nothing needs deactivating.</p>
+                </a>
+                <a href="/support/royal-mcp/rank-math-sign-in/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Plugin conflict</span>
+                    <div class="hub-card-title">ChatGPT &ldquo;Unknown OAuth client.&rdquo; with Rank Math</div>
+                    <p class="hub-card-desc">Rank Math&rsquo;s built-in MCP sign-in can answer your site&rsquo;s sign-in addresses. Update Royal MCP and reconnect.</p>
+                </a>
+                <a href="/support/royal-mcp/oauth-page-shadow/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">OAuth endpoints overlap existing pages</div>
+                    <p class="hub-card-desc">An existing WP page at /register or /authorize shadows the OAuth endpoint.</p>
+                </a>
+                <a href="/support/royal-mcp/oauth-tables-missing/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">OAuth tables missing — "Session not found"</div>
+                    <p class="hub-card-desc">Activation didn't create the OAuth tables. Re-run installer.</p>
+                </a>
+                <a href="/support/royal-mcp/claude-ai-web-token-exchange-fails/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Claude</span>
+                    <div class="hub-card-title">Claude.ai Web: token exchange fails</div>
+                    <p class="hub-card-desc">"Authorization with [site] failed" / mcp_token_exchange_failed.</p>
+                </a>
+                <a href="/support/royal-mcp/plain-permalinks-blocks-discovery/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Discovery</span>
+                    <div class="hub-card-title">Plain permalinks break OAuth discovery</div>
+                    <p class="hub-card-desc">WP's plain permalink setting breaks pretty URLs for /.well-known/.</p>
+                </a>
+                <a href="/support/royal-mcp/acme-first-host-well-known-intercepted/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Discovery</span>
+                    <div class="hub-card-title">ACME/Let's Encrypt host intercepts /.well-known/</div>
+                    <p class="hub-card-desc">Certificate renewal daemon takes over the /.well-known/ path.</p>
+                </a>
+                <a href="/support/royal-mcp/stale-well-known-static-files/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Discovery</span>
+                    <div class="hub-card-title">Stale OAuth static files in webroot</div>
+                    <p class="hub-card-desc">Old /.well-known/ files from a previous MCP plugin shadowing the current handler.</p>
+                </a>
+            </div>
+
+            <button type="button" class="expand-toggle" id="ts-expand-btn" aria-expanded="false" aria-controls="ts-grid">
+                <span class="expand-label">Show all 25 troubleshooting articles</span>
+                <span class="collapse-label">Show fewer</span>
+                <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+        
+            <aside class="hub-contact" style="margin-top:2rem">
+                <div>
+                    <h3>Not finding the answer to your issue?</h3>
+                    <p>Open a support ticket on the WordPress.org forum. We&rsquo;ll help you get connected.</p>
+                </div>
+                <a href="https://wordpress.org/support/plugin/royal-mcp/" target="_blank" rel="noopener" class="hub-contact-cta">
+                    Open a support ticket
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left:0.35rem;vertical-align:-1px"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                </a>
+            </aside>
+        </section>
+
+        <!-- ═══ SETUP & CONNECT ═══ -->
+        <section class="hub-section" id="setup">
+            <h2 class="hub-section-title"><span class="emoji">🚀</span> Setup &amp; Connect</h2>
+            <p class="hub-section-lede">First-time setup and connecting each AI client. Claude Desktop, Web, and Terminal — ChatGPT — API-key mode when OAuth won't cooperate.</p>
+            <div class="hub-grid-dense">
+
+                <a href="/support/royal-mcp/connecting-to-claude/" class="hub-card">
+                    <span class="hub-card-tag">Claude</span>
+                    <div class="hub-card-title">Connecting Royal MCP to Claude</div>
+                    <p class="hub-card-desc">Web, Desktop, and Terminal — three OAuth flows explained side by side.</p>
+                </a>
+                <a href="/support/royal-mcp/claude-code-and-codex/" class="hub-card">
+                    <span class="hub-card-tag">Claude Code · Codex</span>
+                    <div class="hub-card-title">Connect Claude Code and Codex</div>
+                    <p class="hub-card-desc">One command each, on the Claude or ChatGPT plan you already have. No AI API key, no per-token billing.</p>
+                </a>
+                <a href="/blog/connect-claude-to-wordpress-in-5-minutes/" class="hub-card popular">
+                    <span class="hub-card-tag">Guide · Popular</span>
+                    <div class="hub-card-title">Connect Claude to WordPress in 5 Minutes</div>
+                    <p class="hub-card-desc">The end-to-end setup walkthrough — from plugin install to first tool call. The most-read Royal MCP guide on the site.</p>
+                </a>
+                <a href="/support/royal-mcp/connecting-to-chatgpt/" class="hub-card">
+                    <span class="hub-card-tag">ChatGPT</span>
+                    <div class="hub-card-title">Connecting to ChatGPT</div>
+                    <p class="hub-card-desc">Developer Mode app setup and the two known compatibility issues.</p>
+                </a>
+                <a href="/support/royal-mcp/connect-claude-desktop-api-key/" class="hub-card">
+                    <span class="hub-card-tag">API Key</span>
+                    <div class="hub-card-title">Connect Claude Desktop via API Key</div>
+                    <p class="hub-card-desc">Skip OAuth entirely. Faster on stubborn hosts. Trade-offs explained.</p>
+                </a>
+                <a href="/support/royal-mcp/using-royal-mcp-with-claude-desktop/" class="hub-card">
+                    <span class="hub-card-tag">Claude Desktop</span>
+                    <div class="hub-card-title">Using Royal MCP with Claude Desktop</div>
+                    <p class="hub-card-desc">Prompts and workflows that actually work in Claude Desktop.</p>
+                </a>
+                <a href="/support/royal-mcp/static-oauth-client-setup/" class="hub-card">
+                    <span class="hub-card-tag">OAuth</span>
+                    <div class="hub-card-title">Static OAuth Client setup</div>
+                    <p class="hub-card-desc">The Generate button + Save Settings step for static-client mode.</p>
+                </a>
+                <a href="/support/royal-mcp/royal-mcp-on-siteground/" class="hub-card">
+                    <span class="hub-card-tag">Host</span>
+                    <div class="hub-card-title">Royal MCP on SiteGround</div>
+                    <p class="hub-card-desc">Complete setup playbook for SiteGround — the one host that needs its own guide.</p>
+                </a>
+            
+                <a href="/support/royal-mcp/api-keys/" class="hub-card">
+                    <span class="hub-card-tag">Auth</span>
+                    <div class="hub-card-title">API Keys Universal Reference</div>
+                    <p class="hub-card-desc">Where to find your WordPress API key, how to send it, when to use it instead of OAuth, and how to rotate safely.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- ═══ FEATURES & INTEGRATION REFERENCES ═══ -->
+        <section class="hub-section" id="features">
+            <h2 class="hub-section-title"><span class="emoji">🧩</span> Features &amp; Integration References</h2>
+            <p class="hub-section-lede">What each integration does, which tools it exposes, and how to unlock the features that require a bit more setup. Includes the Claude Skills for common builders.</p>
+            <div class="hub-grid-dense">
+                <a href="/skills/elementor-claude-skill/" class="hub-card popular">
+                    <span class="hub-card-tag">Skill · Popular</span>
+                    <div class="hub-card-title">Elementor Claude Skill</div>
+                    <p class="hub-card-desc">Drop-in Claude Skill that teaches Claude to edit Elementor pages the right way.</p>
+                </a>
+                <a href="/blog/editing-elementor-with-claude-four-workflows/" class="hub-card popular">
+                    <span class="hub-card-tag">Guide · Popular</span>
+                    <div class="hub-card-title">Editing Elementor with Claude — Four Workflows</div>
+                    <p class="hub-card-desc">Four ways to hand Elementor edits to Claude, ranked by robustness. The most-read tutorial on the site.</p>
+                </a>
+                <a href="/support/royal-mcp/divi-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">Divi Tools Reference</div>
+                    <p class="hub-card-desc">Nine free Divi tools for AI-driven page editing on Divi 4 shortcodes and Divi 5 blocks, plus the Pro toolkit and deep-dive guides.</p>
+                </a>
+                <a href="/support/royal-mcp/woocommerce-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">WooCommerce Tools Reference</div>
+                    <p class="hub-card-desc">29 free tools across products, variations, attributes, orders, coupons, customers, and store stats.</p>
+                </a>
+                <a href="/support/royal-mcp/mailpoet-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">MailPoet Tools</div>
+                    <p class="hub-card-desc">Twelve tools for lists, subscribers, drafts and tests, with a confirmation step before any send.</p>
+                </a>
+                <a href="/support/royal-mcp/relevanssi-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">Relevanssi Tools</div>
+                    <p class="hub-card-desc">Seven tools to test search, check the index, and manage synonyms and stopwords with undo.</p>
+                </a>
+                <a href="/support/royal-mcp/complianz-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">Complianz Tools</div>
+                    <p class="hub-card-desc">Seven tools to review your consent setup and change banner texts and cookie descriptions with undo.</p>
+                </a>
+                <a href="/support/royal-mcp/tablepress-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">TablePress Tools</div>
+                    <p class="hub-card-desc">Six tools to list, read, create, copy and export tables and change cells, with undo.</p>
+                </a>
+                <a href="/support/royal-mcp/code-snippets-and-wpcode/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">Code Snippets and WPCode</div>
+                    <p class="hub-card-desc">Read snippets with credentials hidden, find what broke the site, and deactivate a broken snippet.</p>
+                </a>
+                <a href="/support/royal-mcp/other-mcp-servers/" class="hub-card">
+                    <span class="hub-card-tag">Coexistence</span>
+                    <div class="hub-card-title">Royal MCP Next to Other MCP Servers</div>
+                    <p class="hub-card-desc">The Abilities API, the MCP Adapter, Elementor MCP and shared sign-in.</p>
+                </a>
+                <a href="/support/royal-mcp/add-your-plugin-tools/" class="hub-card">
+                    <span class="hub-card-tag">Developers</span>
+                    <div class="hub-card-title">Add Your Plugin&rsquo;s Tools</div>
+                    <p class="hub-card-desc">Two filters let any plugin add its own tools to Royal MCP. A working example, the rules every tool follows, and how to partner with us.</p>
+                </a>
+                <a href="/support/royal-mcp/exposing-customer-email-via-filter/" class="hub-card">
+                    <span class="hub-card-tag">Customization</span>
+                    <div class="hub-card-title">Add Customer Emails to Replies</div>
+                    <p class="hub-card-desc">Three filters and a ready-made mu-plugin that add billing and user emails to order, customer, and user replies. Site-owner opt-in.</p>
+                </a>
+                <a href="/support/royal-mcp/acf-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">ACF Tools Reference</div>
+                    <p class="hub-card-desc">Read and write Advanced Custom Fields via Royal MCP. Type-aware writes, hydrated return values, field-group discovery.</p>
+                </a>
+                <a href="/support/royal-mcp/ai-ide-compatibility/" class="hub-card">
+                    <span class="hub-card-tag">Compatibility</span>
+                    <div class="hub-card-title">AI IDE Compatibility</div>
+                    <p class="hub-card-desc">Config patterns for Cursor, VS Code, Windsurf, Zed, JetBrains, LM Studio, Ollama, and every other MCP-compliant IDE and CLI.</p>
+                </a>
+                <a href="/support/royal-mcp/protocol-insights/" class="hub-card">
+                    <span class="hub-card-tag">Protocol</span>
+                    <div class="hub-card-title">Protocol Insights</div>
+                    <p class="hub-card-desc">How Royal MCP implements MCP. Supported spec revisions, per-client compatibility matrix, WP Abilities API integration.</p>
+                </a>
+
+                <a href="/support/royal-mcp/elementor-tools/" class="hub-card">
+                    <span class="hub-card-tag">Integration · Support</span>
+                    <div class="hub-card-title">Elementor Tools Reference</div>
+                    <p class="hub-card-desc">Every Elementor tool Royal MCP exposes to Claude, with parameters and example prompts.</p>
+                </a>
+                <a href="/skills/divi-claude-skill/" class="hub-card">
+                    <span class="hub-card-tag">Skill</span>
+                    <div class="hub-card-title">Divi Claude Skill</div>
+                    <p class="hub-card-desc">Divi-flavored Skill for Claude — knows Divi builder shortcodes and section patterns.</p>
+                </a>
+                <a href="/skills/woocommerce-claude-skill/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Skill</span>
+                    <div class="hub-card-title">WooCommerce Claude Skill</div>
+                    <p class="hub-card-desc">Store-management workflows encoded as a Claude Skill.</p>
+                </a>
+                <a href="/skills/sitevault-claude-skill/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Skill</span>
+                    <div class="hub-card-title">SiteVault Claude Skill</div>
+                    <p class="hub-card-desc">Backup + restore workflows encoded as a Claude Skill.</p>
+                </a>
+                <a href="/support/royal-mcp/webmcp/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Feature · Support</span>
+                    <div class="hub-card-title">Enable Browser AI Agents (WebMCP)</div>
+                    <p class="hub-card-desc">Cloudflare's WebMCP bridge lets browser agents call your Royal MCP tools using the visitor's WordPress login.</p>
+                </a>
+                <a href="/support/royal-mcp/agent-readiness/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Feature · Support</span>
+                    <div class="hub-card-title">Publish Agent Readiness Signals</div>
+                    <p class="hub-card-desc">Let AI scanners discover which pages are agent-ready. Opt-in schema + JSON endpoint.</p>
+                </a>
+                <a href="/support/royal-mcp/cloudflare-cache-rule-for-agent-readiness/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Perf · Support</span>
+                    <div class="hub-card-title">Cloudflare Cache Rule for Agent Readiness</div>
+                    <p class="hub-card-desc">Cut Agent Readiness scan latency ~5× with one Cloudflare Cache Rule.</p>
+                </a>
+                <a href="/royal-mcp/features/agent-ready/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Feature · Product</span>
+                    <div class="hub-card-title">Agent-Ready — Product Overview</div>
+                    <p class="hub-card-desc">What "agent-ready" means at the site level, and how Royal MCP signals it.</p>
+                </a>
+                <a href="/royal-mcp/features/connect/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Feature · Product</span>
+                    <div class="hub-card-title">Connect — Product Overview</div>
+                    <p class="hub-card-desc">The connect flow at a product level — how OAuth works across the four AI clients.</p>
+                </a>
+                <a href="/royal-mcp/how-it-works/" class="hub-card expand-hidden">
+                    <span class="hub-card-tag">Overview</span>
+                    <div class="hub-card-title">How Royal MCP Works</div>
+                    <p class="hub-card-desc">The architecture at a glance — OAuth flow, tool registry, request handling.</p>
+                </a>
+            </div>
+        
+            <button type="button" class="expand-toggle" id="feat-expand-btn" aria-expanded="false" aria-controls="feat-grid">
+                <span class="expand-label">Show 8 more features</span>
+                <span class="collapse-label">Show fewer</span>
+                <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+        </section>
+
+        <!-- ═══ SECURITY & DIAGNOSTICS ═══ -->
+        <section class="hub-section" id="security">
+            <h2 class="hub-section-title"><span class="emoji">🔒</span> Security &amp; Diagnostics</h2>
+            <p class="hub-section-lede">Understand what your AI client is and isn't allowed to do, and run the diagnostic commands that pinpoint exactly where a connection is failing.</p>
+            <div class="hub-grid-dense">
+                <a href="/support/royal-mcp/safety-and-recovery/" class="hub-card">
+                    <span class="hub-card-tag">Safety</span>
+                    <div class="hub-card-title">Safety and Recovery for AI Edits</div>
+                    <p class="hub-card-desc">Read-only mode, drafts, undo in Free and Pro, revisions, and what removing the plugin leaves behind.</p>
+                </a>
+                <a href="/support/royal-mcp/who-can-connect-ai-clients/" class="hub-card">
+                    <span class="hub-card-tag">Settings</span>
+                    <div class="hub-card-title">Who Can Connect AI Clients</div>
+                    <p class="hub-card-desc">Roles, access levels, read-only mode and drafts only.</p>
+                </a>
+                <a href="/support/royal-mcp/application-passwords/" class="hub-card">
+                    <span class="hub-card-tag">Connections</span>
+                    <div class="hub-card-title">Application Password Connections</div>
+                    <p class="hub-card-desc">See, block or delete Application Passwords that use Royal MCP tools.</p>
+                </a>
+                <a href="/support/royal-mcp/form-entry-privacy/" class="hub-card">
+                    <span class="hub-card-tag">Privacy</span>
+                    <div class="hub-card-title">Form Entry Privacy</div>
+                    <p class="hub-card-desc">How Royal MCP masks personal data in form entries.</p>
+                </a>
+                <a href="/support/royal-mcp/oauth-connector-deep-dive/" class="hub-card">
+                    <span class="hub-card-tag">Auth</span>
+                    <div class="hub-card-title">OAuth Connector Deep Dive</div>
+                    <p class="hub-card-desc">What makes Royal MCP different: full OAuth 2.1 server as the primary connect path. Setup, security properties, every known failure mode.</p>
+                </a>
+                <a href="/support/royal-mcp/reference/" class="hub-card">
+                    <span class="hub-card-tag">Reference</span>
+                    <div class="hub-card-title">Royal MCP Reference</div>
+                    <p class="hub-card-desc">Installation, configuration, 7 additional plugin integrations, composers, undo tokens and the activity log.</p>
+                </a>
+                <a href="/support/royal-mcp/wp-cli-commands/" class="hub-card">
+                    <span class="hub-card-tag">WP-CLI</span>
+                    <div class="hub-card-title">WP-CLI Commands</div>
+                    <p class="hub-card-desc">connection-health, list-clients, rotate-api-key, drafts-only and set-access. Flags, output formats, exit codes, and loops for agencies running many sites. Requires 1.5.7+.</p>
+                </a>
+                <a href="/royal-mcp/changelog/" class="hub-card">
+                    <span class="hub-card-tag">Releases</span>
+                    <div class="hub-card-title">Changelog</div>
+                    <p class="hub-card-desc">Every Royal MCP release, newest first: new tools, improvements and fixes in each version, with release dates.</p>
+                </a>
+
+                <a href="/support/royal-mcp/direct-connect-threat-model/" class="hub-card">
+                    <span class="hub-card-tag">Threat Model</span>
+                    <div class="hub-card-title">Direct-Connect Threat Model</div>
+                    <p class="hub-card-desc">What an AI client can and cannot do with a Royal MCP connection. Read before granting Pro undo tokens.</p>
+                </a>
+                <a href="/support/royal-mcp/diagnose-mcp-with-curl/" class="hub-card">
+                    <span class="hub-card-tag">Diagnostic</span>
+                    <div class="hub-card-title">Diagnose with curl</div>
+                    <p class="hub-card-desc">Six-line curl checklist that isolates the failure layer without touching the plugin.</p>
+                </a>
+                <a href="/support/royal-mcp/troubleshooting-start-here/" class="hub-card">
+                    <span class="hub-card-tag">Playbook</span>
+                    <div class="hub-card-title">Full Troubleshooting Playbook</div>
+                    <p class="hub-card-desc">The complete 30-second edge probe + 4-step plugin-layer decision tree.</p>
+                </a>
+                <a href="/blog/two-vulnerabilities-two-researchers-two-fixes/" class="hub-card">
+                    <span class="hub-card-tag">Blog</span>
+                    <div class="hub-card-title">Two Vulnerabilities, Two Researchers, Two Fixes</div>
+                    <p class="hub-card-desc">Recent security disclosures on the MCP surface + how they were addressed.</p>
+                </a>
+                <a href="/blog/cloudflare-block-ai-bots-breaks-mcp/" class="hub-card">
+                    <span class="hub-card-tag">Blog</span>
+                    <div class="hub-card-title">When Cloudflare's AI-Bot Block Breaks MCP</div>
+                    <p class="hub-card-desc">Cloudflare's default AI-bot signature also fingerprints legit MCP traffic. What to disable.</p>
+                </a>
+                <a href="/blog/cloudflare-september-15-ai-bot-defaults/" class="hub-card">
+                    <span class="hub-card-tag">Blog</span>
+                    <div class="hub-card-title">Cloudflare Sept 15 AI-Bot Defaults</div>
+                    <p class="hub-card-desc">What changed in CF's AI-bot defaults + which MCP paths need attention.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- ═══ DEEPER READING ═══ -->
+        <section class="hub-section" id="deeper-reading">
+            <h2 class="hub-section-title"><span class="emoji">📰</span> Deeper Reading</h2>
+            <p class="hub-section-lede">Longer-form on why AI-in-WordPress works the way it does. Not a support ticket — a curious human.</p>
+            <div class="hub-grid-dense">
+                <a href="/blog/editing-elementor-with-claude-four-workflows/" class="hub-card">
+                    <span class="hub-card-tag">Elementor</span>
+                    <div class="hub-card-title">Editing Elementor with Claude — Four Workflows</div>
+                    <p class="hub-card-desc">Four ways to hand Elementor edits to Claude, ranked by robustness.</p>
+                </a>
+                <a href="/blog/connect-claude-to-wordpress-in-5-minutes/" class="hub-card">
+                    <span class="hub-card-tag">Setup</span>
+                    <div class="hub-card-title">Connect Claude to WordPress in 5 Minutes</div>
+                    <p class="hub-card-desc">The end-to-end setup walkthrough — from plugin install to first tool call.</p>
+                </a>
+                <a href="/blog/royal-mcp-vs-ai-engine/" class="hub-card">
+                    <span class="hub-card-tag">Comparison</span>
+                    <div class="hub-card-title">Royal MCP vs AI Engine</div>
+                    <p class="hub-card-desc">Where each fits, where they don't overlap, and how to pick.</p>
+                </a>
+                <a href="/blog/how-to-evaluate-wordpress-mcp-plugin/" class="hub-card">
+                    <span class="hub-card-tag">Guide</span>
+                    <div class="hub-card-title">How to Evaluate a WordPress MCP Plugin</div>
+                    <p class="hub-card-desc">The buyer's checklist — what to look for, what red flags to avoid.</p>
+                </a>
+                <a href="/blog/hosting-is-the-hardest-part-of-building-an-mcp-server/" class="hub-card">
+                    <span class="hub-card-tag">Deep Dive</span>
+                    <div class="hub-card-title">Hosting Is the Hardest Part of Building an MCP Server</div>
+                    <p class="hub-card-desc">Why so much of MCP support is really about hosting quirks — and what we learned.</p>
+                </a>
+                <a href="/blog/wordpress-mcp-era/" class="hub-card">
+                    <span class="hub-card-tag">Big Picture</span>
+                    <div class="hub-card-title">The WordPress MCP Era</div>
+                    <p class="hub-card-desc">Why MCP changes what WordPress can be — and what that means for site owners.</p>
+                </a>
+                <a href="/blog/agent-readiness-guide/" class="hub-card">
+                    <span class="hub-card-tag">Concept</span>
+                    <div class="hub-card-title">Agent Readiness Guide</div>
+                    <p class="hub-card-desc">What "agent-ready" means, how to test for it, and how to publish signals.</p>
+                </a>
+                <a href="/blog/claude-skills-for-wordpress/" class="hub-card">
+                    <span class="hub-card-tag">Skills</span>
+                    <div class="hub-card-title">Claude Skills for WordPress</div>
+                    <p class="hub-card-desc">Why Claude Skills matter for WP workflows and which skills we ship.</p>
+                </a>
+                <a href="/blog/connect-apify-to-wordpress-with-royal-mcp/" class="hub-card">
+                    <span class="hub-card-tag">Workflow</span>
+                    <div class="hub-card-title">Connect Apify to WordPress with Royal MCP</div>
+                    <p class="hub-card-desc">Scrape with Apify, ingest into WordPress via Royal MCP tools.</p>
+                </a>
+                <a href="/blog/translate-wordpress-with-claude-and-deepl-mcp/" class="hub-card">
+                    <span class="hub-card-tag">Workflow</span>
+                    <div class="hub-card-title">Translate WordPress with Claude + DeepL MCP</div>
+                    <p class="hub-card-desc">Chain multiple MCP servers — Claude drives DeepL and Royal MCP together.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- ═══ COMMUNITY SUPPORT ═══ -->
+        
+        
+        <!-- ═══ FAQ ═══ -->
+        <section class="hub-section" id="faq">
+            <h2 class="hub-section-title"><span class="emoji">❓</span> Frequently Asked Questions</h2>
+            <p class="hub-section-lede">The 9 questions customers ask most often about Royal MCP.</p>
+            <div class="hub-faq-list">
+
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">I installed Royal MCP but Claude keeps saying &ldquo;couldn&rsquo;t reach the MCP server&rdquo; &mdash; what&rsquo;s wrong?</summary>
+                <div class="hub-faq-answer">
+                    <p>In most cases the plugin is fine and your host or CDN is intercepting the OAuth discovery URL before WordPress sees it. First check: visit <code>/wp-admin/admin.php?page=royal-mcp</code> and look for an orange admin notice. Royal MCP self-checks the <code>/.well-known/oauth-authorization-server</code> discovery endpoint and will name the specific host or WAF product (SiteGround, Cloudflare Zero Trust, Sucuri, Imunify360, BitNinja, LiteSpeed) blocking it, with a copy-paste fix for that product. If the notice is clear but Claude still fails, run <code>curl -i https://YOURSITE.com/.well-known/oauth-authorization-server</code> &mdash; a healthy response is JSON with <code>issuer</code>, <code>authorization_endpoint</code>, <code>token_endpoint</code>, and <code>registration_endpoint</code> fields. See <a href="/support/royal-mcp/troubleshooting-start-here/">Troubleshooting &mdash; Start Here</a> and <a href="/support/royal-mcp/diagnose-mcp-with-curl/">Diagnose with curl</a> for the full flow.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">Do I need Elementor Pro, WooCommerce Pro, or Divi Pro for the AI tools to work?</summary>
+                <div class="hub-faq-answer">
+                    <p>No. Royal MCP&rsquo;s Elementor tools work with the free Elementor plugin. Its WooCommerce tools work with free WooCommerce. Its Divi tools work with the free Divi Builder plugin or the paid Divi theme. Tools only appear when the underlying plugin is active &mdash; install WooCommerce and its <code>wc_*</code> tools auto-register, install Elementor and its <code>elementor_*</code> tools auto-register. No premium tier of any host plugin is required.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">Can I use ChatGPT with WordPress through Royal MCP, or is it Claude-only?</summary>
+                <div class="hub-faq-answer">
+                    <p>Royal MCP works with any MCP-compliant client. Claude Desktop uses the native &ldquo;Add Connector&rdquo; OAuth flow. ChatGPT connects as an app in Developer Mode using your MCP Server URL. Cursor, Windsurf, Claude Code, and VS Code with GitHub Copilot&rsquo;s MCP support all work. See the <a href="#ai-platforms">AI Platforms</a> section for the full compatibility list and per-client setup patterns.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">What happens if I let Claude modify my WordPress site and something breaks?</summary>
+                <div class="hub-faq-answer">
+                    <p>Every Royal MCP tool call is written to the Activity Log with timestamp, tool name, parameters (sensitive values redacted), and response status. WordPress&rsquo;s own revision system captures every post and page edit, so post-level rollback is one click in the editor. Destructive operations move items to Trash first, so restoration is one click from the Trash view. Royal MCP Pro adds a dedicated undo layer on top: one-click undo tokens on destructive tools valid for 72 to 168 hours depending on the operation, plus a Recent Operations dashboard widget that surfaces every pending undo in one place with batch rollback support.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">I&rsquo;m on shared hosting &mdash; is Royal MCP going to slow down my site?</summary>
+                <div class="hub-faq-answer">
+                    <p>No. Royal MCP only runs when an AI client makes a request to <code>/wp-json/royal-mcp/v1/*</code>. It does not add any frontend code, does not hook into page rendering, and does not run on non-AI page loads. Regular visitors and Core Web Vitals scores are completely unaffected &mdash; the plugin only executes when an authenticated tool call arrives.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">What&rsquo;s the difference between Royal MCP (free) and Royal MCP Pro?</summary>
+                <div class="hub-faq-answer">
+                    <p>Free ships 250+ tools with unlimited use for as many AI clients as you connect, Drafts only and per-client access levels, 72-hour undo with a Recent Changes screen, WordPress native revisions plus Trash-based recovery, and Activity Logs that persist until you clear them. Pro adds an agency-scale governance layer on top: undo extended to 7 days, a Recent Operations dashboard widget with batch undo, extended audit retention (90 days by default, filterable), per-tool endpoint profiles that scope which tools any client can see, and priority email support. Pro comes with every <a href="/royal-mcp-pro/pricing/">Royally plan</a>, from $9 a month (Solo, 3 sites) to $790 a year (Agency, 250 sites).</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">Does Royal MCP work on WordPress multisite networks?</summary>
+                <div class="hub-faq-answer">
+                    <p>Yes, on a per-site basis. Each site in a multisite network has its own API key, its own Activity Log, and its own settings. AI clients connect to a specific site&rsquo;s MCP endpoint &mdash; Royal MCP does not bridge requests between sites in the network.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">Does Royal MCP work with WPML, Polylang, or TranslatePress for multilingual content?</summary>
+                <div class="hub-faq-answer">
+                    <p>Yes. Translated posts appear as separate WordPress posts (each with its own ID and language meta) and are readable or writable via the standard <code>wp_get_posts</code>, <code>wp_create_post</code>, and <code>wp_update_post</code> tools. AI agents can list posts in a specific language by filtering on the language meta key, or translate a post and write the corresponding translation by ID.</p>
+                </div>
+            </details>
+            <details class="hub-faq-item">
+                <summary class="hub-faq-question">Can I limit which posts, pages, or post types AI can access?</summary>
+                <div class="hub-faq-answer">
+                    <p>Yes. The <code>wp_get_posts</code> and <code>wp_create_post</code> tools accept a <code>post_type</code> parameter and validate it against registered public post types, so private or internal post types are not exposed. Plugin authors can disable specific tools entirely with the <code>royal_mcp_disabled_tools</code> filter, or scope the option-write allowlist with <code>royal_mcp_writable_options</code>. WordPress&rsquo;s standard capability checks also apply to every tool call.</p>
+                </div>
+            </details>
+            </div>
+        </section>
+
+        <!-- ═══ VIDEO LIBRARY ═══ -->
+        <section class="hub-section" id="videos">
+            <h2 class="hub-section-title"><span class="emoji">📺</span> Video Library</h2>
+            <p class="hub-section-lede">Walkthroughs, tutorials, and release notes from the Royal Plugins team plus community creators. Making your own Royal MCP video? Tag it <code>#royalmcp</code> in the title or description and we&rsquo;ll find you and add it here.</p>
+            <div class="hub-videos-grid">
+                <a href="https://www.youtube.com/watch?v=Bu0rRqdil0c" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/Bu0rRqdil0c/hqdefault.jpg" alt="Massive Royal MCP Pro Updates &amp; Royally Launch" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Massive Royal MCP Pro Updates &amp; Royally Launch</div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=nmpAcvsaQMg" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/nmpAcvsaQMg/hqdefault.jpg" alt="Royal MCP WP.org Updates (245 MCP Tools)" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP WP.org Updates (245 MCP Tools)</div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=R2RPdHaAK7M" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/R2RPdHaAK7M/hqdefault.jpg" alt="Royal MCP Hits 100,000 Downloads & WebMCP" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP Hits 100,000 Downloads & WebMCP</div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=iTZU8h3Tx-s" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/iTZU8h3Tx-s/hqdefault.jpg" alt="Connect WordPress to ChatGPT in Minutes" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Connect WordPress to ChatGPT in Minutes</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=7bsucdD-JFg" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/7bsucdD-JFg/hqdefault.jpg" alt="Troubleshooting Claude & Royal MCP (Common OAuth Issues)" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Troubleshooting Claude & Royal MCP (Common OAuth Issues)</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=pf-mdRnXezM" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/pf-mdRnXezM/hqdefault.jpg" alt="Royal MCP: Install & Setup Guide" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP: Install & Setup Guide</div>
+                </a>
+                            <a href="https://www.youtube.com/watch?v=2fYPqEzE0Ak" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/2fYPqEzE0Ak/hqdefault.jpg" alt="Best Way to Connect WordPress to ChatGPT in 2026" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Best Way to Connect WordPress to ChatGPT in 2026</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=rHh6K6yuMsY" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/rHh6K6yuMsY/hqdefault.jpg" alt="Connect ChatGPT & Claude to WordPress with MCP: Full Setup Tutorial" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Connect ChatGPT & Claude to WordPress with MCP: Full Setup Tutorial</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=zIz4-oQWDag" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/zIz4-oQWDag/hqdefault.jpg" alt="Trabajando con Royal MCP: Claude + WordPress para SEO (Español)" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Trabajando con Royal MCP: Claude + WordPress para SEO (Español)</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=kpWuqoKzp94" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/kpWuqoKzp94/hqdefault.jpg" alt="Royal MCP 1.4.45: 200+ MCP Tools, 20+ Plugins Supported" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP 1.4.45: 200+ MCP Tools, 20+ Plugins Supported</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=HsEIoDz9WmY" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/HsEIoDz9WmY/hqdefault.jpg" alt="Turn Claude Into an Elementor Assistant" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Turn Claude Into an Elementor Assistant</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=6P7TU1Tva3k" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/6P7TU1Tva3k/hqdefault.jpg" alt="Editing Elementor With Claude (Workflow Tutorial)" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Editing Elementor With Claude (Workflow Tutorial)</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=nlpktSx27oA" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/nlpktSx27oA/hqdefault.jpg" alt="Royal MCP & Royal AI Firewall (RAIF) Together" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP & Royal AI Firewall (RAIF) Together</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=8Wbr0ReLpok" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/8Wbr0ReLpok/hqdefault.jpg" alt="Royal MCP: Free WordPress MCP Plugin Walkthrough" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP: Free WordPress MCP Plugin Walkthrough</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dT4KACKKlzQ" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/dT4KACKKlzQ/hqdefault.jpg" alt="Royal MCP Pro: Full Walkthrough (Agency-Tier AI Connector)" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP Pro: Full Walkthrough (Agency-Tier AI Connector)</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=Qe8psLh23hw" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/Qe8psLh23hw/hqdefault.jpg" alt="Royal MCP Pro 1.0.5 Release Notes" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP Pro 1.0.5 Release Notes</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=9vxOBhjvYSk" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/9vxOBhjvYSk/hqdefault.jpg" alt="Royal MCP 1.4.38: Big Updates & Pro Launching" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP 1.4.38: Big Updates & Pro Launching</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=9rQAwaR9hHM" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/9rQAwaR9hHM/hqdefault.jpg" alt="50,000 Downloads & Feature Roadmap" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">50,000 Downloads & Feature Roadmap</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=jTUMaf4TNII" target="_blank" rel="noopener" class="hub-video-card">
+                    <div class="hub-video-thumb">
+                        <img src="https://i.ytimg.com/vi/jTUMaf4TNII/hqdefault.jpg" alt="Royal MCP: WordPress & AI Over 10,000 Downloads" loading="lazy" width="480" height="360">
+                        <div class="hub-video-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>
+                    <div class="hub-video-title">Royal MCP: WordPress & AI Over 10,000 Downloads</div>
+                </a>
+            </div>
+            <a href="https://www.youtube.com/@royalplugins" target="_blank" rel="noopener" class="hub-video-all-link">
+                Watch more on the Royal Plugins YouTube channel
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+        </section>
+
+        <aside class="hub-contact">
+            <div>
+                <h3>Community Support</h3>
+                <p>Connect with other Royal MCP users, ask questions, and share tips on the WordPress.org support forums.</p>
+            </div>
+            <a href="https://wordpress.org/support/plugin/royal-mcp/" target="_blank" rel="noopener" class="hub-contact-cta">
+                Visit WordPress.org Forums
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left:0.35rem;vertical-align:-1px"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+        </aside>
+
+    </main>
+
+    <!-- Premium Support CTA -->
+    <section style="padding:4rem 2rem;background:var(--cream-dark, #F5F0E8);border-top:1px solid var(--border-light, rgba(201,162,39,0.15))">
+        <div style="max-width:720px;margin:0 auto;text-align:center">
+            <div style="display:inline-block;font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;color:var(--gold-dark, #B8960F);padding:0.375rem 0.875rem;border:1px solid rgba(201,162,39,0.4);border-radius:2px;margin-bottom:1.5rem">Premium Support</div>
+            <h2 style="font-family:'Cormorant Garamond','Cormorant Fallback',serif;font-size:2.25rem;font-weight:600;color:var(--charcoal, #2C2C2C);margin-bottom:0.75rem;letter-spacing:-0.015em">Stuck? We&rsquo;ll fix it.</h2>
+            <p style="font-size:1.0625rem;color:var(--charcoal-light, #4A4A4A);line-height:1.7;margin-bottom:2rem;max-width:560px;margin-left:auto;margin-right:auto">Direct one-on-one help from the Royal Plugins team. 24-hour SLA, hands-on diagnostic work (Cloudflare config, host WAF, OAuth debugging, configuration help), and access to our private customer community. $149/year.</p>
+            <a href="/premium-support/" style="display:inline-block;background:var(--gold, #C9A227);color:var(--charcoal, #2C2C2C);padding:1rem 2.5rem;border-radius:3px;text-decoration:none;font-size:1rem;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;transition:all 0.25s ease">Get Premium Support &rarr;</a>
+            <p style="font-size:0.8125rem;color:var(--charcoal-muted, #6B6B6B);margin-top:1rem">For our free plugins. Pro license holders already have priority email support included with their license.</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div style="display:inline-flex;align-items:center;gap:0.75rem;margin-bottom:1rem">
+                    <div class="logo-mark"><span>R</span></div>
+                    <span class="logo-text">Royal Plugins</span>
+                </div>
+                <p>WordPress plugins crafted with care. Lightweight, refined, and designed to simply work.</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <p class="footer-heading">Security & Compliance</p>
+                    <ul>
+                        <li><a href="/guardpress/">GuardPress</a></li>
+                        <li><a href="/royal-ai-firewall/">Royal AI Firewall</a></li>
+                        <li><a href="/royal-access/">Royal Access</a></li>
+                    </ul>
+                    <h4 style="margin-top:1.5rem;">Free Tools</h4>
+                    <ul>
+                        <li><a href="/tools/ssl-checker/">SSL Checker</a></li>
+                        <li><a href="/tools/http-headers-checker/">HTTP Headers</a></li>
+                        <li><a href="/tools/wordpress-security-scanner/">Site Scanner</a></li>
+                        <li><a href="/tools/wordpress-plugin-security-scanner/">Plugin Scanner</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <p class="footer-heading">Speed & Backups</p>
+                    <ul>
+                        <li><a href="/forgecache/">ForgeCache</a></li>
+                        <li><a href="/sitevault/">SiteVault</a></li>
+                        <li><a href="/sitevault-lite/">SiteVault Lite</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <p class="footer-heading">SEO & Growth</p>
+                    <ul>
+                        <li><a href="/seobolt/">SEObolt</a></li>
+                        <li><a href="/royal-links/">Royal Links</a></li>
+                        <li><a href="/royal-affiliates/">Royal Affiliates</a></li>
+                    </ul>
+                    <h4 style="margin-top:1.5rem;">Free Tools</h4>
+                    <ul>
+                        <li><a href="/tools/serp-preview/">SERP Preview</a></li>
+                        <li><a href="/tools/schema-validator/">Schema Validator</a></li>
+                        <li><a href="/tools/meta-tag-checker/">Meta Tag Checker</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <p class="footer-heading">Site Essentials</p>
+                    <ul>
+                        <li><a href="/royal-mcp-pro/">Royal MCP Pro</a></li>
+                        <li><a href="/royal-mcp/">Royal MCP</a></li>
+                        <li><a href="/royal-smtp/">Royal SMTP</a></li>
+                        <li><a href="/formforge/">FormForge</a></li>
+                    </ul>
+                    <h4 style="margin-top:1.5rem;">Claude Skills</h4>
+                    <ul>
+                        <li><a href="/skills/"><strong>Skills Library</strong></a></li>
+                        <li><a href="/skills/divi-claude-skill/">Divi Skill</a></li>
+                        <li><a href="/skills/woocommerce-claude-skill/">WooCommerce Skill</a></li>
+                        <li><a href="/skills/elementor-claude-skill/">Elementor Skill</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <p class="footer-heading">Company</p>
+                    <ul>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/case-studies/">Case Studies</a></li>
+                        <li><a href="/switch/">Switch to Royal</a></li>
+                        <li><a href="/plugin-graveyard/">Plugin Graveyard</a></li>
+                        <li><a href="/support/">Documentation</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/support/licensing/">Licensing</a></li>
+                        <li><a href="https://my.royalplugins.com/my-account/" target="_blank">My Account</a></li>
+                        <li><a href="/affiliates/">Affiliate Program</a></li>
+                    </ul>
+                </div>
+            </div></div>
+
+        <div class="footer-bottom">
+            <span>&copy; 2025-2026 Royal Plugins. All rights reserved.</span>
+            <div class="footer-social" style="display:flex;align-items:center;gap:1rem"><a href="https://github.com/royalplugins" target="_blank" title="GitHub" style="color:rgba(255,255,255,0.4);transition:color 0.2s;" onmouseover="this.style.color='#C9A227'" onmouseout="this.style.color='rgba(255,255,255,0.4)'"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a><a href="https://www.youtube.com/@royalplugins" target="_blank" title="YouTube" style="color:rgba(255,255,255,0.4);transition:color 0.2s;" onmouseover="this.style.color='#C9A227'" onmouseout="this.style.color='rgba(255,255,255,0.4)'"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a><a href="https://royalplugins.medium.com" target="_blank" title="Medium" style="color:rgba(255,255,255,0.4);transition:color 0.2s;" onmouseover="this.style.color='#C9A227'" onmouseout="this.style.color='rgba(255,255,255,0.4)'"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg></a></div>
+            <div class="footer-legal">
+                <a href="/privacy/">Privacy</a>
+                <a href="/terms/">Terms</a>
+                <a href="/refund/">Refunds</a>
+                <a href="/security-methodology/">Security</a>
+            </div>
+        </div>
+    <div style="text-align:center;padding:1rem 0 0;font-size:0.75rem;color:rgba(255,255,255,0.3)">Last updated: September 2026</div>
+</footer>
+
+<script>
+(function () {
+    function bind(btnId, sectionId, expandedClass) {
+        var btn = document.getElementById(btnId);
+        var section = document.getElementById(sectionId);
+        if (!btn || !section) return;
+        btn.addEventListener('click', function () {
+            var expanded = section.classList.toggle(expandedClass);
+            btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        });
+    }
+    bind('ts-expand-btn', 'troubleshooting', 'ts-expanded');
+    bind('feat-expand-btn', 'features', 'feat-expanded');
+})();
+</script>
+</body>
+</html>
