@@ -29,3 +29,14 @@ Data: 2026-11-16. Ramura de lucru `claude/loving-ptolemy-i15ysg` a pornit din `o
 3. **Descărcarea textului adoptat de PE (T10-0362/2026) a fost refuzată de sistemul de permisiuni al sesiunii.** Nu am ocolit; am folosit Legislative Observatory prin WebFetch.
 4. **Tutunul UK** a fost verificat de agent în textul legii și în SI 2026/996. Nu l-am recitit, pentru că nu ajunge la propuneri (termen prea aproape).
 5. **Abonamentele UK** stau la „de urmărit": regulamentul e proiect și s.254 nu are regulament de commencement.
+
+## Pasul 4 (verificare)
+
+1. Verificarea independentă (VERIFICARE.md) a confirmat toate datele legale, totalurile lunare și datele Germanized. A găsit o eroare în `valuri.py`: excluderea „RMA" fără majuscule scotea aplicații ca widerruf-app („Germany", „confirmation"), iar „claims" scotea o aplicație GARAN.
+2. **Corecția mea diferă puțin de numărătoarea verificatorului.** Am făcut „RMA" cuvânt întreg cu majuscule, am scos „claims" și „alt text" (păstrat doar ca excludere când titlul nu conține „accessib") și am adăugat „extended warrant", „warranty upsell", „warranty management", ca să nu intre garanțiile extinse vândute în grupul GARAN. Rezultat: retragere 127 de aplicații (verificatorul: 126), EAA 123 (105), GPSR 60 (58), garanție 77 (78). Totalurile lunare ale butonului ies identic (2.792 în iunie, 72 în octombrie). Diferențele sunt doar în aplicații fără recenzii.
+3. Toate corecțiile din lista verificatorului au fost aplicate în PRECEDENTE.md, CALENDAR.md și PROPUNERI.md. Niciuna nu schimbă concluzia pașilor 1 și 5.
+
+## Pasul 5 (propuneri)
+
+1. **Nicio propunere.** Am construit din precedente un test cu patru condiții (element funcțional, toate magazinele, fără răspuns nativ, timp de listare). Nicio obligație din calendar nu le trece. Testul e judecata mea, sprijinită pe cifrele din PRECEDENTE.md.
+2. C2 (CLP) a fost cea mai apropiată. Am respins-o pentru data nesigură, precedentul GPSR și prezența liderului 401layers.

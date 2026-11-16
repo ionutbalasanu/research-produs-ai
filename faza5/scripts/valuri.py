@@ -3,11 +3,12 @@ from datetime import date
 from collections import Counter
 C=json.load(open('faza5/date/shopify/candidati_grupe.json'))
 T={'gpsr':date(2024,12,13),'eaa':date(2025,6,28),'retragere':date(2026,6,19),'garantie':date(2026,9,27)}
-EXCL=re.compile(r'trust badge|trust icon|warranty claim|warranty registration|shipping protection|order editing|alt text|customer accounts|profit analytics|warranties|insurance|claims|RMA|Product Files|serial',re.I)
+EXCL=re.compile(r'(?i:trust badge|trust icon|warranty claim|warranty registration|shipping protection|order editing|customer accounts|profit analytics|warranties|insurance|product files|serial|extended warrant|warranty upsell|warranty management)|\bRMA\b')
 def prim(h,v):
     t=v['title']
     if h=='gpsr': return 'gpsr'
     if EXCL.search(t): return None
+    if re.search(r'alt text',t,re.I) and not re.search(r'accessib',t,re.I): return None
     if re.search(r'withdraw|widerruf|rétractation|retract|recesso|elállási|revok|revoc',t,re.I): return 'retragere'
     if re.search(r'garan|gewährleist|gewahrleist|guarantee|warranty',t,re.I): return 'garantie'
     if re.search(r'gpsr|product safety',t,re.I): return 'gpsr'

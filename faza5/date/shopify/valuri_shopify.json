@@ -1,8 +1,8 @@
 {
  "eaa": {
   "termen": "2025-06-28",
-  "aplicatii_in_grup": 103,
-  "cu_recenzii_descarcate": 16,
+  "aplicatii_in_grup": 123,
+  "cu_recenzii_descarcate": 17,
   "total_lunar": {
    "2024-12": 6,
    "2025-01": 8,
@@ -19,7 +19,7 @@
    "2025-12": 20
   },
   "total_aug_oct_2026": 128,
-  "total_toate": 812,
+  "total_toate": 817,
   "aplicatii": [
    {
     "handle": "sea-accessibility-ada-wcag",
@@ -523,6 +523,41 @@
     "aug_oct_2026": 0
    },
    {
+    "handle": "accessora",
+    "titlu": "Accessora Accessibility Widget - Accessibility widget, check",
+    "dezvoltator": "Accessora",
+    "partner": "accessora",
+    "lansat": "2026-04-29",
+    "zile_fata_de_termen": 305,
+    "recenzii": 5,
+    "descarcate": 5,
+    "pret": "Free plan available. Free trial available. Free plan available",
+    "planuri": [
+     "24.99/month",
+     "248.88/year",
+     "4.99/month",
+     "49.68/year",
+     "49.99/month",
+     "497.88/year"
+    ],
+    "lunar": {
+     "2024-12": 0,
+     "2025-01": 0,
+     "2025-02": 0,
+     "2025-03": 0,
+     "2025-04": 0,
+     "2025-05": 0,
+     "2025-06": 0,
+     "2025-07": 0,
+     "2025-08": 0,
+     "2025-09": 0,
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0
+    },
+    "aug_oct_2026": 0
+   },
+   {
     "handle": "accessify-ada-audit",
     "titlu": "Accessibility Audit & Code Fix - Ai Web Accessibility Audit ",
     "dezvoltator": "accessify.app",
@@ -561,7 +596,7 @@
  },
  "gpsr": {
   "termen": "2024-12-13",
-  "aplicatii_in_grup": 56,
+  "aplicatii_in_grup": 60,
   "cu_recenzii_descarcate": 1,
   "total_lunar": {
    "2024-06": 0,
@@ -619,8 +654,8 @@
  },
  "retragere": {
   "termen": "2026-06-19",
-  "aplicatii_in_grup": 119,
-  "cu_recenzii_descarcate": 25,
+  "aplicatii_in_grup": 127,
+  "cu_recenzii_descarcate": 26,
   "total_lunar": {
    "2025-12": 0,
    "2026-01": 6,
@@ -628,16 +663,16 @@
    "2026-03": 30,
    "2026-04": 37,
    "2026-05": 324,
-   "2026-06": 2788,
+   "2026-06": 2792,
    "2026-07": 176,
    "2026-08": 137,
    "2026-09": 104,
-   "2026-10": 67,
-   "2026-11": 34,
+   "2026-10": 72,
+   "2026-11": 35,
    "2026-12": 0
   },
-  "total_aug_oct_2026": 308,
-  "total_toate": 3716,
+  "total_aug_oct_2026": 313,
+  "total_toate": 3726,
   "aplicatii": [
    {
     "handle": "eu-widerrufsbutton",
@@ -1018,6 +1053,38 @@
      "2026-12": 0
     },
     "aug_oct_2026": 6
+   },
+   {
+    "handle": "widerruf-app",
+    "titlu": "Maiko ‑ EU Withdrawal Button - EU withdrawal form with auto-",
+    "dezvoltator": "DD-Gossen",
+    "partner": "test17875",
+    "lansat": "2026-05-15",
+    "zile_fata_de_termen": -35,
+    "recenzii": 10,
+    "descarcate": 10,
+    "pret": "Free plan available. Free trial available. Free plan available",
+    "planuri": [
+     "12/month",
+     "120/year",
+     "9.90/month"
+    ],
+    "lunar": {
+     "2025-12": 0,
+     "2026-01": 0,
+     "2026-02": 0,
+     "2026-03": 0,
+     "2026-04": 0,
+     "2026-05": 0,
+     "2026-06": 4,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0,
+     "2026-10": 5,
+     "2026-11": 1,
+     "2026-12": 0
+    },
+    "aug_oct_2026": 5
    },
    {
     "handle": "widerruf-frontend",
@@ -1435,7 +1502,7 @@
  "garantie": {
   "termen": "2026-09-27",
   "aplicatii_in_grup": 77,
-  "cu_recenzii_descarcate": 10,
+  "cu_recenzii_descarcate": 11,
   "total_lunar": {
    "2026-03": 0,
    "2026-04": 0,
@@ -1444,15 +1511,15 @@
    "2026-07": 5,
    "2026-08": 4,
    "2026-09": 147,
-   "2026-10": 48,
-   "2026-11": 9,
+   "2026-10": 52,
+   "2026-11": 10,
    "2026-12": 0,
    "2027-01": 0,
    "2027-02": 0,
    "2027-03": 0
   },
-  "total_aug_oct_2026": 199,
-  "total_toate": 213,
+  "total_aug_oct_2026": 203,
+  "total_toate": 218,
   "aplicatii": [
    {
     "handle": "eu-warranty-garan-label",
@@ -1745,6 +1812,34 @@
      "2027-03": 0
     },
     "aug_oct_2026": 6
+   },
+   {
+    "handle": "eu-green-claims-guarantees",
+    "titlu": "EU Green Claims & GARAN Label - Green claims audit and offic",
+    "dezvoltator": "Wixpa Ai 🤖",
+    "partner": "fox-pixel",
+    "lansat": "2026-08-14",
+    "zile_fata_de_termen": -44,
+    "recenzii": 5,
+    "descarcate": 5,
+    "pret": "Free Free",
+    "planuri": [],
+    "lunar": {
+     "2026-03": 0,
+     "2026-04": 0,
+     "2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0,
+     "2026-10": 4,
+     "2026-11": 1,
+     "2026-12": 0,
+     "2027-01": 0,
+     "2027-02": 0,
+     "2027-03": 0
+    },
+    "aug_oct_2026": 4
    },
    {
     "handle": "garan-eu-guarantee-notice",

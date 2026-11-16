@@ -11,7 +11,7 @@ Criteriile (din sarcină): (1) text adoptat și publicat, cu dată citită în s
 | # | Obligația | Data | Cine e atins | Element pe site | Starea valului azi |
 |---|---|---|---|---|---|
 | C1 | Cyber Resilience Act, art. 13 alin. (19): data de sfârșit a suportului de securitate, afișată la cumpărare | **11.12.2027** | producătorii de produse cu elemente digitale (și distribuitorii, care verifică) | câmp „suport de securitate până la: luna/anul" pe pagina produsului | **neînceput**: nicio aplicație de afișare pe Shopify sau WordPress |
-| C2 | CLP, art. 48a nou: ofertele la distanță arată elementele etichetei de pericol | **1.1.2028**, condiționat (Omnibus VI) | orice magazin care vinde substanțe sau amestecuri periculoase (lumânări, uleiuri esențiale, detergenți, vopsele, lichide pentru țigări electronice) | pictograme GHS, cuvânt de avertizare, fraze H și P, furnizor, cantitate | **neînceput**: 3 aplicații Shopify cu 0-1 recenzii |
+| C2 | CLP, art. 48a nou: ofertele la distanță arată elementele etichetei de pericol | **1.1.2028**, condiționat (Omnibus VI) | orice magazin care vinde substanțe sau amestecuri periculoase (lumânări, uleiuri esențiale, detergenți, vopsele, lichide pentru țigări electronice) | pictograme GHS, cuvânt de avertizare, fraze H și P, furnizor, cantitate | **valul neînceput**, dar terenul ocupat: liderul GPSR (401layers) afișează deja frazele GHS; alte 7 aplicații cu 0-1 recenzii |
 | C3 | UK, Tobacco and Vapes Act 2026, s.1: vânzarea de tutun interzisă celor născuți la 1.1.2009 sau după | **1.1.2027** | magazinele online din UK care vând tutun, produse din plante pentru fumat, foițe | poarta de vârstă compară data nașterii cu 1.1.2009, nu cu „18 ani" | **nemăsurat**; termenul e peste 6 săptămâni |
 
 ---
@@ -21,13 +21,13 @@ Criteriile (din sarcină): (1) text adoptat și publicat, cu dată citită în s
 - **Actul:** Regulamentul (UE) 2024/2847, CELEX 32024R2847. Cellar: http://publications.europa.eu/resource/celex/32024R2847. EUR-Lex: https://eur-lex.europa.eu/eli/reg/2024/2847/oj. Regulament, direct aplicabil, fără transpunere. **verificat în sursă**
 - **Data:** art. 71 alin. (2): „This Regulation shall apply from 11 December 2027. However, Article 14 shall apply from 11 September 2026 and Chapter IV (Articles 35 to 51) shall apply from 11 June 2026." Citit și de mine pe 2026-11-16, `faza5/date/legal/32024R2847.html`. **verificat în sursă**
 - **Ce trebuie să apară:** art. 13 alin. (19): „Manufacturers shall ensure that the end date of the support period referred to in paragraph 8, including at least the month and the year, is clearly and understandably specified at the time of purchase in an easily accessible manner and, where applicable, on the product with digital elements, its packaging or by digital means." **verificat în sursă**. La vânzarea online, „at the time of purchase" înseamnă pagina produsului sau comanda. **dedus**
-- **Cine e obligat:** producătorul. Distribuitorul verifică înainte de vânzare că producătorul a respectat art. 13 alin. (19) (art. 20 alin. (2) lit. (b)). Se aplică doar produselor introduse pe piață după 11.12.2027 (art. 69). Fără excepție pentru microîntreprinderi la această obligație. **verificat în sursă**
+- **Cine e obligat:** producătorul. Distribuitorul verifică înainte de vânzare că producătorul a respectat art. 13 alin. (19) (art. 20 alin. (2) lit. (b)). Se aplică doar produselor introduse pe piață după 11.12.2027 și celor mai vechi modificate substanțial după această dată (art. 69). Fără excepție pentru microîntreprinderi la această obligație. **verificat în sursă**
 - **Sancțiunea:** art. 64 alin. (2): până la 15.000.000 EUR sau 2,5% din cifra de afaceri pentru art. 13. **verificat în sursă**. Practică de executare: **necunoscut** (regulamentul nu se aplică încă).
 - **Transpunerea în DE, FR, IT, ES, NL, PL, RO:** nu e cazul, e regulament. Autoritățile de supraveghere naționale: **necunoscut**.
 - **Criteriul (5):** aplicația afișează o dată pe care o dă producătorul. Nu stabilește durata suportului. **dedus**
 
 **Starea de azi (pasul 3):**
-- **Shopify:** nicio aplicație care afișează perioada de suport. Singura aplicație CRA, craledger-duty-records (momiji-shop, lansată 9.07.2026, 0 recenzii), ține evidențele producătorului (raportarea vulnerabilităților, art. 14), nu afișarea pe site (https://apps.shopify.com/craledger-duty-records). **verificat în sursă**
+- **Shopify:** nicio aplicație care afișează explicit perioada de suport. Trei aplicații ating CRA, toate cu 0 recenzii: craledger-duty-records (momiji-shop, 9.07.2026, evidențele producătorului pentru art. 14), complyo (22.05.2026, scaner „EU AI Act and CRA", 29 $/lună) și eu-compliance-kit-1 (19.10.2026, listează „software updates" printre informațiile de pe pagina produsului). **verificat în sursă** (ultimele două adăugate la verificare)
 - **WordPress.org:** 5 pluginuri CRA (cra-vulnerability-monitor-eu-cyber-resilience-act, 50 de instalări; cra-vuln-notify, 20; trei cu 0), toate pentru dezvoltatori care își raportează propriul software, nu pentru magazine (`faza5/date/wp/cautare_pas3.json`). **verificat în sursă**
 - **Platforma:** Shopify a lansat pe 17.06.2026 câmpul nativ „disclosures" pentru produse: „support built-in disclosure types for California Proposition 65 warnings and choking-hazard notices, plus custom disclosure types for other product-specific warnings or notices", afișat pe temele compatibile într-o secțiune „Disclosures" (https://changelog.shopify.com/posts/product-listings-now-support-a-disclosures-field). Un tip personalizat „perioadă de suport" se poate face nativ, gratuit. **verificat în sursă** (funcția), **dedus** (folosirea pentru CRA). WooCommerce și Germanized: nimic despre CRA. **verificat în sursă** (readme Germanized)
 - **Timp până la termen:** 12,8 luni. Construcție din decembrie 2026, listare în martie 2027, adică ~9 luni înainte: **fereastra de 3-6 luni din pasul 1 se poate prinde**. **dedus**
@@ -50,10 +50,11 @@ Criteriile (din sarcină): (1) text adoptat și publicat, cu dată citită în s
 | Aplicație | Dezvoltator | Lansată | Recenzii | Preț |
 |---|---|---|---|---|
 | gpsr-clp-hazard-labels | voidroot GmbH | 10.07.2026 | 1 | gratuit până la 5 produse; 9,99 $/lună sau 99 $/an |
-| clp-hazard-info-display (CLPLens) | momiji-shop | 10.07.2026 | 0 | plan gratuit |
+| clp-hazard-info-display (CLPLens) | momiji-shop | 10.07.2026 | 0 | gratuit (5 produse, previzualizare); 19, 39 și 79 $/lună |
 | gpsr-compliance-2 (GPSR & CLP Product Safety) | Shark Tech systems | 25.08.2026 | 0 | 9,99 $/lună |
 
-Sursa: paginile aplicațiilor, `faza5/date/shopify/app3/`. **verificat în sursă**
+Sursa: paginile aplicațiilor, `faza5/date/shopify/app3/`; prețul CLPLens corectat la verificare (VERIFICARE.md). **verificat în sursă**
+- **Terenul nu e gol:** GCM / gpsr (401layers, 29 de recenzii, liderul GPSR și firma care a luat 70% din valul butonului de retragere) oferă deja în planul Basic (15 $/lună) „FULL GHS Hazard/Safety Statements Set" (https://apps.shopify.com/gpsr). Alte 4 aplicații afișează pictograme de pericol, toate cu 0 recenzii: conformica-gpsr, meetanshi-eu-gpsr-compliance, eu-compliance-kit-1, sds-manager-app. **verificat în sursă** (VERIFICARE.md, secțiunea E)
 - **WordPress.org:** govseer-hazard-labels, adăugat 10.11.2026, 0 instalări. **verificat în sursă**. Germanized nu menționează CLP. **verificat în sursă**
 - **Platforma:** câmpul nativ Shopify „disclosures" (17.06.2026, vezi C1) poate ține un text de avertizare pe produs. Nu are pictograme GHS sau frazele H/P traduse. **verificat în sursă** (funcția), **dedus** (limita)
 - **Valul nu a început.** Aplicațiile s-au lansat în iulie 2026, înaintea vechii date (1.07.2026), care fusese deja mutată în decembrie 2025. **verificat în sursă** (date), **dedus** (explicație)
@@ -64,7 +65,7 @@ Sursa: paginile aplicațiilor, `faza5/date/shopify/app3/`. **verificat în surs�
 ## C3. UK: vârsta pentru vânzarea de tutun
 
 - **Actul:** Tobacco and Vapes Act 2026, s.1 și s.175(3): „The following (which relate to the age of sale of tobacco etc) come into force on 1 January 2027 … (a) sections 1, 2, 5, 6 …". Confirmat de SI 2026/996, „Coming into force 1st January 2027". Surse: https://www.legislation.gov.uk/ukpga/2026/18/section/175 și SI 2026/996, `faza5/date/legal/uk_ukpga_2026_18_s175.html`, `uk_uksi_2026_996_*.html`. **verificat în sursă** (de agentul pentru calendarul național; nerecitit de mine)
-- **Ce cere:** infracțiune vânzarea către o persoană „born on or after 1 January 2009"; amendă de nivel 4 (s.1(5)). Se aplică și vânzării online: **dedus** (legea nu numește vânzarea la distanță). Pentru vape-uri pragul rămâne 18 ani. **verificat în sursă**
+- **Ce cere:** infracțiune vânzarea către o persoană „born on or after 1 January 2009"; amendă de nivel 4 (s.1(5)). s.1 acoperă Anglia și Țara Galilor; Scoția și Irlanda de Nord au s.52 și s.72-73, cu aceeași dată. Se aplică și vânzării online: **dedus** (legea nu numește vânzarea la distanță). Pentru vape-uri pragul rămâne 18 ani. **verificat în sursă**
 - **Starea de azi:** nemăsurată. Proiectul de regulament pentru apărarea prin verificarea vârstei e încă proiect (de urmărit). **verificat în sursă**
 - **Timp până la termen:** 1,5 luni. **Fereastra nu mai poate fi prinsă.** Nișă mică (doar vânzătorii de tutun din UK). **dedus**
 
