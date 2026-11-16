@@ -1,0 +1,1239 @@
+{
+"B1": [
+{
+"handle": "eu-widerrufsbutton",
+"name": "EW: EU Withdrawal Button &Form",
+"rating": 4.9,
+"reviews": 2324,
+"txt": " EW: EU Withdrawal Button &Form 4.9 out of 5 stars (2,324) 2324 total reviews \u2022 Free plan available Easily comply with EU withdrawal requirements 2023/2673 popover-modal#close click->popover-modal#nop",
+"launched": "2026-01-09",
+"partner": "quaternico",
+"dev": "401layers UG (haftungsbeschraenkt)",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+99.99,
+"year"
+],
+[
+29.99,
+"month"
+],
+[
+299.99,
+"year"
+]
+]
+},
+{
+"handle": "eu-withdrawal-form",
+"name": "Revoq \u2011 EU Withdrawal Button",
+"rating": 4.8,
+"reviews": 582,
+"txt": " Revoq \u2011 EU Withdrawal Button 4.8 out of 5 stars (582) 582 total reviews \u2022 Free plan available Required for EU shops from June 19, 2026 \u2013 set up in minutes. popover-modal#close click->popover-modal#no",
+"launched": "2026-03-11",
+"partner": "jonas-busch-consulting",
+"dev": "BuschBytes",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.0,
+"month"
+],
+[
+90.0,
+"year"
+],
+[
+25.0,
+"month"
+],
+[
+250.0,
+"year"
+]
+]
+},
+{
+"handle": "terms-and-conditions-checkbox",
+"name": "TN Term and Condition Checkbox",
+"rating": 4.9,
+"reviews": 569,
+"txt": " TN Term and Condition Checkbox 4.9 out of 5 stars (569) 569 total reviews \u2022 Free plan available Terms and conditions checkbox checkout rules &age verification popover-modal#close click->popover-modal",
+"launched": "2019-12-02",
+"partner": "effectify-apps",
+"dev": "Effective Apps",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+4.99,
+"month"
+],
+[
+47.9,
+"year"
+],
+[
+9.99,
+"month"
+],
+[
+83.92,
+"year"
+],
+[
+14.99,
+"month"
+],
+[
+89.94,
+"year"
+]
+]
+},
+{
+"handle": "terms-and-conditions-in-cart",
+"name": "RT: Terms and Conditions Box",
+"rating": 4.6,
+"reviews": 385,
+"txt": " RT: Terms and Conditions Box 4.6 out of 5 stars (385) 385 total reviews \u2022 Free plan available Add terms and conditions checkbox, terms checkbox to Cart popover-modal#close click->popover-modal#nop:st",
+"launched": "2020-09-22",
+"partner": "kumi",
+"dev": "RoarTheme",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+6.99,
+"month"
+],
+[
+69.0,
+"year"
+],
+[
+14.99,
+"month"
+],
+[
+149.0,
+"year"
+]
+]
+}
+],
+"B2": [
+{
+"handle": "judgeme",
+"name": "Judge.me Product Reviews App",
+"rating": 5.0,
+"reviews": 50206,
+"txt": " Judge.me Product Reviews App 5.0 out of 5 stars (50,206) 50206 total reviews \u2022 Free plan available Collect unlimited product reviews, star ratings, testimonials popover-modal#close click->popover-mod",
+"launched": "2015-06-25",
+"partner": "judge-me",
+"dev": "Judge.me",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+15.0,
+"month"
+]
+]
+},
+{
+"handle": "booster-apps-seo-optimizer",
+"name": "BOOSTER AI SEO + AEO OPTIMIZER",
+"rating": 4.8,
+"reviews": 5483,
+"txt": " BOOSTER AI SEO + AEO OPTIMIZER 4.8 out of 5 stars (5,483) 5483 total reviews \u2022 Free plan available The trusted AI SEO app for speed, sharp images, higher ranks \u2191 <div class=\"tw-w-full\" ",
+"launched": "2016-03-28",
+"partner": "booster-apps",
+"dev": "Booster SEO",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+39.0,
+"month"
+],
+[
+349.0,
+"year"
+],
+[
+69.0,
+"month"
+],
+[
+619.0,
+"year"
+]
+]
+},
+{
+"handle": "avada-seo-suite",
+"name": "Avada AI SEO Image Optimizer",
+"rating": 4.9,
+"reviews": 4689,
+"txt": " Avada AI SEO Image Optimizer 4.9 out of 5 stars (4,689) 4689 total reviews \u2022 Free plan available Win sales via AI SEO Audit Agent, Checklist & onpage optimizer popover-modal#close click->popover-moda",
+"launched": "2020-04-21",
+"partner": "seoon",
+"dev": "Avada SEO Suite",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+34.95,
+"month"
+],
+[
+348.0,
+"year"
+],
+[
+99.0,
+"month"
+],
+[
+990.0,
+"year"
+]
+]
+},
+{
+"handle": "seolab",
+"name": "SEOLab: All in 1 SEO & AI SEO",
+"rating": 5.0,
+"reviews": 2935,
+"txt": " SEOLab: All in 1 SEO & AI SEO 5.0 out of 5 stars (2,935) 2935 total reviews \u2022 Free plan available AI SEO Optimizer, Alt Text, SEO Image Optimizer & Speed Boost <div class=\"tw-w-full\" ",
+"launched": "2024-12-16",
+"partner": "seolab-apps",
+"dev": "Commerce Plus",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+14.0,
+"month"
+],
+[
+134.0,
+"year"
+],
+[
+29.0,
+"month"
+],
+[
+278.0,
+"year"
+],
+[
+59.0,
+"month"
+],
+[
+566.0,
+"year"
+]
+]
+}
+],
+"B3": [
+{
+"handle": "seo-master",
+"name": "SEOWILL: AI SEO & AI Blog Post",
+"rating": 4.8,
+"reviews": 1811,
+"txt": " SEOWILL: AI SEO & AI Blog Post 4.8 out of 5 stars (1,811) 1811 total reviews \u2022 Free plan available SEOant,SEO Optimizer,AI Store Builder,GEO,AEO,Sitemap,Claude <div class=\"tw-w-full\" ",
+"launched": "2019-03-19",
+"partner": "giraffly",
+"dev": "CWILL",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+29.99,
+"month"
+],
+[
+287.9,
+"year"
+],
+[
+59.99,
+"month"
+],
+[
+575.9,
+"year"
+]
+]
+},
+{
+"handle": "storeseo",
+"name": "StoreSEO AI SEO Optimizer",
+"rating": 5.0,
+"reviews": 773,
+"txt": " StoreSEO AI SEO Optimizer 5.0 out of 5 stars (773) 773 total reviews \u2022 Free plan available SEO optimizer: meta tags, alt text, JSON-LD schema & sitemap popover-modal#close click->popover-modal#nop:st",
+"launched": "2021-10-19",
+"partner": "storeware",
+"dev": "Storeware",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+3.99,
+"month"
+],
+[
+19.99,
+"month"
+],
+[
+7.99,
+"month"
+],
+[
+39.99,
+"month"
+],
+[
+49.99,
+"month"
+],
+[
+249.99,
+"month"
+]
+]
+},
+{
+"handle": "seoon-blog",
+"name": "Avada Blog SEO AEO Content",
+"rating": 4.9,
+"reviews": 567,
+"txt": " Avada Blog SEO AEO Content 4.9 out of 5 stars (567) 567 total reviews \u2022 Free plan available Grow traffic & ranks with SEO-ready AI blog content generator popover-modal#close click->popover-modal#nop:",
+"launched": "2024-07-12",
+"partner": "seoon",
+"dev": "Avada SEO Suite",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+14.9,
+"month"
+],
+[
+149.0,
+"year"
+]
+]
+},
+{
+"handle": "tapita-ai-seo-blog-builder",
+"name": "Tapita AEO/GEO AI Blog",
+"rating": 4.9,
+"reviews": 494,
+"txt": " Tapita AEO/GEO AI Blog 4.9 out of 5 stars (494) 494 total reviews \u2022 Free Rank higher with AI blog posts. Get cited by ChatGPT & Gemini popover-modal#close click->popover-modal#nop:stop resize@window-",
+"launched": "2022-02-14",
+"partner": "tapita",
+"dev": "Tapita",
+"pricing": "Free Free Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": []
+}
+],
+"B4": [
+{
+"handle": "pagefly",
+"name": "PageFly \u2726 AI Page Builder",
+"rating": 4.9,
+"reviews": 5929,
+"txt": " PageFly \u2726 AI Page Builder 4.9 out of 5 stars (5,929) 5929 total reviews \u2022 Free plan available AI CRO funnel builder: build pages, find leaks, A/B test them popover-modal#close click->popover-modal#no",
+"launched": "2017-09-28",
+"partner": "pagefly",
+"dev": "PageFly | AI Landing Page Builder & CRO",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+24.0,
+"month"
+],
+[
+99.0,
+"month"
+],
+[
+990.0,
+"year"
+],
+[
+299.0,
+"month"
+]
+]
+},
+{
+"handle": "gempages",
+"name": "GemPages Landing Page Builder",
+"rating": 4.9,
+"reviews": 4267,
+"txt": " GemPages Landing Page Builder 4.9 out of 5 stars (4,267) 4267 total reviews \u2022 Free plan available Build conversion-focused pages & sales funnels with AI <div class=\"tw-w-full\" ",
+"launched": "2017-03-13",
+"partner": "getshoplaunch",
+"dev": "GEMCOMMERCE CO., LTD",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+29.0,
+"month"
+],
+[
+59.0,
+"month"
+],
+[
+199.0,
+"month"
+]
+]
+},
+{
+"handle": "ecomposer",
+"name": "EComposer Landing Page Builder",
+"rating": 4.9,
+"reviews": 3460,
+"txt": " EComposer Landing Page Builder 4.9 out of 5 stars (3,460) 3460 total reviews \u2022 Free plan available Build pages, optimize performance & improve conversion in one popover-modal#close click->popover-mod",
+"launched": "2022-05-06",
+"partner": "ecomposer",
+"dev": "EComposer",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+25.0,
+"month"
+],
+[
+228.0,
+"year"
+],
+[
+49.0,
+"month"
+],
+[
+468.0,
+"year"
+],
+[
+129.0,
+"month"
+],
+[
+1236.0,
+"year"
+]
+]
+},
+{
+"handle": "section-factory",
+"name": "Section Store & Cart Drawer",
+"rating": 4.9,
+"reviews": 3043,
+"txt": " Section Store & Cart Drawer 4.9 out of 5 stars (3,043) 3043 total reviews \u2022 Free to install Sell more: cart upsell, bundles, AI pages and theme sections popover-modal#close click->popover-modal#nop:s",
+"launched": "2022-03-29",
+"partner": "appify-ivs",
+"dev": "Section Store",
+"pricing": "Free to install. Free trial available. Free to install Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+15.0,
+"month"
+]
+]
+}
+],
+"B5": [
+{
+"handle": "product-options-pro",
+"name": "Globo Product Options, Variant",
+"rating": 4.9,
+"reviews": 5297,
+"txt": " Globo Product Options, Variant 4.9 out of 5 stars (5,297) 5297 total reviews \u2022 Free plan available Product personalizer, custom product option w/ variant options popover-modal#close click->popover-mo",
+"launched": "2020-12-16",
+"partner": "globo-options",
+"dev": "Globo Options",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+4.95,
+"month"
+],
+[
+9.9,
+"month"
+],
+[
+9.95,
+"month"
+],
+[
+19.9,
+"month"
+]
+]
+},
+{
+"handle": "easify-product-options",
+"name": "Easify Custom Product Options",
+"rating": 4.9,
+"reviews": 3254,
+"txt": " Easify Custom Product Options 4.9 out of 5 stars (3,254) 3254 total reviews \u2022 Free plan available Add product options variants options with product personalizer popover-modal#close click->popover-mod",
+"launched": "2023-04-20",
+"partner": "easify-apps",
+"dev": "Easify",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+95.9,
+"year"
+],
+[
+19.99,
+"month"
+],
+[
+191.9,
+"year"
+],
+[
+99.99,
+"month"
+],
+[
+959.9,
+"year"
+]
+]
+},
+{
+"handle": "variant-swatch-king",
+"name": "Color Swatch King: Variants",
+"rating": 5.0,
+"reviews": 3236,
+"txt": " Color Swatch King: Variants 5.0 out of 5 stars (3,236) 3236 total reviews \u2022 Free plan available BOOST SALE: Variants Options as Product Variant Color Swatch popover-modal#close click->popover-modal#n",
+"launched": "2019-07-23",
+"partner": "starapps-studio",
+"dev": "StarApps",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+5.0,
+"month"
+],
+[
+14.9,
+"month"
+],
+[
+29.9,
+"month"
+],
+[
+49.9,
+"month"
+],
+[
+99.9,
+"month"
+]
+]
+},
+{
+"handle": "custom-options",
+"name": "Infinite Options",
+"rating": 4.7,
+"reviews": 2638,
+"txt": " Infinite Options 4.7 out of 5 stars (2,638) 2638 total reviews \u2022 Free plan available Custom product options, variant options, product bundles +more popover-modal#close click->popover-modal#nop:stop r",
+"launched": "2015-06-22",
+"partner": "shoppad",
+"dev": "ShopPad Inc.",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+49.0,
+"year"
+]
+]
+}
+],
+"B6": [
+{
+"handle": "inbox",
+"name": "Shopify Inbox",
+"rating": 4.5,
+"reviews": 5818,
+"txt": " Shopify Inbox 4.5 out of 5 stars (5,818) 5818 total reviews \u2022 Free An AI sales associate that knows your customers <div class=\"tw-w-full\" ",
+"launched": "2019-08-14",
+"partner": "shopify",
+"dev": "Shopify",
+"pricing": "Free Free Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": []
+},
+{
+"handle": "chatty",
+"name": "Chatty AI Chatbot & Live Chat",
+"rating": 4.9,
+"reviews": 1893,
+"txt": " Chatty AI Chatbot & Live Chat 4.9 out of 5 stars (1,893) 1893 total reviews \u2022 Free plan available AI chat, livechat & helpdesk: one inbox for sales & support popover-modal#close click->popover-modal#",
+"launched": "2022-06-09",
+"partner": "so-good6",
+"dev": "Chatty AI Sales Agent - For live chat & helpdesk",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+19.99,
+"month"
+],
+[
+203.88,
+"year"
+],
+[
+68.99,
+"month"
+],
+[
+707.88,
+"year"
+],
+[
+199.0,
+"month"
+],
+[
+2039.88,
+"year"
+]
+]
+},
+{
+"handle": "tidio-chat",
+"name": "Tidio: AI Chatbot & Live Chat",
+"rating": 4.8,
+"reviews": 1358,
+"txt": " Tidio: AI Chatbot & Live Chat 4.8 out of 5 stars (1,358) 1358 total reviews \u2022 Free plan available Live chat, Helpdesk and an AI chatbot that sells and supports <div class=\"tw-w-full\" ",
+"launched": "2014-07-14",
+"partner": "tidio",
+"dev": "TIDIO LLC",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+29.0,
+"month"
+],
+[
+290.0,
+"year"
+],
+[
+29.0,
+"month"
+],
+[
+290.0,
+"year"
+],
+[
+39.0,
+"month"
+],
+[
+390.0,
+"year"
+]
+]
+},
+{
+"handle": "dondy-marketing-ai",
+"name": "Dondy: WhatsApp Marketing+Chat",
+"rating": 4.9,
+"reviews": 830,
+"txt": " Dondy: WhatsApp Marketing+Chat 4.9 out of 5 stars (830) 830 total reviews \u2022 Free plan available Abandoned cart recovery, AI agent & automations on WhatsApp popover-modal#close click->popover-modal#no",
+"launched": "2023-03-15",
+"partner": "dondy",
+"dev": "Dondy",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+6.99,
+"month"
+],
+[
+67.1,
+"year"
+],
+[
+79.99,
+"month"
+],
+[
+719.88,
+"year"
+],
+[
+159.99,
+"month"
+],
+[
+1439.88,
+"year"
+]
+]
+}
+],
+"B7": [
+{
+"handle": "blockify",
+"name": "Blockify Fraud Filter, Blocker",
+"rating": 4.9,
+"reviews": 1873,
+"txt": " Blockify Fraud Filter, Blocker 4.9 out of 5 stars (1,873) 1873 total reviews \u2022 Free plan available Block fraud with IP blocker, bot blocker and country blocker popover-modal#close click->popover-moda",
+"launched": "2018-03-13",
+"partner": "blockify",
+"dev": "Blockify",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+101.88,
+"year"
+],
+[
+29.99,
+"month"
+],
+[
+305.88,
+"year"
+],
+[
+59.99,
+"month"
+],
+[
+611.88,
+"year"
+]
+]
+},
+{
+"handle": "mida-fraud-ip-blocker",
+"name": "MIDA Fraud Filter, Bot Blocker",
+"rating": 4.9,
+"reviews": 580,
+"txt": " MIDA Fraud Filter, Bot Blocker 4.9 out of 5 stars (580) 580 total reviews \u2022 Free plan available Block bots, fraud, fake orders using IP, country block filters popover-modal#close click->popover-modal",
+"launched": "2025-09-19",
+"partner": "mida-by-bss-commerce",
+"dev": "MIDA",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.0,
+"month"
+],
+[
+19.0,
+"month"
+],
+[
+39.0,
+"month"
+]
+]
+},
+{
+"handle": "synctrack",
+"name": "Synctrack Paypal Chargebacks",
+"rating": 5.0,
+"reviews": 450,
+"txt": " Synctrack Paypal Chargebacks 5.0 out of 5 stars (450) 450 total reviews \u2022 Free plan available PayPal Tracking Sync, Prevent Chargebacks, Disputes Management popover-modal#close click->popover-modal#n",
+"launched": "2020-12-16",
+"partner": "synctrack",
+"dev": "Synctrack",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+95.88,
+"year"
+],
+[
+19.99,
+"month"
+],
+[
+191.88,
+"year"
+],
+[
+59.99,
+"month"
+],
+[
+575.88,
+"year"
+]
+]
+},
+{
+"handle": "chargeflow",
+"name": "Chargeflow Prevent Chargebacks",
+"rating": 4.5,
+"reviews": 439,
+"txt": " Chargeflow Prevent Chargebacks 4.5 out of 5 stars (439) 439 total reviews \u2022 Free to install Automate Chargebacks, Fraud Prevention & Reduce Dispute Rate <div class=\"tw-w-full\" ",
+"launched": "2021-06-14",
+"partner": "chargeflow-inc",
+"dev": "Chargeflow, Inc.",
+"pricing": "Free to install. Additional charges may apply. Free to install Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": []
+}
+],
+"B8": [
+{
+"handle": "excel-export-import",
+"name": "Matrixify: Data Export Import",
+"rating": 4.9,
+"reviews": 1896,
+"txt": " Matrixify: Data Export Import 4.9 out of 5 stars (1,896) 1896 total reviews \u2022 Free plan available Bulk import, export & update via Excel, CSV, MCP & AI tools. popover-modal#close click->popover-modal",
+"launched": "2017-07-07",
+"partner": "itissible",
+"dev": "ITissible",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+20.0,
+"month"
+],
+[
+50.0,
+"month"
+],
+[
+200.0,
+"month"
+]
+]
+},
+{
+"handle": "bulk-product-edit",
+"name": "Hextom: Bulk Product Edit",
+"rating": 4.9,
+"reviews": 1203,
+"txt": " Hextom: Bulk Product Edit 4.9 out of 5 stars (1,203) 1203 total reviews \u2022 Free plan available Save time with bulk editing, importing, exporting store data <div class=\"tw-w-full\" ",
+"launched": "2015-10-05",
+"partner": "hextom",
+"dev": "Hextom",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+19.99,
+"month"
+],
+[
+49.99,
+"month"
+]
+]
+},
+{
+"handle": "bulk-product-editor",
+"name": "Ablestar Bulk Product Edit",
+"rating": 4.9,
+"reviews": 942,
+"txt": " Ablestar Bulk Product Edit 4.9 out of 5 stars (942) 942 total reviews \u2022 Free plan available Bulk edit products, tags & metafields. Bulk price editor popover-modal#close click->popover-modal#nop:stop ",
+"launched": "2017-07-31",
+"partner": "ablestar",
+"dev": "Ablestar",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+30.0,
+"month"
+],
+[
+60.0,
+"month"
+],
+[
+120.0,
+"month"
+]
+]
+},
+{
+"handle": "breadcrumbs-schemas",
+"name": "Webrex: #1 AI SEO Optimizer ",
+"rating": 4.9,
+"reviews": 595,
+"txt": " Webrex: #1 AI SEO Optimizer 4.9 out of 5 stars (595) 595 total reviews \u2022 Free plan available SEO Optimizer, AEO & GEO: Schema, Breadcrumbs, Alt text, Speed popover-modal#close click->popover-modal#no",
+"launched": "2020-04-20",
+"partner": "webrexstudio",
+"dev": "Webrex",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+83.92,
+"year"
+],
+[
+3.36,
+"month"
+],
+[
+29.99,
+"month"
+],
+[
+251.92,
+"year"
+],
+[
+3.36,
+"month"
+],
+[
+49.99,
+"month"
+],
+[
+419.92,
+"year"
+],
+[
+3.36,
+"month"
+]
+]
+}
+],
+"B8b": [
+{
+"handle": "marketplace-connect",
+"name": "Shopify Marketplace Connect",
+"rating": 4.2,
+"reviews": 2144,
+"txt": " Shopify Marketplace Connect 4.2 out of 5 stars (2,144) 2144 total reviews \u2022 Free to install Sell on Amazon, Target Plus, Walmart, and eBay from Shopify <div class=\"tw-w-full\" ",
+"launched": "2017-09-19",
+"partner": "shopify",
+"dev": "Shopify",
+"pricing": "Free to install. Additional charges may apply. Free to install Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+99.0,
+"month"
+]
+]
+},
+{
+"handle": "excel-export-import",
+"name": "Matrixify: Data Export Import",
+"rating": 4.9,
+"reviews": 1896,
+"txt": " Matrixify: Data Export Import 4.9 out of 5 stars (1,896) 1896 total reviews \u2022 Free plan available Bulk import, export & update via Excel, CSV, MCP & AI tools. popover-modal#close click->popover-modal",
+"launched": "2017-07-07",
+"partner": "itissible",
+"dev": "ITissible",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+20.0,
+"month"
+],
+[
+50.0,
+"month"
+],
+[
+200.0,
+"month"
+]
+]
+},
+{
+"handle": "etsy-marketplace-integration",
+"name": "CedCommerce Etsy Integration",
+"rating": 4.5,
+"reviews": 1245,
+"txt": " CedCommerce Etsy Integration 4.5 out of 5 stars (1,245) 1245 total reviews \u2022 Free trial available Sync Etsy Inventory & Orders \u2014 Sync Listings, Boost Sales popover-modal#close click->popover-modal#no",
+"launched": "2018-09-26",
+"partner": "cedcommerce",
+"dev": "CedCommerce",
+"pricing": "From $9/month. Free trial available. Free trial available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.0,
+"month"
+],
+[
+103.0,
+"year"
+],
+[
+59.0,
+"month"
+],
+[
+601.0,
+"year"
+]
+]
+},
+{
+"handle": "stock-sync",
+"name": "syncX: Stock Sync & Inventory",
+"rating": 4.8,
+"reviews": 944,
+"txt": " syncX: Stock Sync & Inventory 4.8 out of 5 stars (944) 944 total reviews \u2022 Free plan available Product Import, Update, Export, Migrate & Multi Store Sync popover-modal#close click->popover-modal#nop:",
+"launched": "2014-05-15",
+"partner": "syncx",
+"dev": "SyncX",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+7.0,
+"month"
+],
+[
+77.0,
+"year"
+],
+[
+10.0,
+"month"
+],
+[
+110.0,
+"year"
+],
+[
+300.0,
+"month"
+],
+[
+275.0,
+"year"
+]
+]
+}
+],
+"B9": [
+{
+"handle": "click-and-collect",
+"name": "Zapiet \u2011 Pickup + Delivery",
+"rating": 4.9,
+"reviews": 1905,
+"txt": " Zapiet \u2011 Pickup + Delivery 4.9 out of 5 stars (1,905) 1905 total reviews \u2022 Free trial available Store pickup, click & collect and local delivery date picker popover-modal#close click->popover-modal#n",
+"launched": "2015-02-17",
+"partner": "shopifyextras",
+"dev": "Zapiet",
+"pricing": "From $49.99/month. Free trial available. Free trial available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+49.99,
+"month"
+],
+[
+539.89,
+"year"
+],
+[
+79.99,
+"month"
+],
+[
+815.9,
+"year"
+],
+[
+179.99,
+"month"
+],
+[
+1835.9,
+"year"
+]
+]
+},
+{
+"handle": "order-delivery-date-time",
+"name": "Pickup Delivery Date Pickeasy",
+"rating": 4.9,
+"reviews": 1351,
+"txt": " Pickup Delivery Date Pickeasy 4.9 out of 5 stars (1,351) 1351 total reviews \u2022 Free plan available Order Delivery Date Picker for Store Pickup & Local Delivery. popover-modal#close click->popover-moda",
+"launched": "2020-05-29",
+"partner": "logbase1",
+"dev": "Logbase",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+107.99,
+"year"
+],
+[
+19.99,
+"month"
+],
+[
+215.99,
+"year"
+],
+[
+29.99,
+"month"
+],
+[
+323.99,
+"year"
+]
+]
+},
+{
+"handle": "shipping-rates",
+"name": "ShipX \u2011 Shipping Rules & Rates",
+"rating": 5.0,
+"reviews": 1273,
+"txt": " ShipX \u2011 Shipping Rules & Rates 5.0 out of 5 stars (1,273) 1273 total reviews \u2022 Free plan available Shipping calculator: custom shipping rates by postcode & item. 1 2 3 4 \u2026 28 1 2 3 4 \u2026 28 Next 663 ap",
+"launched": "2021-07-13",
+"partner": "logbase1",
+"dev": "Logbase",
+"pricing": "Free plan available. Free trial available. Free plan available Popular with stores like yours Based in United States",
+"bfs": false,
+"plans": [
+[
+9.99,
+"month"
+],
+[
+107.99,
+"year"
+],
+[
+19.99,
+"month"
+],
+[
+215.99,
+"year"
+],
+[
+34.99,
+"month"
+],
+[
+377.99,
+"year"
+]
+]
+},
+{
+"handle": "essential-estimated-delivery",
+"name": "Essent Estimated Delivery Date",
+"rating": 5.0,
+"reviews": 1063,
+"txt": " Essent Estimated Delivery Date 5.0 out of 5 stars (1,063) 1063 total reviews \u2022 Free plan available Show Estimated Delivery Date Plus Shipping Time (EDD/ETA) popover-modal#close click->popover-modal#n",
+"launched": "2025-06-06",
+"partner": "essentials25",
+"dev": "Essential Apps",
+"pricing": "Free plan available Free plan available Popular with stores like yours Based in United States",
+"bfs": true,
+"plans": [
+[
+4.99,
+"month"
+],
+[
+47.88,
+"year"
+],
+[
+9.99,
+"month"
+],
+[
+95.88,
+"year"
+],
+[
+24.99,
+"month"
+],
+[
+239.88,
+"year"
+]
+]
+}
+]
+}
