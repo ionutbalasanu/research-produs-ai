@@ -17,3 +17,15 @@ Data: 2026-11-16. Ramura de lucru `claude/loving-ptolemy-i15ysg` a pornit din `o
 4. **„Câștigător"** = aplicația cu cele mai multe recenzii din grup. La EAA câștigătorul e o firmă mare (Avada), deci am dat și nou-veniții mici.
 5. **WordPress: seria de descărcări are maximum 730 de zile**, deci începe la 17.11.2024. La GPSR lipsesc lunile dinainte de termen. Am notat.
 6. **Faza 4 spunea 2.601 recenzii în iunie 2026 pentru 7 aplicații.** Aici sunt 2.788 pentru 25 de aplicații. Nu e o contradicție: grupul e mai larg.
+
+## Push
+
+1. Primul push a fost respins de scanarea de secrete GitHub: pagina legislation.gov.uk a SI 2024/1332 conține șiruri care seamănă cu chei Mailgun (fals pozitiv, cod de analiză al site-ului). Am păstrat textul paginii ca `.txt` (cu șirurile înlocuite) și am scos HTML-ul din git (`.gitignore`).
+
+## Pasul 2 (calendar)
+
+1. Căutarea a fost împărțită la doi agenți: acte UE și acte naționale (UK, DE, FR, IT, ES, NL, PL, RO). Datele celor două obligații UE reținute (CRA, CLP) le-am recitit eu în text.
+2. **CLP e reținut condiționat.** Data de 1.1.2028 e în vigoare azi, în textul publicat. Omnibus VI, votat de Parlament, poate să o schimbe. Regula din sarcină cere data citită în sursa oficială, iar asta e data în vigoare.
+3. **Descărcarea textului adoptat de PE (T10-0362/2026) a fost refuzată de sistemul de permisiuni al sesiunii.** Nu am ocolit; am folosit Legislative Observatory prin WebFetch.
+4. **Tutunul UK** a fost verificat de agent în textul legii și în SI 2026/996. Nu l-am recitit, pentru că nu ajunge la propuneri (termen prea aproape).
+5. **Abonamentele UK** stau la „de urmărit": regulamentul e proiect și s.254 nu are regulament de commencement.
