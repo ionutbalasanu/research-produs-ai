@@ -106,12 +106,12 @@ Canale și regulile lor:
 - Android: nu am verificat Google Play; ponderea șoferilor pe Android: **necunoscut**.
 
 ## 5. Drumul până la 2.000 lei/lună (încasări brute)
-2.000 lei / 4,8428 = 412,98 USD/lună. 3.000 lei = 619,47 USD/lună.
+2.000 lei / 4,8428 = 412,98 USD/lună. 3.000 lei = 619,48 USD/lună. [corectat la verificarea independentă, pasul 4]
 
 Abonament (clienți ACTIVI plătitori în fiecare lună):
 - la 24,99 $/lună (RigRight, GetDockPay): 412,98 / 24,99 = 16,5, deci **17 abonați activi** (pentru 3.000 lei: 24,8, deci 25).
 - la 39,99 $/lună (DMRG): 412,98 / 39,99 = 10,3, deci **11 abonați activi**.
-- la 0,99 $ per cursă (DMRG): 412,98 / 0,99 = 417 curse plătite pe lună.
+- la 0,99 $ per cursă (DMRG): 412,98 / 0,99 = 417,2, deci 418 curse plătite pe lună. [corectat la verificarea independentă, pasul 4]
 
 Plată unică (cumpărători NOI în fiecare lună):
 - la 29,99 $ (SherHaul, dacă e achiziție unică; neclar): 412,98 / 29,99 = 13,8, deci **14 cumpărători noi în fiecare lună**.

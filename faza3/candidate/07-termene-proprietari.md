@@ -97,18 +97,18 @@ Concluzie (dedus): căutarea organică pentru „mementouri de termene" nu exist
 - Concurența directă pe App Store e la 1,99-6,99 $ o singură dată (secțiunea 1).
 
 ## 5. Drumul până la 2.000 lei/lună (încasări brute)
-Ținta: 2.000 lei / 4,8428 = **412,99 $ pe lună**, brut.
+Ținta: 2.000 lei / 4,8428 = **412,98 $ pe lună**, brut. [corectat la verificarea independentă, pasul 4]
 
 Prețuri de referință văzute azi: SimpleNest 15 $/lună sau 99 $/an; Landlord Studio Pro 15 $/lună (suită completă); RentRedi 12 $/lună anual (suită completă); UnitGuard 7,99 $/lună; Epitropos 1,99 $ și UnitKeeper 6,99 $ o singură dată.
 
 **Abonament (clienți ACTIVI plătitori):**
-- la 9 $/lună: 412,99 / 9 = 45,9, deci **46 de clienți activi**;
-- la 15 $/lună: 412,99 / 15 = 27,5, deci **28 de clienți activi** (același preț cu suita Landlord Studio Pro, care are și alertele de expirare);
-- la 99 $/an (8,25 $/lună echivalent): 412,99 / 8,25 = 50,06, deci **51 de abonați anuali activi**. În numerar, la regim stabil, înseamnă cam 4,2 plăți anuale noi pe lună; în primele luni încasarea lunară e mai mică sau mai mare după cum vin plățile.
+- la 9 $/lună: 412,98 / 9 = 45,9, deci **46 de clienți activi**;
+- la 15 $/lună: 412,98 / 15 = 27,5, deci **28 de clienți activi** (același preț cu suita Landlord Studio Pro, care are și alertele de expirare);
+- la 99 $/an (8,25 $/lună echivalent): 412,98 / 8,25 = 50,06, deci **51 de abonați anuali activi**. În numerar, la regim stabil, înseamnă cam 4,2 plăți anuale noi pe lună; în primele luni încasarea lunară e mai mică sau mai mare după cum vin plățile.
 
 **Plată unică (cumpărători NOI în fiecare lună):**
-- la 29 $ (preț ipotetic, de 4 ori peste UnitKeeper): 412,99 / 29 = 14,2, deci **15 cumpărători noi în fiecare lună**;
-- la 6,99 $ (prețul UnitKeeper): 412,99 / 6,99 = 59,1, deci **60 de cumpărători noi în fiecare lună**.
+- la 29 $ (preț ipotetic, de 4 ori peste UnitKeeper): 412,98 / 29 = 14,2, deci **15 cumpărători noi în fiecare lună**;
+- la 6,99 $ (prețul UnitKeeper): 412,98 / 6,99 = 59,1, deci **60 de cumpărători noi în fiecare lună**.
 Abonamentul și plata unică nu sunt echivalente: la plata unică numărul trebuie atins din nou în fiecare lună.
 
 **Costuri directe cunoscute (separat de încasările brute):**

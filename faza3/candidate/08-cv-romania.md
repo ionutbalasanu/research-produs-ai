@@ -114,7 +114,7 @@ Comision Stripe: „1.5% + 1.00lei for standard European Economic Area cards" (h
 Prag de rentabilitate pe Google Ads (**dedus**, calcul): conversia minimă clic → cumpărare ca un clic să se plătească singur = CPC / net pe vânzare.
 - La 29 lei: „cv europass" 3,95 / 27,57 = **14,3%**; „cv online gratis pdf" 4,21 / 27,57 = 15,3%; „cv online" 9,01 / 27,57 = **32,7%**.
 - La 49 lei: „cv europass" 8,4%; „cv online" 19,1%.
-- Buget: 5.000 lei la 3,95 lei/clic ≈ 1.265 clicuri; la 9,01 lei/clic ≈ 555 clicuri. Ca să atingi 69 cumpărători dintr-o lună cu 1.265 clicuri ai nevoie de 5,5% conversie, dar încasezi 2.000 lei cheltuind 5.000 lei (**dedus**).
+- Buget: 5.000 lei la 3,95 lei/clic ≈ 1.266 clicuri [corectat la verificarea independentă, pasul 4]; la 9,01 lei/clic ≈ 555 clicuri. Ca să atingi 69 cumpărători dintr-o lună cu 1.265 clicuri ai nevoie de 5,5% conversie, dar încasezi 2.000 lei cheltuind 5.000 lei (**dedus**).
 - Rata reală de conversie: **necunoscut**, se află doar din test.
 
 ## 6. Produsul restrâns
