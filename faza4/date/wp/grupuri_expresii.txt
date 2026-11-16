@@ -10,3 +10,5 @@ WP-H gutenberg|block editor|\bblocks?\b
 WP-I admin notices?|heartbeat|php (ini|settings)|memory limit|admin notes|dashboard notes
 WP-J google reviews|trustpilot|reviews widget|review widget|testimonial
 WP-K a/b test|ab test|split test|heatmap|session replay
+
+Notă: etichetele au fost luate atât ca slug, cât și ca nume (html.unescape). Doar cu numele: WP-C 124, WP-E 627 (VERIFICARE.md).

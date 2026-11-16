@@ -12,7 +12,7 @@ Data: 2026-11-16. Curs BNR 13.11.2026: 1 USD = 4,8428 lei (faza4/date/bnr_nbrfxr
 | 2 | Bibliotecă de blocuri ușoare pentru temă, la preț fix mic | B4 | medie: rata 3,7%, dar liderii au mii de recenzii, iar diferențierea e slabă |
 | 3 | Import de liste de prețuri și cataloage de la furnizori | B8 | slabă: rata 0,4%, curba la 90 de zile aproape plată; păstrată pentru legătura cu faza 1 (09-P4) |
 
-Corecțiile aduse de verificarea independentă sunt în VERIFICARE.md și au fost aplicate în textul de mai jos.
+Verificarea independentă (VERIFICARE.md) a redeschis sursele decisive. Nu a găsit nimic care să schimbe o rată, ordinea sau o concluzie. Cele 7 corecții mici (două date de citate, trei prețuri incomplete la concurenți, definiția curbei, un numitor WordPress) au fost aplicate în BUZUNARE.md, SLABICIUNI.md și PAS1_WORDPRESS.md.
 
 **Ce e comun tuturor trei (verificat în sursă):**
 - **Comision Shopify:** 0% pe primul 1.000.000 $ de venit brut din aplicații, socotit pe toată durata contului, apoi 15%. Toate încasările au o taxă de procesare de 2,9% plus taxele de vânzare aplicabile. Înregistrarea costă 19 $ o singură dată.

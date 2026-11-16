@@ -37,7 +37,7 @@ Legătură cu faza 1: vecină cu **09-P5** (retururi), dar nu identică.
 | Prețul crește după ce se aplică legea | „added a paid plan after the shopify email went out" | wideruf-button | 2026-06-12 | https://apps.shopify.com/reviews/2242175 |
 | Funcție de bază pusă la plata superioară | „Automatic Check period if available or not for is only at $25" | eu-withdrawal-form | 2026-06-12 | https://apps.shopify.com/reviews/2241566 |
 | Suport | „Offers no support, does not respond to emails." | eu-widerrufsbutton | 2026-07-07 | https://apps.shopify.com/reviews/2274392 |
-| Nu verifică datele comenzii (WooCommerce) | „It does not check against anything in a real order" | eu-order-withdrawal-button-for-woocommerce (vendidero), WP.org | 2026-08-24 | https://wordpress.org/support/topic/almost-unusable-none-of-the-entered-values-is-checked-against-any-order-inform/ |
+| Nu verifică datele comenzii (WooCommerce) | „It does not check against anything in a real order" | eu-order-withdrawal-button-for-woocommerce (vendidero), WP.org | 2026-08-22 | https://wordpress.org/support/topic/almost-unusable-none-of-the-entered-values-is-checked-against-any-order-inform/ |
 | Vechiul lider (bifă de termeni) | „a simple checkbox should no't cost an subscription" | terms-and-conditions-checkbox | 2026-07-21 | https://apps.shopify.com/reviews/2291682 |
 
 Fire de suport nerezolvate pe WordPress (wt-eu-withdrawal-button, eu-withdrawal-compliance, eu-order-withdrawal-button-for-woocommerce): **0** pe pagina `/unresolved/`, la 2026-11-16. **verificat în sursă**
@@ -49,7 +49,7 @@ Legătură cu faza 1: nu are ID direct în domeniile 09 și 10.
 | Temă | Citat | Aplicație | Data | Link |
 |---|---|---|---|---|
 | Nu se vede efectul | „We had only 4 traffics from AI agents since we installed this app" | index-gpt | 2026-03-23 | https://apps.shopify.com/reviews/2132221 |
-| Se poate face fără aplicație | „just another company trying to get you to pay for something that you can do" | lovedbyai (WP.org, 2 stele) | 2026-08-02 | https://wordpress.org/support/topic/pointless-24/ |
+| Se poate face fără aplicație | „just another company trying to get you to pay for something that you can do" | lovedbyai (WP.org, 2 stele) | 2026-08-01 | https://wordpress.org/support/topic/pointless-24/ |
 | Conținut greșit generat | „hundreds of items like alcohol and cigarettes which we don't sell at all" | llms-txt-generator-ai-search | 2026-03-22 | https://apps.shopify.com/reviews/2130722 |
 | Lasă fișiere după dezinstalare | „the file it created (a faulty file) still remains on my store" | llms-txt-generator-ai-search | 2026-05-15 | https://apps.shopify.com/reviews/2205524 |
 | Strică ce exista | „It broke my llm.txt it give 404 now" | llms-txt-generator-ai-search | 2026-04-18 | https://apps.shopify.com/reviews/2168499 |

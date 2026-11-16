@@ -6,10 +6,10 @@ Data: 2026-11-16. Curs BNR 13.11.2026: 1 USD = 4,8428 lei, 1 EUR = 5,3498 lei.
 - Shopify: lansată după 2024-11-16, cel puțin 20 de recenzii, plan plătit, dezvoltator cu cel mult 3 aplicații. Firmele mari au fost scoase de mână.
 - WordPress: lansat după 2024-11-16, cel puțin 1.000 de instalări active, autor cu cel mult 5 pluginuri și fără firmă mare în spate.
 
-**Numitorul** e numărul de aplicații lansate în fereastră care se potrivesc cu expresia buzunarului (nume + subtitlu la Shopify; slug + nume + etichete + descriere scurtă la WordPress). Expresiile sunt în `faza4/date/shopify/buzunare_numitori.json` și `faza4/date/wp/grupuri_expresii.txt`. Rata = nou-veniți mici peste prag / numitor.
+**Numitorul** e numărul de aplicații lansate în fereastră care se potrivesc cu expresia buzunarului (nume + subtitlu la Shopify; slug + nume + etichete + descriere scurtă la WordPress). Expresiile sunt în `faza4/date/shopify/buzunare_numitori.json` și `faza4/date/wp/grupuri_expresii.txt`. Rata = nou-veniți mici peste prag / numitor. Numitorii WordPress WP-C și WP-E depind de modul în care sunt potrivite etichetele: 125/630 cu slug și nume, 124/627 doar cu nume (PAS1_WORDPRESS.md, limita 4). Ratele nu se schimbă la o zecimală.
 
 Curbele primelor 90 de zile:
-- **Shopify:** numărul de recenzii primite în primele 30, 60 și 90 de zile de la „Launched". Sunt numărate din toate recenziile descărcate, în `faza4/date/shopify/recenzii/<handle>.json`, iar rezultatul e în `faza4/date/shopify/curbe_recenzii.json`. Recenziile nu sunt vânzări. Sunt cel mai apropiat semn public, pentru că doar un magazin cu aplicația instalată poate lăsa recenzie.
+- **Shopify:** numărul de recenzii primite în primele 30, 60 și 90 de zile de la „Launched". O recenzie intră în „primele N zile" dacă a fost scrisă la mai puțin de N zile după lansare. Cu „cel mult N zile", câteva valori cresc cu 1-4 (VERIFICARE.md). Sunt numărate din toate recenziile descărcate, în `faza4/date/shopify/recenzii/<handle>.json`, iar rezultatul e în `faza4/date/shopify/curbe_recenzii.json`. Recenziile nu sunt vânzări. Sunt cel mai apropiat semn public, pentru că doar un magazin cu aplicația instalată poate lăsa recenzie.
 - **WordPress:** descărcări în primele 30, 60 și 90 de zile de la `added`, din `stats/plugin/1.0/downloads.php` (`faza4/date/wp/descarcari/`).
 
 ## Ce s-a schimbat la praguri și de ce
@@ -58,11 +58,12 @@ Eliminate înainte de clasament:
 | eu-widerruf-pro (ECOMBEAT, 3) | 2026-05-07 | 330 | 5,0 | 11,99 $ și 17,99 $/lună | 85 / 261 / 289 | 35 |
 | wideruf-button (Anviara LLC, 1) | 2026-05-06 | 108 | 4,8 | 7,99 $/lună | 14 / 91 / 93 | 13 |
 | eu-widerrufsbutton-1 (Visionz GmbH, 3) | 2026-05-12 | 51 | 5,0 | 5,99 $/lună, 24,99 $/lună | 21 / 45 / 48 | 2 |
-| eu-guarantee-warranty-label (Consentico, 3) | 2026-08-26 | 49 | 5,0 | 4,99 $ și 9,99 $/lună | 19 / 48 / 49 | 49 |
+| eu-guarantee-warranty-label (Consentico, 3) | 2026-08-26 | 49 | 5,0 | 4,99 $, 9,99 $ și 24,99 $/lună | 19 / 48 / 49 | 49 |
 | eu-warranty-garan-label (Nico Münster et al., 2) | 2026-08-05 | 50 | 5,0 | 4,99 $/lună | 0 / 40 / 46 | 46 |
 
 Surse: `https://apps.shopify.com/<handle>` și `/reviews`, citite pe 2026-11-16. **verificat în sursă**
 
+- **Notă de la verificare:** eu-widerruf-pro se numește acum „Address Check & Withdrawal Pro". Butonul de retragere e în planul gratuit, iar planurile plătite vând verificarea adresei. Cele 319 recenzii salvate vorbesc însă doar despre retragere (44 o menționează explicit, 0 despre adrese). **verificat în sursă** (VERIFICARE.md)
 - **Liderul e un nou-venit.** eu-widerrufsbutton are 2.324 de recenzii în 10 luni. Vechiul lider al categoriei „legal" e terms-and-conditions-checkbox (2019, 569 de recenzii). **verificat în sursă**
 - **Rata:** 7 / 189 = 3,7%, cea mai mare dintre buzunare. **verificat în sursă** (numărătoarea), **dedus** (granițele grupului)
 - **Curba:** valul a venit în jurul termenului de 19 iunie. Recenziile nou-veniților sunt concentrate în iunie-iulie 2026. În august-octombrie, eu-widerrufsbutton a primit doar 76, adică ~3% din total. **verificat în sursă**
@@ -77,7 +78,7 @@ Surse: `https://apps.shopify.com/<handle>` și `/reviews`, citite pe 2026-11-16.
 | Aplicație | Lansată | Recenzii / instalări | Preț | Curba la 30/60/90 de zile |
 |---|---|---|---|---|
 | llms-txt-generator-ai-search (ArcSpeed) | 2025-06-30 | 79 rec., 4,4 | 9 $/lună, 99 $/an | 4 / 14 / 23 rec. |
-| kedra-ai-index (Kedra Apps) | 2026-04-27 | 50 rec., 4,9 | 10 $/lună, 25 $/lună | 9 / 34 / 38 |
+| kedra-ai-index (Kedra Apps) | 2026-04-27 | 50 rec., 4,9 | 10 $/lună, 25 $/lună, 79 $/lună | 9 / 34 / 38 |
 | llms-txt-agent (Go Plus NZ) | 2025-08-25 | 47 rec., 5,0 | 7,95 $ și 14,95 $/lună | 4 / 7 / 12 |
 | shoprank-ai (Zipify Lab) | 2025-12-04 | 42 rec., 4,7 | 9,99 $/lună | 0 / 0 / 0 |
 | kwik-geo-1 (GoExcelsior) | 2026-06-11 | 37 rec., 5,0 | 149 $/lună | 0 / 3 / 15 |
@@ -102,7 +103,7 @@ Surse: `https://apps.shopify.com/<handle>` și `/reviews`, citite pe 2026-11-16.
 | mida-fraud-ip-blocker (MIDA, 3) | 2025-09-19 | 580 rec., 4,9 | 9, 19, 39 $/lună | 0 / 0 / 3 (345 în aug.-oct. 2026) |
 | partialy-partial-payment-cod | 2025-06-16 | 76 | 10 $/lună | 0 / 3 / 7 |
 | cartsaver-otp-cod (Xtnd) | 2025-05-20 | 63 | 9,99-159,99 $/lună | 0 / 0 / 3 |
-| neo-cod-form-upsell-pixel-otp | 2026-05-15 | 55 | 6,99 $/lună | 9 / 11 / 12 |
+| neo-cod-form-upsell-pixel-otp | 2026-05-15 | 55 | 6,99 $ și 12,99 $/lună | 9 / 11 / 12 |
 | blocklist (Blox) | 2025-02-24 | 22 | 19 $/lună | 0 / 0 / 0 |
 | cartwatch (Vynt Labs) | 2026-05-26 | 21 | 9,99 $/lună | 0 / 0 / 3 |
 | codsaver-1 | 2026-03-23 | 20 | 2,99-10 $/lună | 1 / 5 / 12 |
@@ -111,6 +112,7 @@ Surse: `https://apps.shopify.com/<handle>` și `/reviews`, citite pe 2026-11-16.
 | WP: country-access-blocker | 2025-09-19 | 1.000 | gratuit | 124 / 304 / 473 |
 | WP: geo-blocker | 2025-05-18 | 1.000 | gratuit | 82 / 141 / 234 |
 
+- **Notă de la verificare:** contul de dezvoltator al mida-fraud-ip-blocker e „mida-by-bss-commerce". Poate fi o firmă mare care trece pragul de 3 aplicații. **necunoscut** (numărul de aplicații BSS Commerce nu a fost numărat)
 - **Lider Shopify:** Blockify (2018, 1.873 de recenzii, de la 9,99 $/lună). **verificat în sursă**
 - **Rata:** Shopify 7/437 = 1,6%; WordPress 4/125 = 3,2%, dar pe WordPress niciunul nu are preț citit. **verificat în sursă**
 - **Legătură cu faza 1:** 09-P1 (chargeback). Niciun nou-venit nu face dosare de chargeback. Fac prevenție: blochează IP-uri și confirmă comenzile ramburs prin OTP. **dedus**
